@@ -1,0 +1,7 @@
+[user]
+  name = David Winterbottom
+  email = david_winterbottom@hotmail.com
+[alias]
+  co = checkout
+  br = branch
+  st = status
