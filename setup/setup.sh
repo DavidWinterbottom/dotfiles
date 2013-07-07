@@ -34,7 +34,7 @@ fi
 if [ -d .emacs.d/ ]; then
   mv .emacs.d .emacs.d~
 fi
-git clone https://github.com/startup-class/dotfiles.git
+git clone https://github.com/DavidWinterbottom/dotfiles.git .dotfiles
 ln -sb .dotfiles/.screenrc .
 ln -sb .dotfiles/.bash_profile .
 ln -sb .dotfiles/.bashrc .
@@ -42,7 +42,7 @@ ln -sb .dotfiles/.bashrc_custom .
 ln -sf .dotfiles/.emacs.d .
 
 # git pull and install vim setup
-git clone https://github.com/DavidWinterbottom/dotvim.git
+git clone https://github.com/DavidWinterbottom/dotvim.git .vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
 cd ~/.vim
