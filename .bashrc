@@ -161,7 +161,7 @@ fi
 shopt -s histappend
 
 # Make prompt git + svn aware 
-. dotfiles/bin/ps1-git-svn.sh
+. .dotfiles/bin/ps1-git-svn.sh
 
 ## -----------------------
 ## -- 2) Set up aliases --
@@ -224,3 +224,6 @@ fi
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

@@ -49,3 +49,6 @@ cd ~/.vim
 git submodule init
 git submodule update
 cd -
+
+# heroku setup
+wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
