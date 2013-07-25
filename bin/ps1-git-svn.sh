@@ -11,7 +11,9 @@ parse_svn_url() {
 parse_svn_repository_root() { 
   svn info 2>/dev/null | grep -e '^Repository Root:*' | sed -e 's#^Repository Root: *\(.*\)#\1\/#g ' 
 } 
-export PS1="\[\033[00m\]\u@\h\[\033[01;34m\] \w \[\033[31m\]\$(parse_git_branch)\$(parse_svn_branch) \[\033[00m\]$\[\033[00m\] "
+shorten_curr_dir(){
+  echo -n "${PWD/#$HOME/~}" | awk -F "/" '{if (length($0) > 14) { if (NF>4) printf "%s/%s/", $1, $2; for (i=3; i<NF; i++){ printf "%s", substr($(i),1,1); if (i!=NF-1) {printf "."} }; print "/" $(NF-1) "/"  $(NF); } else print $0;}'
+}
 
-
+export PS1="\[\033[00m\]\u@\h\[\033[01;34m\] \$(shorten_curr_dir) \[\033[31m\]\$(parse_git_branch)\$(parse_svn_branch) \[\033[00m\]$\[\033[00m\] "
 
