@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <settings>
-	<console change_refresh="10" refresh="100" rows="67" columns="125" buffer_rows="9999" buffer_columns="0" shell="C:\dev\tools\Git\git\bin\bash.exe" init_dir="C:\Users\David" start_hidden="0" save_size="1">
+	<console change_refresh="10" refresh="100" rows="67" columns="125" buffer_rows="9999" buffer_columns="0" shell="C:\dev\tools\Git\bin\bash.exe" init_dir="C:\Users\David" start_hidden="0" save_size="1">
 		<colors>
 			<color id="0" r="0" g="0" b="0"/>
 			<color id="1" r="0" g="0" b="128"/>
@@ -91,7 +91,7 @@
 	</mouse>
 	<tabs>
 		<tab title="GitBash" use_default_icon="0">
-			<console shell="C:\dev\tools\Git\git\bin\sh.exe --login -i" init_dir="C:\Users\David" run_as_user="0" user=""/>
+			<console shell="C:\dev\tools\Git\bin\sh.exe --login -i" init_dir="C:\Users\David" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="68" g="60" b="53">
 				<image file="" relative="0" extend="0" position="0">
@@ -100,7 +100,7 @@
 			</background>
 		</tab>
 		<tab title="Cmd (clink)" use_default_icon="0">
-			<console shell="cmd /k &quot;C:\dev\tools\clink_0.3.1\clink_x86.exe inject &quot;" init_dir="C:\Users\David" run_as_user="0" user=""/>
+			<console shell="cmd /k &quot;C:\dev\tools\clink\0.4\clink_x86.exe inject &quot;" init_dir="C:\Users\David" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="68" g="60" b="53">
 				<image file="" relative="0" extend="0" position="0">
@@ -109,7 +109,7 @@
 			</background>
 		</tab>
 		<tab title="david-server Screen" use_default_icon="0">
-			<console shell="c:\dev\tools\git\Git\bin\sh.exe -i -c &quot;c:/dev/tools/git/Git/bin/ssh.exe -i c:/Users/David/.ssh/id_rsa winterdc@david-server&quot;" init_dir="C:\Users\David" run_as_user="0" user=""/>
+			<console shell="c:\dev\tools\Git\bin\sh.exe -i -c &quot;c:/dev/tools/Git/bin/ssh.exe -i c:/Users/David/.ssh/id_rsa winterdc@david-server&quot;" init_dir="C:\Users\David" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="56" g="52" b="50">
 				<image file="" relative="0" extend="0" position="0">
@@ -118,7 +118,7 @@
 			</background>
 		</tab>
 		<tab title="aws Screen" use_default_icon="0">
-			<console shell="c:\dev\tools\git\Git\bin\sh.exe -i -c &quot;c:/dev/tools/git/Git/bin/ssh.exe -i c:/Users/David/.ssh/aws_pem/garin.pem ubuntu@ec2-54-218-122-62.us-west-2.compute.amazonaws.com&quot;" init_dir="C:\Users\David" run_as_user="0" user=""/>
+			<console shell="c:\dev\tools\Git\bin\sh.exe -i -c &quot;c:/dev/tools/Git/bin/ssh.exe -i c:/Users/David/.ssh/aws_pem/garin.pem ubuntu@ec2-54-218-122-62.us-west-2.compute.amazonaws.com&quot;" init_dir="C:\Users\David" run_as_user="0" user=""/>
 			<cursor style="0" r="255" g="255" b="255"/>
 			<background type="0" r="85" g="79" b="82">
 				<image file="" relative="0" extend="0" position="0">

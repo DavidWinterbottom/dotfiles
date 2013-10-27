@@ -1,6 +1,6 @@
 dotfiles.git
 ============
-
+```
 cd $HOME
 git clone https://github.com/DavidWinterbottom/dotfiles.git
 ln -sb .dotfiles/.bash_profile .
