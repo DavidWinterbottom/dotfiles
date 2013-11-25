@@ -83,7 +83,7 @@ fi
 shopt -s histappend
 
 # Make prompt git + svn aware 
-. .dotfiles/bin/ps1-git-svn.sh
+bin/ps1-git-svn.sh
 
 ## -----------------------
 ## -- 2) Set up aliases --
@@ -133,3 +133,8 @@ export LC_ALL=POSIX
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
+
+set -o vi
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/c/Users/David/.gvm/bin/gvm-init.sh" ]] && source "/c/Users/David/.gvm/bin/gvm-init.sh"
