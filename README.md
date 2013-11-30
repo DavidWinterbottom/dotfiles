@@ -2,7 +2,7 @@ dotfiles.git
 ============
 ```
 cd $HOME
-git clone https://github.com/DavidWinterbottom/dotfiles.git
+git clone https://github.com/DavidWinterbottom/dotfiles.git .dotfiles
 ln -sb .dotfiles/.bash_profile .
 ln -sb .dotfiles/.bashrc .
 ln -sb .dotfiles/.bashrc_custom .
