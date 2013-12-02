@@ -82,9 +82,6 @@ fi
 # See: http://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
 shopt -s histappend
 
-# Make prompt git + svn aware 
-bin/ps1-git-svn.sh
-
 ## -----------------------
 ## -- 2) Set up aliases --
 ## -----------------------
@@ -135,6 +132,9 @@ export LC_ALL=POSIX
 source ~/.bashrc_custom
 
 set -o vi
+
+# Make prompt git + svn aware 
+. ps1-git-svn.sh
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
 [[ -s "/c/Users/David/.gvm/bin/gvm-init.sh" ]] && source "/c/Users/David/.gvm/bin/gvm-init.sh"
