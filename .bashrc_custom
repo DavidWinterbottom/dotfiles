@@ -1,13 +1,16 @@
 #!/bin/bash
 
-if [[ `uname` == "MINGW32_NT-6.2" ]]; then
+if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   echo "setting environment for GitBash"
+  # "MINGW32_NT-6.2" - windows 8
+  # "MINGW32_NT-6.1" - windows 7
 
   # local bin
   export PATH="/c/Users/David/bin/:$PATH"
 
   # Java Config
-  export JAVA_HOME="/C/dev/languages/Java/jdk1.7.0_45"
+  #export JAVA_HOME="/C/dev/languages/Java/jdk1.7.0_45"
+  export JAVA_HOME="/C/dev/languages/Java/jdk1.7.0_10"
   export JAVA_OPTS="-Xmx256m"
   export PATH="$JAVA_HOME/bin:$PATH"
 
@@ -27,7 +30,8 @@ if [[ `uname` == "MINGW32_NT-6.2" ]]; then
   export PATH="/C/dev/tools/Subversion/bin:$PATH"
 
   # mvn
-  export MVN_HOME="/C/dev/tools/apache-maven/3.1.1"
+  export MVN_HOME="/C/dev/tools/apache-maven/3.0.4"
+  #export MVN_HOME="/C/dev/tools/apache-maven/3.1.1"
   export MVN_OPTS=" "
   export PATH="$MVN_HOME/bin:$PATH"
 
@@ -38,6 +42,18 @@ if [[ `uname` == "MINGW32_NT-6.2" ]]; then
   # ruby
   export RUBY_HOME="/C/dev/languages/Ruby193"
   export PATH="$RUBY_HOME/bin:$PATH"
+  
+  # play
+  export PLAY_HOME="/C/dev/tools/play-2.1.0"
+  export PATH="$PLAY_HOME:$PATH"
+
+  #scala
+  export SCALA_HOME="/C/dev/tools/scala-2.10.0"
+  export PATH="$SCALA_HOME:$PATH"
+
+  # heroku
+  export HEROKU_HOME="/c/dev/tools/Heroku"
+  export PATH="$HEROKU_HOME/bin:$PATH"
 
 else
   echo "unknown environment - please setup env"
