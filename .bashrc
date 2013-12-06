@@ -137,4 +137,4 @@ set -o vi
 . ps1-git-svn.sh
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/c/Users/David/.gvm/bin/gvm-init.sh" ]] && source "/c/Users/David/.gvm/bin/gvm-init.sh"
+[[ -s "$GVM_DIR/bin/gvm-init.sh" ]] && source "$GVM_DIR/bin/gvm-init.sh"

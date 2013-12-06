@@ -5,54 +5,57 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   # "MINGW32_NT-6.2" - windows 8
   # "MINGW32_NT-6.1" - windows 7
 
+  export PREFIX="/C/Dev"
+  alias cdd="cd $PREFIX"
+
   # local bin
   export PATH="/c/Users/David/bin/:$PATH"
 
   # Java Config
-  #export JAVA_HOME="/C/dev/languages/Java/jdk1.7.0_45"
-  export JAVA_HOME="/C/dev/languages/Java/jdk1.7.0_10"
+  #export JAVA_HOME="$PREFIX/languages/Java/jdk1.7.0_45"
+  export JAVA_HOME="$PREFIX/languages/Java/jdk1.7.0_10"
   export JAVA_OPTS="-Xmx256m"
   export PATH="$JAVA_HOME/bin:$PATH"
 
   # ctags
-  export PATH="/C/dev/tools/ctags/ctags58/:$PATH"
+  export PATH="$PREFIX/tools/ctags/ctags58/:$PATH"
   
   # node
-  export NODE_HOME="/C/dev/languages/nodejs"
-  export NPM_PATH="/C/dev/tools/npm/"
+  export NODE_HOME="$PREFIX/languages/nodejs"
+  export NPM_PATH="$PREFIX/tools/npm/"
   export PATH="$NODE_HOME:$NPM_PATH:$PATH"
-  export TMPDIR="/C/dev/TMP" 
+  export TMPDIR="$PREFIX/TMP" 
 
   # git
-  export PATH="/C/dev/tools/Git/bin:$PATH"
+  export PATH="$PREFIX/tools/Git/bin:$PATH"
 
   # subversion
-  export PATH="/C/dev/tools/Subversion/bin:$PATH"
+  export PATH="$PREFIX/tools/Subversion/bin:$PATH"
 
   # mvn
-  export MVN_HOME="/C/dev/tools/apache-maven/3.0.4"
-  #export MVN_HOME="/C/dev/tools/apache-maven/3.1.1"
+  export MVN_HOME="$PREFIX/tools/apache-maven/3.0.4"
+  #export MVN_HOME="$PREFIX/tools/apache-maven/3.1.1"
   export MVN_OPTS=" "
   export PATH="$MVN_HOME/bin:$PATH"
 
   # python
-  export PYTHONHOME="/C/dev/languages/Python33"
+  export PYTHONHOME="$PREFIX/languages/Python33"
   export PATH="$PYTHONHOME:$PATH"
 
   # ruby
-  export RUBY_HOME="/C/dev/languages/Ruby193"
+  export RUBY_HOME="$PREFIX/languages/Ruby193"
   export PATH="$RUBY_HOME/bin:$PATH"
   
   # play
-  export PLAY_HOME="/C/dev/tools/play-2.1.0"
+  export PLAY_HOME="$PREFIX/tools/play-2.1.0"
   export PATH="$PLAY_HOME:$PATH"
 
   #scala
-  export SCALA_HOME="/C/dev/tools/scala-2.10.0"
+  export SCALA_HOME="$PREFIX/tools/scala-2.10.0"
   export PATH="$SCALA_HOME:$PATH"
 
   # heroku
-  export HEROKU_HOME="/c/dev/tools/Heroku"
+  export HEROKU_HOME="$PREFIX/tools/Heroku"
   export PATH="$HEROKU_HOME/bin:$PATH"
 
 else
