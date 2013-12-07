@@ -58,6 +58,20 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   export HEROKU_HOME="$PREFIX/tools/Heroku"
   export PATH="$HEROKU_HOME/bin:$PATH"
 
+elif [[ `uname` == "Linux" ]] ; then
+  echo "setting environment for Linux"
+
+  # Heroku
+  export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
+
+  export JAVA_HOME=/local/pkgs/jdk1.7.0_45/; 
+  export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4; 
+
+  ## Add SBT to path
+  export SBT_HOME=/local/pkgs/sbt
+
+  export PATH="$SBT_HOME/bin:$HOME/bin:$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH"
+
 else
   echo "unknown environment - please setup env"
 fi
