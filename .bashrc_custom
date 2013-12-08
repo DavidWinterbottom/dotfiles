@@ -59,6 +59,15 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   export HEROKU_HOME="$PREFIX/tools/Heroku"
   export PATH="$HEROKU_HOME/bin:$PATH"
 
+  # mongodb
+  export MONGODB_HOME="$PREFIX/tools/mongodb/mongodb-win32-i386-2.4.8"
+  export PATH="$MONGODB_HOME/bin:$PATH"
+  alias mongod="mongod -dbpath $PREFIX --rest"
+
+  # phantomjs
+  export PHANTOMJS_HOME="$PREFIX/tools/phantomjs"
+  export PATH="$PHANTOMJS_HOME:$PATH"
+
 elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"
 
