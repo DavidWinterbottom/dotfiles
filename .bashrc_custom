@@ -7,6 +7,7 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
 
   export PREFIX="/C/Dev"
   alias cdd="cd $PREFIX"
+  alias cds="cd $PREFIX/source"
 
   # local bin
   export PATH="/c/Users/David/bin/:$PATH"
