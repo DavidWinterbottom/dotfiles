@@ -24,3 +24,7 @@ cd -
 
 # heroku setup
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+# Install compass
+gem update --system
+gem install compass

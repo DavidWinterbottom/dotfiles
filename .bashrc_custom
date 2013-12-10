@@ -69,6 +69,29 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   export LLVMCLANG_HOME="$PREFIX/tools/llvm-3.4-mingw-w64-4.8.1-x86-posix-sjlj"
   export PATH="$LLVMCLANG_HOME/bin:$PATH"
 
+  # mongodb
+  export MONGODB_HOME="$PREFIX/tools/mongodb/mongodb-win32-i386-2.4.8"
+  export PATH="$MONGODB_HOME/bin:$PATH"
+  alias mongod="mongod -dbpath $PREFIX --rest"
+
+  # phantomjs
+  export PHANTOMJS_HOME="$PREFIX/tools/phantomjs"
+  export PATH="$PHANTOMJS_HOME:$PATH"
+
+elif [[ `uname` == "Linux" ]] ; then
+  echo "setting environment for Linux"
+
+  # Heroku
+  export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
+
+  export JAVA_HOME=/local/pkgs/jdk1.7.0_45/; 
+  export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4; 
+
+  ## Add SBT to path
+  export SBT_HOME=/local/pkgs/sbt
+
+  export PATH="$SBT_HOME/bin:$HOME/bin:$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH"
+
 else
   echo "unknown environment - please setup env"
 fi
