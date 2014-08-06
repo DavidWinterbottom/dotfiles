@@ -5,7 +5,7 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   # "MINGW32_NT-6.2" - windows 8
   # "MINGW32_NT-6.1" - windows 7
 
-  export PREFIX="/C/Dev"
+  export PREFIX="/C/local"
   alias cdd="cd $PREFIX"
   alias cds="cd $PREFIX/source"
 
@@ -14,83 +14,83 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
 
   # Java Config
   #export JAVA_HOME="$PREFIX/languages/Java/jdk1.7.0_45"
-  export JAVA_HOME="$PREFIX/languages/Java/jdk1.7.0_10"
-  export JAVA_OPTS="-Xmx256m"
-  export PATH="$JAVA_HOME/bin:$PATH"
+  #export JAVA_HOME="$PREFIX/languages/Java/jdk1.7.0_10"
+  #export JAVA_OPTS="-Xmx256m"
+  #export PATH="$JAVA_HOME/bin:$PATH"
 
   # ctags
-  export PATH="$PREFIX/tools/ctags/ctags58/:$PATH"
+  #export PATH="$PREFIX/tools/ctags/ctags58/:$PATH"
   
   # node
-  export NODE_HOME="$PREFIX/languages/nodejs"
-  export NPM_PATH="$PREFIX/tools/npm/"
-  export PATH="$NODE_HOME:$NPM_PATH:$PATH"
-  export TMPDIR="$PREFIX/TMP" 
+  #export NODE_HOME="$PREFIX/languages/nodejs"
+  #export NPM_PATH="$PREFIX/tools/npm/"
+  #export PATH="$NODE_HOME:$NPM_PATH:$PATH"
+  #export TMPDIR="$PREFIX/TMP" 
 
   # git
   export PATH="$PREFIX/tools/Git/bin:$PATH"
 
   # subversion
-  export PATH="$PREFIX/tools/Subversion/bin:$PATH"
+  #export PATH="$PREFIX/tools/Subversion/bin:$PATH"
 
   # mvn
-  export MVN_HOME="$PREFIX/tools/apache-maven/3.0.4"
+  #export MVN_HOME="$PREFIX/tools/apache-maven/3.0.4"
   #export MVN_HOME="$PREFIX/tools/apache-maven/3.1.1"
-  export MVN_OPTS=" "
-  export PATH="$MVN_HOME/bin:$PATH"
+  #export MVN_OPTS=" "
+  #export PATH="$MVN_HOME/bin:$PATH"
 
   # python
   #export PYTHONHOME="$PREFIX/languages/Python/Python33"
-  export PYTHONHOME="$PREFIX/languages/Python/Python27"
-  export PATH="$PYTHONHOME:$PATH"
+  #export PYTHONHOME="$PREFIX/languages/Python/Python27"
+  #export PATH="$PYTHONHOME:$PATH"
 
   # ruby
-  export RUBY_HOME="$PREFIX/languages/Ruby193"
-  export PATH="$RUBY_HOME/bin:$PATH"
+  #export RUBY_HOME="$PREFIX/languages/Ruby193"
+  #export PATH="$RUBY_HOME/bin:$PATH"
   
   # play
-  export PLAY_HOME="$PREFIX/tools/play-2.1.0"
-  export PATH="$PLAY_HOME:$PATH"
+  #export PLAY_HOME="$PREFIX/tools/play-2.1.0"
+  #export PATH="$PLAY_HOME:$PATH"
 
   #scala
-  export SCALA_HOME="$PREFIX/tools/scala-2.10.0"
-  export PATH="$SCALA_HOME:$PATH"
+  #export SCALA_HOME="$PREFIX/tools/scala-2.10.0"
+  #export PATH="$SCALA_HOME:$PATH"
 
   # heroku
-  export HEROKU_HOME="$PREFIX/tools/Heroku"
-  export PATH="$HEROKU_HOME/bin:$PATH"
+  #export HEROKU_HOME="$PREFIX/tools/Heroku"
+  #export PATH="$HEROKU_HOME/bin:$PATH"
   
   # vim
   # export VIM_HOME="$PREFIX/tools/Vim/vim74"
-  export VIM_HOME="$PREFIX/tools/Vim/Vim_Haroogan/vim-7.4.094-python-2.7-python-3.3-ruby-2.0.0-windows-x86"
-  export PATH="$VIM_HOME:$PATH"
+  #export VIM_HOME="$PREFIX/tools/Vim/Vim_Haroogan/vim-7.4.094-python-2.7-python-3.3-ruby-2.0.0-windows-x86"
+  #export PATH="$VIM_HOME:$PATH"
 
   # llvm/clang
-  export LLVMCLANG_HOME="$PREFIX/tools/llvm-3.4-mingw-w64-4.8.1-x86-posix-sjlj"
-  export PATH="$LLVMCLANG_HOME/bin:$PATH"
+  #export LLVMCLANG_HOME="$PREFIX/tools/llvm-3.4-mingw-w64-4.8.1-x86-posix-sjlj"
+  #export PATH="$LLVMCLANG_HOME/bin:$PATH"
 
   # mongodb
-  export MONGODB_HOME="$PREFIX/tools/mongodb/mongodb-win32-i386-2.4.8"
-  export PATH="$MONGODB_HOME/bin:$PATH"
-  alias mongod="mongod -dbpath $PREFIX --rest"
+  #export MONGODB_HOME="$PREFIX/tools/mongodb/mongodb-win32-i386-2.4.8"
+  #export PATH="$MONGODB_HOME/bin:$PATH"
+  #alias mongod="mongod -dbpath $PREFIX --rest"
 
   # phantomjs
-  export PHANTOMJS_HOME="$PREFIX/tools/phantomjs"
-  export PATH="$PHANTOMJS_HOME:$PATH"
+  #export PHANTOMJS_HOME="$PREFIX/tools/phantomjs"
+  #export PATH="$PHANTOMJS_HOME:$PATH"
 
 elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"
 
   # Heroku
-  export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
+  #export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
 
-  export JAVA_HOME=/local/pkgs/jdk1.7.0_45/; 
-  export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4; 
+  #export JAVA_HOME=/local/pkgs/jdk1.7.0_45/; 
+  #export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4; 
 
   ## Add SBT to path
-  export SBT_HOME=/local/pkgs/sbt
+  #export SBT_HOME=/local/pkgs/sbt
 
-  export PATH="$SBT_HOME/bin:$HOME/bin:$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH"
+  #export PATH="$SBT_HOME/bin:$HOME/bin:$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH"
 
 else
   echo "unknown environment - please setup env"

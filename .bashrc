@@ -87,9 +87,9 @@ shopt -s histappend
 ## -----------------------
 
 # 2.1) Safety
-alias rm="rm -i"
-alias mv="mv -i"
-alias cp="cp -i"
+#alias rm="rm -i"
+#alias mv="mv -i"
+#alias cp="cp -i"
 set -o noclobber
 
 # 2.2) Listing, directories, and motion
@@ -135,6 +135,3 @@ set -o vi
 
 # Make prompt git + svn aware 
 . ps1-git-svn.sh
-
-#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "$GVM_DIR/bin/gvm-init.sh" ]] && source "$GVM_DIR/bin/gvm-init.sh"
