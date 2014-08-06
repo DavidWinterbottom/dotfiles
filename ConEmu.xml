@@ -87,7 +87,7 @@
 			<value name="StoreTaskbarkTasks" type="hex" data="00"/>
 			<value name="StoreTaskbarCommands" type="hex" data="00"/>
 			<value name="SaveCmdHistory" type="hex" data="01"/>
-			<value name="CmdLineHistory" type="multi"><line data="c:\dev\tools\Git\bin\sh.exe -i -c &quot;c:/dev/tools/Git/bin/ssh.exe -i c:/Users/David/.ssh/aws_pem/garin.pem ubuntu@ec2-54-218-122-62.us-west-2.compute.amazonaws.com&quot;"/><line data="c:\dev\tools\Git\bin\sh.exe -i -c &quot;c:/dev/tools/Git/bin/ssh.exe -i c:/Users/David/.ssh/id_rsa winterdc@david-server&quot;"/><line data="cmd /k &quot;C:\dev\tools\clink_0.3.1\clink_x86.exe inject &quot;"/><line data="C:\dev\tools\Git\bin\sh.exe --login -i"/></value>
+			<value name="CmdLineHistory" type="multi"><line data="c:\local\tools\Git\bin\sh.exe -i -c &quot;c:/local/tools/Git/bin/ssh.exe -i c:/Users/David/.ssh/aws_pem/garin.pem ubuntu@ec2-54-218-122-62.us-west-2.compute.amazonaws.com&quot;"/><line data="c:\local\tools\Git\bin\sh.exe -i -c &quot;c:/local/tools/Git/bin/ssh.exe -i c:/Users/David/.ssh/id_rsa winterdc@david-server&quot;"/><line data="cmd /k &quot;C:\local\tools\clink_0.3.1\clink_x86.exe inject &quot;"/><line data="C:\local\tools\Git\bin\sh.exe --login -i"/></value>
 			<value name="ShowHelpTooltips" type="hex" data="01"/>
 			<value name="Multi" type="hex" data="01"/>
 			<value name="Multi.ShowButtons" type="hex" data="01"/>
@@ -516,16 +516,16 @@
 					<value name="Name" type="string" data="{GitBash}"/>
 					<value name="Hotkey" type="dword" data="00001231"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="C:\dev\tools\Git\bin\sh.exe --login -i -cur_console:d:C:\Users\David"/>
+					<value name="Cmd1" type="string" data="C:\local\tools\Git\bin\sh.exe --login -i -cur_console:d:C:\Users\David"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
-					<value name="Cmd2" type="string" data="{GitBash} -cur_console:s10V -cur_console:d:C:\dev\tools\conEmu"/>
+					<value name="Cmd2" type="string" data="{GitBash} -cur_console:s10V -cur_console:d:C:\local\tools\conEmu"/>
 				</key>
 						<key name="Task2" modified="2013-12-06 03:29:26" build="131125">
 					<value name="Name" type="string" data="{clink}"/>
 					<value name="Hotkey" type="dword" data="00001232"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="-new_console:d:C:\Users\Davidcmd /k &quot;C:\dev\tools\clink_0.3.1\clink_x86.exe inject &quot; -cur_console:d:C:\dev\tools\conEmu"/>
+					<value name="Cmd1" type="string" data="-new_console:d:C:\Users\Davidcmd /k &quot;C:\local\tools\clink_0.3.1\clink_x86.exe inject &quot; -cur_console:d:C:\local\tools\conEmu"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
@@ -533,7 +533,7 @@
 					<value name="Name" type="string" data="{david-server Screen}"/>
 					<value name="Hotkey" type="dword" data="00001233"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="c:\dev\tools\git\bin\sh.exe -i -c &quot;c:/dev/tools/git/bin/ssh.exe -i c:/Users/David/.ssh/id_rsa winterdc@david-server&quot; -cur_console:d:C:\Users\David"/>
+					<value name="Cmd1" type="string" data="c:\local\tools\git\bin\sh.exe -i -c &quot;c:/local/tools/git/bin/ssh.exe -i c:/Users/David/.ssh/id_rsa winterdc@david-server&quot; -cur_console:d:C:\Users\David"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
@@ -541,7 +541,7 @@
 					<value name="Name" type="string" data="{aws Screen}"/>
 					<value name="Hotkey" type="dword" data="00001234"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="c:\dev\tools\git\bin\sh.exe -i -c &quot;c:/dev/tools/git/bin/ssh.exe -i c:/Users/David/.ssh/aws_pem/garin.pem ubuntu@ec2-54-218-122-62.us-west-2.compute.amazonaws.com&quot; -cur_console:d:C:\Users\David"/>
+					<value name="Cmd1" type="string" data="c:\local\tools\git\bin\sh.exe -i -c &quot;c:/local/tools/git/bin/ssh.exe -i c:/Users/David/.ssh/aws_pem/garin.pem ubuntu@ec2-54-218-122-62.us-west-2.compute.amazonaws.com&quot; -cur_console:d:C:\Users\David"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
