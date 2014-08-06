@@ -86,18 +86,15 @@ shopt -s histappend
 ## -- 2) Set up aliases --
 ## -----------------------
 
-# 2.1) Safety
-#alias rm="rm -i"
-#alias mv="mv -i"
-#alias cp="cp -i"
-set -o noclobber
-
 # 2.2) Listing, directories, and motion
-alias ll="ls -alrtF --color"
-alias la="ls -A"
-alias l="ls -CF"
-alias dir='ls --color=auto --format=vertical'
-alias vdir='ls --color=auto --format=long'
+if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" || `uname` == "Linux" ]];  then
+  alias ls="ls -aF --color"
+  alias ll="ls -alrtF --color"
+elif [[ `uname` == "Darwin" ]] ; then
+  alias ls="ls -aFG"
+  alias ll="ls -alrtFG"
+fi
+
 alias m='less'
 alias ..='cd ..'
 alias ...='cd ..;cd ..'
