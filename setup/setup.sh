@@ -25,7 +25,11 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]]; then
   cp .dotfiles/.inputrc .
   cp .dotfiles/.ctags .
 
+  # copy over the bin directory
   cp -r .dotfiles/bin .
+
+  # copy over the conEum settings file
+  cp .dotfiles/ConEmu.xml /c/local/tools/ConEmu
 
   # git pull and install vim setup
   git clone https://github.com/DavidWinterbottom/dotvim.git vimfiles
@@ -44,6 +48,7 @@ elif [[ `uname` == "Linux" || `uname` == "Darwin" ]]; then
   ln -s .dotfiles/.inputrc .
   ln -s .dotfiles/.ctags .
 
+  # link the bin directory
   ln -s .dotfiles/bin .
 
   # git pull and install vim setup
