@@ -81,6 +81,10 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
 elif [[ `uname` == "Darwin" ]] ; then
   echo "setting environment for MacBook"
 
+  # local bin
+  export PATH="/users/david/bin/:$PATH"
+
+
 elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"
 
