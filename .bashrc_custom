@@ -14,20 +14,23 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   # git
   export PATH="$PREFIX/tools/Git/bin:$PATH"
 
+  # vim
+  export VIM_HOME="$PREFIX/tools/Vim/vim73"
+  export PATH="$VIM_HOME:$PATH"
+
   # Java Config
   export JAVA_HOME="$PREFIX/languages/Java/jdk1.8.0_11"
   export PATH="$JAVA_HOME/bin:$PATH"
 
-  # ctags
-  
+  # mvn
+  # MAVEN_HOME for v1 - M2_HOME for v2 + v3
+  #export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4;
+  export M2_HOME="$PREFIX/tools/apache-maven-3.2.2"
+  export MVN_OPTS=" "
+  export PATH="$M2_HOME/bin:$PATH"
+
   # subversion
   #export PATH="$PREFIX/tools/Subversion/bin:$PATH"
-
-  # mvn
-  #export MVN_HOME="$PREFIX/tools/apache-maven/3.0.4"
-  #export MVN_HOME="$PREFIX/tools/apache-maven/3.1.1"
-  #export MVN_OPTS=" "
-  #export PATH="$MVN_HOME/bin:$PATH"
 
   # python
   #export PYTHONHOME="$PREFIX/languages/Python/Python33"
@@ -50,10 +53,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   #export HEROKU_HOME="$PREFIX/tools/Heroku"
   #export PATH="$HEROKU_HOME/bin:$PATH"
   
-  # vim
-  export VIM_HOME="$PREFIX/tools/Vim/vim73"
-  export PATH="$VIM_HOME:$PATH"
-
   # llvm/clang
   #export LLVMCLANG_HOME="$PREFIX/tools/llvm-3.4-mingw-w64-4.8.1-x86-posix-sjlj"
   #export PATH="$LLVMCLANG_HOME/bin:$PATH"
@@ -78,6 +77,9 @@ elif [[ `uname` == "Darwin" ]] ; then
   export JAVA_OPTS="-Xmx512m"
   export PATH="$JAVA_HOME/bin:$PATH"
 
+  # mvn
+  #  using system defaults on mac...
+
 elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"
 
@@ -96,7 +98,7 @@ elif [[ `uname` == "Linux" ]] ; then
   export MVN_OPTS=" "
   export PATH="$M2_HOME/bin:$PATH"
 
-  # node
+  # node and npm
   # https://www.npmjs.org/doc/misc/npm-config.html
   export NODE_HOME="/local/pkgs/node/node-v0.10.30-linux-x86/bin"
   export NPM_PATH="/local/pkgs/npm_modules/bin"
