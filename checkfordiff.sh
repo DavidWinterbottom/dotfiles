@@ -2,7 +2,7 @@
 
 function checkdiff {
   echo "$1 (<repo >~)"
-  diff $1 ../$1  
+  diff -b $1 ../$1  
 }
 
 checkdiff .bash_profile 
