@@ -91,11 +91,16 @@ elif [[ `uname` == "Linux" ]] ; then
   export PATH="/home/winterdc/bin/:$PATH"
 
   # Java Config
-  export JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre/bin"
+  export JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre"
   export JAVA_OPTS="-Xmx512m"
   export PATH="$JAVA_HOME/bin:$PATH"
 
+  # mvn
+  # MAVEN_HOME for v1 - M2_HOME for v2 + v3
   #export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4;
+  export M2_HOME="/local/pkgs/apache-maven-3.2.2"
+  export MVN_OPTS=" "
+  export PATH="$M2_HOME/bin:$PATH"
 
 else
   echo ".bashrc_custom skipped as unknown environment " `uname`
