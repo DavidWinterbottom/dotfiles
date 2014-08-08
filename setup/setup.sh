@@ -17,7 +17,7 @@ fi
 # git pull and install dotfiles as well
 cd $HOME
 
-if [ -d ".dotfiles"]; then
+if [[ -d ".dotfiles" ]]; then
   cd .dotfiles
   git pull
   cd ..
