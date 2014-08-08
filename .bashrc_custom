@@ -16,11 +16,9 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
 
   # Java Config
   export JAVA_HOME="$PREFIX/languages/Java/jdk1.8.0_11"
-  export JAVA_OPTS="-Xmx256m"
   export PATH="$JAVA_HOME/bin:$PATH"
 
   # ctags
-  #export PATH="$PREFIX/tools/ctags/ctags58/:$PATH"
   
   # node
   #export NODE_HOME="$PREFIX/languages/nodejs"
@@ -86,7 +84,7 @@ elif [[ `uname` == "Darwin" ]] ; then
   export JAVA_OPTS="-Xmx512m"
   export PATH="$JAVA_HOME/bin:$PATH"
 
-  elif [[ `uname` == "Linux" ]] ; then
+elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"
 
   # local bin
