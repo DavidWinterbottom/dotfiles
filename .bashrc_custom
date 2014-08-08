@@ -6,11 +6,12 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   # "MINGW32_NT-6.1" - windows 7
 
   export PREFIX="/c/local"
-  alias cdd="cd $PREFIX"
-  alias cds="cd $PREFIX/source"
 
   # local bin
   export PATH="/c/Users/David/bin/:$PATH"
+
+  # git
+  export PATH="$PREFIX/tools/Git/bin:$PATH"
 
   # Java Config
   #export JAVA_HOME="$PREFIX/languages/Java/jdk1.7.0_45"
@@ -26,9 +27,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   #export NPM_PATH="$PREFIX/tools/npm/"
   #export PATH="$NODE_HOME:$NPM_PATH:$PATH"
   #export TMPDIR="$PREFIX/TMP" 
-
-  # git
-  export PATH="$PREFIX/tools/Git/bin:$PATH"
 
   # subversion
   #export PATH="$PREFIX/tools/Subversion/bin:$PATH"
@@ -62,7 +60,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   
   # vim
   export VIM_HOME="$PREFIX/tools/Vim/vim73"
-  #export VIM_HOME="$PREFIX/tools/Vim/Vim_Haroogan/vim-7.4.094-python-2.7-python-3.3-ruby-2.0.0-windows-x86"
   export PATH="$VIM_HOME:$PATH"
 
   # llvm/clang
@@ -88,19 +85,17 @@ elif [[ `uname` == "Darwin" ]] ; then
 elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"
 
-  # Heroku
-  #export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
+  # local bin
+  export PATH="/home/winterdc/bin/:$PATH"
 
-  #export JAVA_HOME=/local/pkgs/jdk1.7.0_45/; 
+  # Java Config
+  export JAVA_HOME="/usr/lib/jvm/java-8-oracle/jre/bin"
+  export JAVA_OPTS="-Xmx512m"
+  export PATH="$JAVA_HOME/bin:$PATH"
+
   #export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4; 
 
-  ## Add SBT to path
-  #export SBT_HOME=/local/pkgs/sbt
-
-  #export PATH="$SBT_HOME/bin:$HOME/bin:$JAVA_HOME/bin:$MAVEN_HOME/bin:$PATH"
-
 else
-  echo "unknown environment - please setup env"
+  echo ".bashrc_custom skipped as unknown environment " `uname`
 fi
 
-echo "setting env complete"
