@@ -20,12 +20,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
 
   # ctags
   
-  # node
-  #export NODE_HOME="$PREFIX/languages/nodejs"
-  #export NPM_PATH="$PREFIX/tools/npm/"
-  #export PATH="$NODE_HOME:$NPM_PATH:$PATH"
-  #export TMPDIR="$PREFIX/TMP" 
-
   # subversion
   #export PATH="$PREFIX/tools/Subversion/bin:$PATH"
 
@@ -101,6 +95,13 @@ elif [[ `uname` == "Linux" ]] ; then
   export M2_HOME="/local/pkgs/apache-maven-3.2.2"
   export MVN_OPTS=" "
   export PATH="$M2_HOME/bin:$PATH"
+
+  # node
+  # https://www.npmjs.org/doc/misc/npm-config.html
+  export NODE_HOME="/local/pkgs/node/node-v0.10.30-linux-x86/bin"
+  export NPM_PATH="/local/pkgs/npm_modules/bin"
+  export PATH="./node_modules/.bin/:$NODE_HOME:$NPM_PATH:$PATH"
+  export TMPDIR="/tmp" 
 
 else
   echo ".bashrc_custom skipped as unknown environment " `uname`
