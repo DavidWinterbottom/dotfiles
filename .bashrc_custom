@@ -84,6 +84,13 @@ elif [[ `uname` == "Darwin" ]] ; then
   # mvn
   #  using system defaults on mac...
 
+  # node and npm
+  # https://www.npmjs.org/doc/misc/npm-config.html
+  export NODE_HOME="/usr/local/bin/"
+  export NPM_PATH="/local/tools/npm_modules/bin"
+  export PATH="./node_modules/.bin/:$NODE_HOME:$NPM_PATH:$PATH"
+  export TMPDIR="/tmp/" 
+
 elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"
 
