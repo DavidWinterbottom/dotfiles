@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2013-12-06 03:29:26" build="131125">
+		<key name=".Vanilla" modified="2014-08-07 16:38:42" build="131125">
 			<value name="SingleInstance" type="hex" data="00"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
 			<value name="UseInjects" type="hex" data="01"/>
@@ -9,38 +9,38 @@
 			<value name="Update.CheckHourly" type="hex" data="00"/>
 			<value name="Update.ConfirmDownload" type="hex" data="01"/>
 			<value name="Update.UseBuilds" type="hex" data="01"/>
-			<value name="ColorTable00" type="dword" data="003f3f3f"/>
-			<value name="ColorTable01" type="dword" data="00af6464"/>
-			<value name="ColorTable02" type="dword" data="00008000"/>
-			<value name="ColorTable03" type="dword" data="00808000"/>
-			<value name="ColorTable04" type="dword" data="00232333"/>
-			<value name="ColorTable05" type="dword" data="00aa50aa"/>
-			<value name="ColorTable06" type="dword" data="0000dcdc"/>
-			<value name="ColorTable07" type="dword" data="00ccdcdc"/>
-			<value name="ColorTable08" type="dword" data="008080c0"/>
-			<value name="ColorTable09" type="dword" data="00ffafaf"/>
-			<value name="ColorTable10" type="dword" data="007f9f7f"/>
-			<value name="ColorTable11" type="dword" data="00d3d08c"/>
-			<value name="ColorTable12" type="dword" data="007071e3"/>
-			<value name="ColorTable13" type="dword" data="00c880c8"/>
-			<value name="ColorTable14" type="dword" data="00afdff0"/>
-			<value name="ColorTable15" type="dword" data="00ffffff"/>
-			<value name="ColorTable16" type="dword" data="003f3f3f"/>
-			<value name="ColorTable17" type="dword" data="00af6464"/>
-			<value name="ColorTable18" type="dword" data="00008000"/>
-			<value name="ColorTable19" type="dword" data="00808000"/>
-			<value name="ColorTable20" type="dword" data="00232333"/>
-			<value name="ColorTable21" type="dword" data="00aa50aa"/>
-			<value name="ColorTable22" type="dword" data="0000dcdc"/>
-			<value name="ColorTable23" type="dword" data="00ccdcdc"/>
-			<value name="ColorTable24" type="dword" data="008080c0"/>
-			<value name="ColorTable25" type="dword" data="00ffafaf"/>
-			<value name="ColorTable26" type="dword" data="007f9f7f"/>
-			<value name="ColorTable27" type="dword" data="00d3d08c"/>
-			<value name="ColorTable28" type="dword" data="007071e3"/>
-			<value name="ColorTable29" type="dword" data="00c880c8"/>
-			<value name="ColorTable30" type="dword" data="00afdff0"/>
-			<value name="ColorTable31" type="dword" data="00ffffff"/>
+			<value name="ColorTable00" type="dword" data="00423607"/>
+			<value name="ColorTable01" type="dword" data="002f32dc"/>
+			<value name="ColorTable02" type="dword" data="00009985"/>
+			<value name="ColorTable03" type="dword" data="000089b5"/>
+			<value name="ColorTable04" type="dword" data="00d28b26"/>
+			<value name="ColorTable05" type="dword" data="008236d3"/>
+			<value name="ColorTable06" type="dword" data="0098a12a"/>
+			<value name="ColorTable07" type="dword" data="00d5e8ee"/>
+			<value name="ColorTable08" type="dword" data="00362b00"/>
+			<value name="ColorTable09" type="dword" data="00164bcb"/>
+			<value name="ColorTable10" type="dword" data="00756e58"/>
+			<value name="ColorTable11" type="dword" data="00837b65"/>
+			<value name="ColorTable12" type="dword" data="00969483"/>
+			<value name="ColorTable13" type="dword" data="00c4716c"/>
+			<value name="ColorTable14" type="dword" data="00a1a193"/>
+			<value name="ColorTable15" type="dword" data="00e3f6fd"/>
+			<value name="ColorTable16" type="dword" data="00423607"/>
+			<value name="ColorTable17" type="dword" data="002f32dc"/>
+			<value name="ColorTable18" type="dword" data="00009985"/>
+			<value name="ColorTable19" type="dword" data="000089b5"/>
+			<value name="ColorTable20" type="dword" data="00d28b26"/>
+			<value name="ColorTable21" type="dword" data="008236d3"/>
+			<value name="ColorTable22" type="dword" data="0098a12a"/>
+			<value name="ColorTable23" type="dword" data="00d5e8ee"/>
+			<value name="ColorTable24" type="dword" data="00362b00"/>
+			<value name="ColorTable25" type="dword" data="00164bcb"/>
+			<value name="ColorTable26" type="dword" data="00756e58"/>
+			<value name="ColorTable27" type="dword" data="00837b65"/>
+			<value name="ColorTable28" type="dword" data="00969483"/>
+			<value name="ColorTable29" type="dword" data="00c4716c"/>
+			<value name="ColorTable30" type="dword" data="00a1a193"/>
+			<value name="ColorTable31" type="dword" data="00e3f6fd"/>
 			<value name="ExtendColors" type="hex" data="00"/>
 			<value name="ExtendColorIdx" type="hex" data="0e"/>
 			<value name="TextColorIdx" type="hex" data="10"/>
@@ -131,11 +131,11 @@
 			<value name="ColorKeyTransparent" type="hex" data="00"/>
 			<value name="ColorKeyValue" type="dword" data="00010101"/>
 			<value name="UseCurrentSizePos" type="hex" data="01"/>
-			<value name="WindowMode" type="dword" data="00000521"/>
+			<value name="WindowMode" type="dword" data="0000051f"/>
 			<value name="ConWnd Width" type="dword" data="00000086"/>
 			<value name="ConWnd Height" type="dword" data="00000045"/>
 			<value name="Cascaded" type="hex" data="01"/>
-			<value name="ConWnd X" type="dword" data="00000322"/>
+			<value name="ConWnd X" type="dword" data="00000000"/>
 			<value name="ConWnd Y" type="dword" data="00000000"/>
 			<value name="16bit Height" type="dword" data="00000000"/>
 			<value name="AutoSaveSizePos" type="hex" data="00"/>
@@ -305,7 +305,7 @@
 			<value name="SleepInBackground" type="hex" data="00"/>
 			<value name="MinimizeOnLoseFocus" type="hex" data="00"/>
 			<value name="DisableFarFlashing" type="hex" data="00"/>
-			<value name="DisableAllFlashing" type="hex" data="00"/>
+			<value name="DisableAllFlashing" type="hex" data="02"/>
 			<value name="FindText" type="string" data=""/>
 			<value name="FindMatchCase" type="hex" data="00"/>
 			<value name="FindMatchWholeWords" type="hex" data="00"/>
@@ -510,9 +510,9 @@
 			<value name="DndLKey" type="hex" data="00"/>
 			<value name="DndRKey" type="hex" data="a2"/>
 			<value name="WndDragKey" type="dword" data="00121101"/>
-				<key name="Tasks" modified="2013-12-06 03:29:26" build="131125">
+				<key name="Tasks" modified="2014-08-07 16:38:42" build="131125">
 				<value name="Count" type="dword" data="00000004"/>
-						<key name="Task1" modified="2013-12-06 03:29:26" build="131125">
+						<key name="Task1" modified="2014-08-07 16:38:42" build="131125">
 					<value name="Name" type="string" data="{GitBash}"/>
 					<value name="Hotkey" type="dword" data="00001231"/>
 					<value name="GuiArgs" type="string" data=""/>
@@ -521,35 +521,35 @@
 					<value name="Count" type="dword" data="00000001"/>
 					<value name="Cmd2" type="string" data="{GitBash} -cur_console:s10V -cur_console:d:C:\local\tools\conEmu"/>
 				</key>
-						<key name="Task2" modified="2013-12-06 03:29:26" build="131125">
+						<key name="Task2" modified="2014-08-07 16:38:42" build="131125">
 					<value name="Name" type="string" data="{clink}"/>
 					<value name="Hotkey" type="dword" data="00001232"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="-new_console:d:C:\Users\Davidcmd /k &quot;C:\local\tools\clink_0.3.1\clink_x86.exe inject &quot; -cur_console:d:C:\local\tools\conEmu"/>
+					<value name="Cmd1" type="string" data="-new_console:d:C:\Users\David cmd /k &quot;C:\local\tools\clink_0.4.2\clink_x86.exe inject &quot; -cur_console:d:C:\local\tools\conEmu"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-						<key name="Task3" modified="2013-12-06 03:29:26" build="131125">
+						<key name="Task3" modified="2014-08-07 16:38:42" build="131125">
 					<value name="Name" type="string" data="{david-server Screen}"/>
 					<value name="Hotkey" type="dword" data="00001233"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="c:\local\tools\git\bin\sh.exe -i -c &quot;c:/local/tools/git/bin/ssh.exe -i c:/Users/David/.ssh/id_rsa winterdc@david-server&quot; -cur_console:d:C:\Users\David"/>
+					<value name="Cmd1" type="string" data="c:/local/tools/Git/bin/ssh.exe -i c:/Users/David/.ssh/id_rsa winterdc@david-server"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-						<key name="Task4" modified="2013-12-06 03:29:26" build="131125">
+						<key name="Task4" modified="2014-08-07 16:38:42" build="131125">
 					<value name="Name" type="string" data="{aws Screen}"/>
 					<value name="Hotkey" type="dword" data="00001234"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="c:\local\tools\git\bin\sh.exe -i -c &quot;c:/local/tools/git/bin/ssh.exe -i c:/Users/David/.ssh/aws_pem/garin.pem ubuntu@ec2-54-218-122-62.us-west-2.compute.amazonaws.com&quot; -cur_console:d:C:\Users\David"/>
+					<value name="Cmd1" type="string" data="c:/local/tools/git/bin/ssh.exe -i c:/Users/David/.ssh/aws_pem/garin.pem ubuntu@ec2-54-218-122-62.us-west-2.compute.amazonaws.com"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
-						<key name="Task5" modified="2013-12-06 03:19:45" build="131125">
-					<value name="Name" type="string" data="{PowerShell (Admin)}"/>
-					<value name="Hotkey" type="dword" data="00000000"/>
+						<key name="Task5" modified="2014-08-07 16:35:26" build="131125">
+					<value name="Name" type="string" data="{Group5}"/>
+					<value name="Hotkey" type="dword" data="00001235"/>
 					<value name="GuiArgs" type="string" data=""/>
-					<value name="Cmd1" type="string" data="powershell.exe -new_console:a"/>
+					<value name="Cmd1" type="string" data="&quot;c:/local/tools/Git/bin/ssh.exe -i c:/Users/David/.ssh/id_rsa winterdc@david-server&quot; -cur_console:d:C:\Users\David"/>
 					<value name="Active" type="dword" data="00000000"/>
 					<value name="Count" type="dword" data="00000001"/>
 				</key>
@@ -595,10 +595,10 @@
 					<value name="Count" type="dword" data="00000000"/>
 				</key>
 			</key>
-				<key name="Apps" modified="2013-12-06 03:29:26" build="131125">
+				<key name="Apps" modified="2014-08-07 16:38:42" build="131125">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
-				<key name="Colors" modified="2013-12-06 03:29:26" build="131125">
+				<key name="Colors" modified="2014-08-07 16:38:43" build="131125">
 				<value name="Count" type="dword" data="00000000"/>
 			</key>
 		</key>
