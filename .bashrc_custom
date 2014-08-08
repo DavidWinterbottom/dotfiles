@@ -1,7 +1,8 @@
 #!/bin/bash
 
+echo ".bashrc_custom for `uname`"
+
 if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
-  echo "setting environment for GitBash"
   # "MINGW32_NT-6.2" - windows 8
   # "MINGW32_NT-6.1" - windows 7
 
@@ -14,10 +15,9 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   export PATH="$PREFIX/tools/Git/bin:$PATH"
 
   # Java Config
-  #export JAVA_HOME="$PREFIX/languages/Java/jdk1.7.0_45"
-  #export JAVA_HOME="$PREFIX/languages/Java/jdk1.7.0_10"
-  #export JAVA_OPTS="-Xmx256m"
-  #export PATH="$JAVA_HOME/bin:$PATH"
+  export JAVA_HOME="$PREFIX/languages/Java/jdk1.8.0_11"
+  export JAVA_OPTS="-Xmx256m"
+  export PATH="$JAVA_HOME/bin:$PATH"
 
   # ctags
   #export PATH="$PREFIX/tools/ctags/ctags58/:$PATH"
@@ -82,7 +82,7 @@ elif [[ `uname` == "Darwin" ]] ; then
   export PATH="/users/david/bin/:$PATH"
 
 
-elif [[ `uname` == "Linux" ]] ; then
+  elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"
 
   # local bin
@@ -93,9 +93,10 @@ elif [[ `uname` == "Linux" ]] ; then
   export JAVA_OPTS="-Xmx512m"
   export PATH="$JAVA_HOME/bin:$PATH"
 
-  #export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4; 
+  #export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4;
 
 else
   echo ".bashrc_custom skipped as unknown environment " `uname`
 fi
 
+echo ".bashrc_custom complete"
