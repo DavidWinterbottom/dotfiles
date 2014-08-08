@@ -3,15 +3,16 @@
 # for headless setup. 
 
 if [[ `uname` == "MINGW32_NT-6.2" ]]; then
-  echo "setting environment for Windows 8"
+  echo "creating environment for Windows 8"
 elif [[ `uname` == "MINGW32_NT-6.1" ]]; then
-  echo "setting environment for Windows 7"
+  echo "creating environment for Windows 7"
 elif [[ `uname` == "Linux" ]]; then
-  echo "setting environment for Linux"
+  echo "creating environment for Linux"
 elif [[ `uname` == "Darwin" ]]; then
-  echo "setting environment for Mac"
+  echo "creating environment for Mac"
 else
   echo "unknown environment `uname`"
+  exit -1
 fi
 
 # git pull and install dotfiles as well
@@ -46,17 +47,16 @@ elif [[ `uname` == "Linux" || `uname` == "Darwin" ]]; then
 
   # git pull and install dotfiles as well
   cd $HOME
-  git clone https://github.com/DavidWinterbottom/dotfiles.git .dotfiles
-  ln -s .dotfiles/.screenrc .
-  ln -s .dotfiles/.bash_profile .
-  ln -s .dotfiles/.bashrc .
-  ln -s .dotfiles/.bashrc_custom .
-  ln -s .dotfiles/.gitconfig .
-  ln -s .dotfiles/.npmrc .
-  ln -s .dotfiles/.inputrc .
-  ln -s .dotfiles/.ctags .
+  ln -fs .dotfiles/.screenrc .
+  ln -fs .dotfiles/.bash_profile .
+  ln -fs .dotfiles/.bashrc .
+  ln -fs .dotfiles/.bashrc_custom .
+  ln -fs .dotfiles/.gitconfig .
+  ln -fs .dotfiles/.npmrc .
+  ln -fs .dotfiles/.inputrc .
+  ln -fs .dotfiles/.ctags .
 
   # link the bin directory
-  ln -s .dotfiles/bin .
+  ln -fs .dotfiles/bin .
 
 fi
