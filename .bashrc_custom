@@ -84,6 +84,9 @@ elif [[ `uname` == "Darwin" ]] ; then
   export JAVA_OPTS="-Xmx512m"
   export PATH="$JAVA_HOME/bin:$PATH"
 
+  # mvn
+  #  using system defaults on mac...
+
 elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"
 
