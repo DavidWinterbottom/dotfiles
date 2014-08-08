@@ -81,6 +81,10 @@ elif [[ `uname` == "Darwin" ]] ; then
   # local bin
   export PATH="/users/david/bin/:$PATH"
 
+  # Java Config
+  export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+  export JAVA_OPTS="-Xmx512m"
+  export PATH="$JAVA_HOME/bin:$PATH"
 
   elif [[ `uname` == "Linux" ]] ; then
   echo "setting environment for Linux"

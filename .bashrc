@@ -103,6 +103,11 @@ alias cl='clear'
 alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
 
+alias vi="vim"
+if [[ `uname` == "Darwin" ]];  then
+  alias vim="mvim"
+fi
+
 # 2.3) Text and editor commands
 export EDITOR='vim'
 export VISUAL='vim' 
