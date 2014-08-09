@@ -87,7 +87,11 @@ shopt -s histappend
 ## -----------------------
 
 # 2.2) Listing, directories, and motion
-if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" || `uname` == "Linux" ]];  then
+if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
+  alias ls="ls -aF --color"
+  alias ll="ls -alrtF --color"
+  alias cds="cd /c/local/source"
+elif [[ `uname` == "Linux" ]];  then
   alias ls="ls -aF --color"
   alias ll="ls -alrtF --color"
 elif [[ `uname` == "Darwin" ]] ; then
