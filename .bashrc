@@ -97,6 +97,7 @@ elif [[ `uname` == "Linux" ]];  then
 elif [[ `uname` == "Darwin" ]] ; then
   alias ls="ls -aFG"
   alias ll="ls -alrtFG"
+  alias cds="cd /local/source"
 fi
 
 alias m='less'
