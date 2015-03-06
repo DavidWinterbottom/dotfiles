@@ -31,8 +31,12 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   export MVN_OPTS=" "
   export PATH="$M2_HOME/bin:$PATH"
 
-  # subversion
-  #export PATH="$PREFIX/tools/Subversion/bin:$PATH"
+  # node and npm
+  # https://www.npmjs.org/doc/misc/npm-config.html
+  export NODE_HOME="/c/local/languages/nodejs/"
+  export NPM_PATH="/c/local/tools/npm_modules/"
+  export PATH="./node_modules/.bin/:$NODE_HOME:$NPM_PATH:$PATH"
+  export TMPDIR="/c/local/TMP" 
 
   # python
   #export PYTHONHOME="$PREFIX/languages/Python/Python33"
@@ -83,6 +87,13 @@ elif [[ `uname` == "Darwin" ]] ; then
 
   # mvn
   #  using system defaults on mac...
+
+  # node and npm
+  # https://www.npmjs.org/doc/misc/npm-config.html
+  export NODE_HOME="/usr/local/bin/"
+  export NPM_PATH="/local/tools/npm_modules/bin"
+  export PATH="./node_modules/.bin/:$NODE_HOME:$NPM_PATH:$PATH"
+  export TMPDIR="/tmp/" 
 
 elif [[ `uname` == "Linux" ]] ; then
   if shopt -q login_shell; then

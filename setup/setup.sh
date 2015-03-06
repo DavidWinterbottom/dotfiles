@@ -33,7 +33,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]]; then
   cp -f .dotfiles/.bashrc .
   cp -f .dotfiles/.bashrc_custom .
   cp -f .dotfiles/.gitconfig .
-  cp -f .dotfiles/.npmrc .
   cp -f .dotfiles/.inputrc .
   cp -f .dotfiles/.ctags .
 
@@ -52,7 +51,6 @@ elif [[ `uname` == "Linux" || `uname` == "Darwin" ]]; then
   ln -fs .dotfiles/.bashrc .
   ln -fs .dotfiles/.bashrc_custom .
   ln -fs .dotfiles/.gitconfig .
-  ln -fs .dotfiles/.npmrc .
   ln -fs .dotfiles/.inputrc .
   ln -fs .dotfiles/.ctags .
 
