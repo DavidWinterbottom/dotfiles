@@ -1,6 +1,8 @@
 #!/bin/bash
 
-echo ".bashrc_custom for `uname`"
+if shopt -q login_shell; then
+  echo ".bashrc_custom for `uname`"
+fi
 
 if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   # "MINGW32_NT-6.2" - windows 8
@@ -71,7 +73,9 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   #export PATH="$PHANTOMJS_HOME:$PATH"
 
 elif [[ `uname` == "Darwin" ]] ; then
-  echo "setting environment for MacBook"
+  if shopt -q login_shell; then
+    echo "setting environment for MacBook"
+  fi
 
   # local bin
   export PATH="/users/david/bin/:$PATH"
@@ -92,7 +96,9 @@ elif [[ `uname` == "Darwin" ]] ; then
   export TMPDIR="/tmp/" 
 
 elif [[ `uname` == "Linux" ]] ; then
-  echo "setting environment for Linux"
+  if shopt -q login_shell; then
+    echo "setting environment for Linux"
+  fi
 
   # local bin
   export PATH="/home/winterdc/bin/:$PATH"
@@ -117,7 +123,11 @@ elif [[ `uname` == "Linux" ]] ; then
   export TMPDIR="/tmp" 
 
 else
-  echo ".bashrc_custom skipped as unknown environment " `uname`
+  if shopt -q login_shell; then
+    echo ".bashrc_custom skipped as unknown environment " `uname`
+  fi
 fi
 
-echo ".bashrc_custom complete"
+if shopt -q login_shell; then
+  echo ".bashrc_custom complete"
+fi
