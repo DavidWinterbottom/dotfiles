@@ -32,8 +32,8 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   # node and npm
   # https://www.npmjs.org/doc/misc/npm-config.html
   export NODE_HOME="/c/local/languages/nodejs/"
-  export NPM_PATH="/c/local/tools/npm_modules/"
-  export PATH="./node_modules/.bin/:$NODE_HOME:$NPM_PATH:$PATH"
+  export NODE_PATH="/c/local/tools/npm_modules/:$NODE_HOME"
+  export PATH="./node_modules/.bin/:$NODE_HOME:$NODE_PATH:$PATH"
   export TMPDIR="/c/local/TMP" 
 
   # python
@@ -87,8 +87,8 @@ elif [[ `uname` == "Darwin" ]] ; then
   # node and npm
   # https://www.npmjs.org/doc/misc/npm-config.html
   export NODE_HOME="/usr/local/bin/"
-  export NPM_PATH="/local/tools/npm_modules/bin"
-  export PATH="./node_modules/.bin/:$NODE_HOME:$NPM_PATH:$PATH"
+  export NODE_PATH="/local/tools/npm_modules/bin"
+  export PATH="./node_modules/.bin/:$NODE_HOME:$NODE_PATH:$PATH"
   export TMPDIR="/tmp/" 
 
 elif [[ `uname` == "Linux" ]] ; then
@@ -112,8 +112,8 @@ elif [[ `uname` == "Linux" ]] ; then
   # node and npm
   # https://www.npmjs.org/doc/misc/npm-config.html
   export NODE_HOME="/local/pkgs/node/node-v0.10.30-linux-x86/bin"
-  export NPM_PATH="/local/pkgs/npm_modules/bin"
-  export PATH="./node_modules/.bin/:$NODE_HOME:$NPM_PATH:$PATH"
+  export NODE_PATH="/local/pkgs/npm_modules/bin"
+  export PATH="./node_modules/.bin/:$NODE_HOME:$NODE_PATH:$PATH"
   export TMPDIR="/tmp" 
 
 else

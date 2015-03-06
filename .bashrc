@@ -112,6 +112,8 @@ if [[ `uname` == "Darwin" ]];  then
   alias vim="mvim"
 fi
 
+alias npmls="npm ls --depth=0"
+
 # 2.3) Text and editor commands
 export EDITOR='vim'
 export VISUAL='vim' 
