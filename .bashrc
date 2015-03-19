@@ -111,6 +111,7 @@ alias treeacl='tree -A -C -L 2'
 
 alias vi="vim"
 if [[ `uname` == "Darwin" ]];  then
+  alias vi="mvim"
   alias vim="mvim"
 fi
 
