@@ -17,7 +17,8 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   export PATH="$PREFIX/tools/Git/bin:$PATH"
 
   # vim
-  export VIM_HOME="$PREFIX/tools/Vim/vim-7.4.193-python-2.7-python-3.3-ruby-2.0.0-lua-5.2-windows-x86/"
+  #export VIM_HOME="$PREFIX/tools/Vim/vim-7.4.193-python-2.7-python-3.3-ruby-2.0.0-lua-5.2-windows-x86/"
+  export VIM_HOME="$PREFIX/tools/Vim/vim73-kaoriya-win32/"
   export PATH="$VIM_HOME:$PATH"
 
   # Java Config
