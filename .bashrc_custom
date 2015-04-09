@@ -67,13 +67,19 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   #export PATH="$LLVMCLANG_HOME/bin:$PATH"
 
   # mongodb
-  #export MONGODB_HOME="$PREFIX/tools/mongodb/mongodb-win32-i386-2.4.8"
-  #export PATH="$MONGODB_HOME/bin:$PATH"
-  #alias mongod="mongod -dbpath $PREFIX --rest"
+  export MONGODB_HOME="$PREFIX/tools/MongoDB/Server/3.0/"
+  export PATH="$MONGODB_HOME/bin:$PATH"
+  alias mongod="mongod -dbpath $PREFIX/tools/MongoDB/data/db --rest"
 
-  # phantomjs
-  #export PHANTOMJS_HOME="$PREFIX/tools/phantomjs"
-  #export PATH="$PHANTOMJS_HOME:$PATH"
+  # sublime text
+  function subl() {
+    if [ "$1" != "" ]
+    then
+      ${PREFIX}'/tools/Sublime Text 3/subl.exe' $1
+    else
+      ${PREFIX}'/tools/Sublime Text 3/subl.exe' .
+    fi
+  }
 
 elif [[ `uname` == "Darwin" ]] ; then
   if shopt -q login_shell; then
