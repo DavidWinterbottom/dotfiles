@@ -62,10 +62,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   #export HEROKU_HOME="$PREFIX/tools/Heroku"
   #export PATH="$HEROKU_HOME/bin:$PATH"
   
-  # llvm/clang
-  #export LLVMCLANG_HOME="$PREFIX/tools/llvm-3.4-mingw-w64-4.8.1-x86-posix-sjlj"
-  #export PATH="$LLVMCLANG_HOME/bin:$PATH"
-
   # mongodb
   #export MONGODB_HOME="$PREFIX/tools/mongodb/mongodb-win32-i386-2.4.8"
   #export PATH="$MONGODB_HOME/bin:$PATH"
@@ -90,6 +86,18 @@ elif [[ `uname` == "Darwin" ]] ; then
 
   # mvn
   #  using system defaults on mac...
+
+
+  # Sublime
+  function sub() {
+    if [ "$1" != "" ]
+    then
+      /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl --command toggle_full_screen $1 &
+        subl $1
+    else
+      /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl --command toggle_full_screen . &
+    fi
+  }
 
   # node and npm
   # https://www.npmjs.org/doc/misc/npm-config.html
@@ -125,7 +133,6 @@ elif [[ `uname` == "Linux" ]] ; then
   export PATH="./node_modules/.bin/:$NODE_HOME:$NODE_PATH:$PATH"
   export TMPDIR="/tmp" 
 
-else
   if shopt -q login_shell; then
     echo ".bashrc_custom skipped as unknown environment " `uname`
   fi
