@@ -19,16 +19,18 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   # vim
   #export VIM_HOME="$PREFIX/tools/Vim/vim-7.4.193-python-2.7-python-3.3-ruby-2.0.0-lua-5.2-windows-x86/"
   export VIM_HOME="$PREFIX/tools/Vim/vim73-kaoriya-win32/"
+  #export VIM_HOME="$PREFIX/tools/Vim/vim74-kaoriya-win32/"
   export PATH="$VIM_HOME:$PATH"
 
   # Java Config
-  export JAVA_HOME="$PREFIX/languages/Java/jdk1.8.0_11"
+  #export JAVA_HOME="$PREFIX/languages/Java/jdk1.7.0_79"
+  export JAVA_HOME="$PREFIX/languages/Java/jdk1.8.0_45"
   export PATH="$JAVA_HOME/bin:$PATH"
 
   # mvn
   # MAVEN_HOME for v1 - M2_HOME for v2 + v3
   #export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4;
-  export M2_HOME="$PREFIX/tools/apache-maven-3.2.2"
+  export M2_HOME="$PREFIX/tools/apache-maven-3.3.3"
   export MVN_OPTS=" "
   export PATH="$M2_HOME/bin:$PATH"
 
@@ -40,7 +42,7 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   export TMPDIR="/c/local/TMP" 
 
   # python
-  #export PYTHONHOME="$PREFIX/languages/Python/Python33"
+  #export PYTHONHOME="$PREFIX/languages/Python/Python34"
   export PYTHONHOME="$PREFIX/languages/Python/Python27"
   export PATH="$PYTHONHOME:$PATH"
 
@@ -55,8 +57,9 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   #export PATH="$PLAY_HOME:$PATH"
 
   #scala
-  #export SCALA_HOME="$PREFIX/tools/scala-2.10.0"
-  #export PATH="$SCALA_HOME:$PATH"
+  export SCALA_HOME="$PREFIX/languages/scala"
+  export SBT_HOME="$PREFIX/tools/sbt"
+  export PATH="$SCALA_HOME:$SBT_HOME/bin/:$PATH"
 
   # heroku
   #export HEROKU_HOME="$PREFIX/tools/Heroku"
@@ -71,9 +74,11 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   function subl() {
     if [ "$1" != "" ]
     then
-      ${PREFIX}'/tools/Sublime Text 3/subl.exe' $1
+      #${PREFIX}'/tools/Sublime Text 3/subl.exe' $1
+      '/c/Program Files/Sublime Text 3/subl.exe' $1
     else
-      ${PREFIX}'/tools/Sublime Text 3/subl.exe' .
+      #${PREFIX}'/tools/Sublime Text 3/subl.exe' .
+      "/c/Program Files/Sublime Text 3/subl.exe" .
     fi
   }
 
