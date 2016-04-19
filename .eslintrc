@@ -9,7 +9,8 @@
     "jsx": true
   },
   "plugins": [
-    "react"
+    "react",
+    "json"
   ],
   "rules": {
     "strict": 0,

@@ -12,6 +12,7 @@ checkdiff .screenrc
 checkdiff .gitconfig 
 checkdiff .npmrc 
 checkdiff .inputrc 
+checkdiff .eslintrc
 
 # .grails
 # .m2
