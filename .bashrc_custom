@@ -7,7 +7,6 @@ fi
 if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   # "MINGW32_NT-6.2" - windows 8
   # "MINGW32_NT-6.1" - windows 7
-
   export PREFIX="/c/local"
 
   # local bin
@@ -87,9 +86,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   }
 
 elif [[ `uname` == "Darwin" ]] ; then
-  if shopt -q login_shell; then
-    echo "setting environment for MacBook"
-  fi
 
   # local bin
   export PATH="/users/david/bin/:$PATH"
@@ -101,7 +97,6 @@ elif [[ `uname` == "Darwin" ]] ; then
 
   # mvn
   #  using system defaults on mac...
-
 
   # Sublime
   function sub() {
@@ -137,7 +132,7 @@ elif [[ `uname` == "Linux" ]] ; then
   # mvn
   # MAVEN_HOME for v1 - M2_HOME for v2 + v3
   #export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4;
-  export M2_HOME="/local/pkgs/apache-maven-3.2.2"
+  export M2_HOME="/local/pkgs/apache-maven/apache-maven-3.2.2"
   export MVN_OPTS=" "
   export PATH="$M2_HOME/bin:$PATH"
 
@@ -148,6 +143,7 @@ elif [[ `uname` == "Linux" ]] ; then
   export PATH="./node_modules/.bin/:$NODE_HOME:$NODE_PATH:$PATH"
   export TMPDIR="/tmp" 
 
+else 
   if shopt -q login_shell; then
     echo ".bashrc_custom skipped as unknown environment " `uname`
   fi
