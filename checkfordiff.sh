@@ -8,11 +8,12 @@ function checkdiff {
 checkdiff .bash_profile 
 checkdiff .bashrc 
 checkdiff .bashrc_custom 
+checkdiff .babel.json
+checkdiff .jshintrc
+checkdiff .eslintrc
+checkdiff .inputrc 
 checkdiff .screenrc 
 checkdiff .gitconfig 
-checkdiff .npmrc 
-checkdiff .inputrc 
-checkdiff .eslintrc
 
 # .grails
 # .m2

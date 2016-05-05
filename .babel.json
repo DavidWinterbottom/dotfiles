@@ -1,0 +1,4309 @@
+{
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/empty.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/empty.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/empty.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "empty.spec.js",
+      "sourceFileName": "empty.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "empty.spec"
+    },
+    "ignored": false,
+    "code": "import expect from 'expect';\n\ndescribe('empty', () => {\n  it('should work', () => {\n    expect(true).toEqual(true);\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVtcHR5LnNwZWMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxNQUFQLE1BQW1CLFFBQW5COztBQUVBLFNBQVMsT0FBVCxFQUFrQixNQUFNO0FBQ3RCLEtBQUcsYUFBSCxFQUFrQixNQUFJO0FBQ3BCLFdBQU8sSUFBUCxFQUFhLE9BQWIsQ0FBcUIsSUFBckIsRUFEb0I7R0FBSixDQUFsQixDQURzQjtDQUFOLENBQWxCIiwiZmlsZSI6ImVtcHR5LnNwZWMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZXhwZWN0IGZyb20gJ2V4cGVjdCc7XG5cbmRlc2NyaWJlKCdlbXB0eScsICgpID0+IHtcbiAgaXQoJ3Nob3VsZCB3b3JrJywgKCk9PntcbiAgICBleHBlY3QodHJ1ZSkudG9FcXVhbCh0cnVlKTtcbiAgfSlcbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "empty.spec.js"
+      ],
+      "names": [],
+      "mappings": "AAAA,OAAO,MAAP,MAAmB,QAAnB;;AAEA,SAAS,OAAT,EAAkB,MAAM;AACtB,KAAG,aAAH,EAAkB,MAAI;AACpB,WAAO,IAAP,EAAa,OAAb,CAAqB,IAArB,EADoB;GAAJ,CAAlB,CADsB;CAAN,CAAlB",
+      "file": "empty.spec.js",
+      "sourcesContent": [
+        "import expect from 'expect';\n\ndescribe('empty', () => {\n  it('should work', ()=>{\n    expect(true).toEqual(true);\n  })\n});\n"
+      ]
+    },
+    "mtime": 1461161078158
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/empty.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/empty.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/empty.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "empty.spec.js",
+      "sourceFileName": "empty.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "empty.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\ndescribe('empty', function () {\n  it('should work', function () {\n    (0, _expect2.default)(true).toEqual(true);\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVtcHR5LnNwZWMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7Ozs7O0FBRUEsU0FBUyxPQUFULEVBQWtCLFlBQU07QUFDdEIsS0FBRyxhQUFILEVBQWtCLFlBQUk7QUFDcEIsMEJBQU8sSUFBUCxFQUFhLE9BQWIsQ0FBcUIsSUFBckIsRUFEb0I7R0FBSixDQUFsQixDQURzQjtDQUFOLENBQWxCIiwiZmlsZSI6ImVtcHR5LnNwZWMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZXhwZWN0IGZyb20gJ2V4cGVjdCc7XG5cbmRlc2NyaWJlKCdlbXB0eScsICgpID0+IHtcbiAgaXQoJ3Nob3VsZCB3b3JrJywgKCk9PntcbiAgICBleHBlY3QodHJ1ZSkudG9FcXVhbCh0cnVlKTtcbiAgfSlcbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "empty.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;;;AAEA,SAAS,OAAT,EAAkB,YAAM;AACtB,KAAG,aAAH,EAAkB,YAAI;AACpB,0BAAO,IAAP,EAAa,OAAb,CAAqB,IAArB,EADoB;GAAJ,CAAlB,CADsB;CAAN,CAAlB",
+      "file": "empty.spec.js",
+      "sourcesContent": [
+        "import expect from 'expect';\n\ndescribe('empty', () => {\n  it('should work', ()=>{\n    expect(true).toEqual(true);\n  })\n});\n"
+      ]
+    },
+    "mtime": 1461161078158
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          },
+          {
+            "source": "./create-id",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "createId"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "create-id.spec.js",
+      "sourceFileName": "create-id.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "create-id.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nvar _createId = require('./create-id');\n\nvar _createId2 = _interopRequireDefault(_createId);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\ndescribe('createId', function () {\n  it('should convert a description into a unique id', function () {\n    var actual = (0, _createId2.default)(123, 'Cool example description');\n    var expected = '123-cool-example';\n    (0, _expect2.default)(actual).toEqual(expected);\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNyZWF0ZS1pZC5zcGVjLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsU0FBUyxVQUFULEVBQXFCLFlBQU07QUFDekIsS0FBRywrQ0FBSCxFQUFvRCxZQUFNO0FBQ3hELFFBQU0sU0FBUyx3QkFBUyxHQUFULEVBQWMsMEJBQWQsQ0FBVCxDQURrRDtBQUV4RCxRQUFNLFdBQVcsa0JBQVgsQ0FGa0Q7QUFHeEQsMEJBQU8sTUFBUCxFQUFlLE9BQWYsQ0FBdUIsUUFBdkIsRUFId0Q7R0FBTixDQUFwRCxDQUR5QjtDQUFOLENBQXJCIiwiZmlsZSI6ImNyZWF0ZS1pZC5zcGVjLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cGVjdCBmcm9tICdleHBlY3QnO1xuaW1wb3J0IGNyZWF0ZUlkIGZyb20gJy4vY3JlYXRlLWlkJztcblxuZGVzY3JpYmUoJ2NyZWF0ZUlkJywgKCkgPT4ge1xuICBpdCgnc2hvdWxkIGNvbnZlcnQgYSBkZXNjcmlwdGlvbiBpbnRvIGEgdW5pcXVlIGlkJywgKCkgPT4ge1xuICAgIGNvbnN0IGFjdHVhbCA9IGNyZWF0ZUlkKDEyMywgJ0Nvb2wgZXhhbXBsZSBkZXNjcmlwdGlvbicpO1xuICAgIGNvbnN0IGV4cGVjdGVkID0gJzEyMy1jb29sLWV4YW1wbGUnO1xuICAgIGV4cGVjdChhY3R1YWwpLnRvRXF1YWwoZXhwZWN0ZWQpO1xuICB9KVxufSlcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "create-id.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;AACA;;;;;;AAEA,SAAS,UAAT,EAAqB,YAAM;AACzB,KAAG,+CAAH,EAAoD,YAAM;AACxD,QAAM,SAAS,wBAAS,GAAT,EAAc,0BAAd,CAAT,CADkD;AAExD,QAAM,WAAW,kBAAX,CAFkD;AAGxD,0BAAO,MAAP,EAAe,OAAf,CAAuB,QAAvB,EAHwD;GAAN,CAApD,CADyB;CAAN,CAArB",
+      "file": "create-id.spec.js",
+      "sourcesContent": [
+        "import expect from 'expect';\nimport createId from './create-id';\n\ndescribe('createId', () => {\n  it('should convert a description into a unique id', () => {\n    const actual = createId(123, 'Cool example description');\n    const expected = '123-cool-example';\n    expect(actual).toEqual(expected);\n  })\n})\n"
+      ]
+    },
+    "mtime": 1461237703296
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [
+            "createId",
+            "uniqueNumber",
+            "description"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "createId",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "uniqueNumber",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "description",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "create-id.js",
+      "sourceFileName": "create-id.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "create-id"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = createId;\nfunction createId(uniqueNumber, description) {\n  var shortKebabDescription = description.toLowerCase().split(' ').slice(0, 2).join('-');\n  return uniqueNumber + '-' + shortKebabDescription;\n}\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNyZWF0ZS1pZC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7OztrQkFBd0I7QUFBVCxTQUFTLFFBQVQsQ0FBa0IsWUFBbEIsRUFBZ0MsV0FBaEMsRUFBNEM7QUFDekQsTUFBTSx3QkFBd0IsWUFDM0IsV0FEMkIsR0FFM0IsS0FGMkIsQ0FFckIsR0FGcUIsRUFHM0IsS0FIMkIsQ0FHckIsQ0FIcUIsRUFHbEIsQ0FIa0IsRUFJM0IsSUFKMkIsQ0FJdEIsR0FKc0IsQ0FBeEIsQ0FEbUQ7QUFNdkQsU0FBVSxxQkFBZ0IscUJBQTFCLENBTnVEO0NBQTVDIiwiZmlsZSI6ImNyZWF0ZS1pZC5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGNyZWF0ZUlkKHVuaXF1ZU51bWJlciwgZGVzY3JpcHRpb24pe1xuICBjb25zdCBzaG9ydEtlYmFiRGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvblxuICAgIC50b0xvd2VyQ2FzZSgpXG4gICAgLnNwbGl0KCcgJylcbiAgICAuc2xpY2UoMCwgMilcbiAgICAuam9pbignLScpO1xuICAgIHJldHVybiBgJHt1bmlxdWVOdW1iZXJ9LSR7c2hvcnRLZWJhYkRlc2NyaXB0aW9ufWA7XG59XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "create-id.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;kBAAwB;AAAT,SAAS,QAAT,CAAkB,YAAlB,EAAgC,WAAhC,EAA4C;AACzD,MAAM,wBAAwB,YAC3B,WAD2B,GAE3B,KAF2B,CAErB,GAFqB,EAG3B,KAH2B,CAGrB,CAHqB,EAGlB,CAHkB,EAI3B,IAJ2B,CAItB,GAJsB,CAAxB,CADmD;AAMvD,SAAU,qBAAgB,qBAA1B,CANuD;CAA5C",
+      "file": "create-id.js",
+      "sourcesContent": [
+        "export default function createId(uniqueNumber, description){\n  const shortKebabDescription = description\n    .toLowerCase()\n    .split(' ')\n    .slice(0, 2)\n    .join('-');\n    return `${uniqueNumber}-${shortKebabDescription}`;\n}\n"
+      ]
+    },
+    "mtime": 1461237408371
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/cool-component.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          },
+          {
+            "source": "react-addons-test-utils",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "TestUtils"
+              }
+            ]
+          },
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          },
+          {
+            "source": "expect-jsx",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expectJSX"
+              }
+            ]
+          },
+          {
+            "source": "./cool-component",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "CoolComponent"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/cool-component.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/cool-component.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "cool-component.spec.js",
+      "sourceFileName": "cool-component.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "cool-component.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactAddonsTestUtils = require('react-addons-test-utils');\n\nvar _reactAddonsTestUtils2 = _interopRequireDefault(_reactAddonsTestUtils);\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nvar _expectJsx = require('expect-jsx');\n\nvar _expectJsx2 = _interopRequireDefault(_expectJsx);\n\nvar _coolComponent = require('./cool-component');\n\nvar _coolComponent2 = _interopRequireDefault(_coolComponent);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_expect2.default.extend(_expectJsx2.default);\n\ndescribe('Cool Component', function () {\n  it('should test using expect', function () {\n    var renderer = _reactAddonsTestUtils2.default.createRenderer();\n\n    renderer.render(_react2.default.createElement(_coolComponent2.default, { greeting: 'hello world' }));\n    var output = renderer.getRenderOutput();\n\n    (0, _expect2.default)(output.type).toBe('div');\n    (0, _expect2.default)(output.props.children[0].type).toBe('h1');\n    (0, _expect2.default)(output.props.children[0].props.children).toBe('Greeting');\n    (0, _expect2.default)(output.props.children[1].type).toBe('div');\n    (0, _expect2.default)(output.props.children[1].props.children).toBe('hello world');\n  });\n  it('should test using expectJSX', function () {\n    var renderer = _reactAddonsTestUtils2.default.createRenderer();\n\n    renderer.render(_react2.default.createElement(_coolComponent2.default, { greeting: 'hello world' }));\n    var output = renderer.getRenderOutput();\n\n    (0, _expect2.default)(output).toIncludeJSX(_react2.default.createElement(\n      'div',\n      null,\n      'hello world'\n    ));\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvb2wtY29tcG9uZW50LnNwZWMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUlBOzs7Ozs7QUFGQSxpQkFBTyxNQUFQOztBQUlBLFNBQVMsZ0JBQVQsRUFBMkIsWUFBTTtBQUMvQixLQUFHLDBCQUFILEVBQStCLFlBQU07QUFDbkMsUUFBTSxXQUFXLCtCQUFVLGNBQVYsRUFBWCxDQUQ2Qjs7QUFHbkMsYUFBUyxNQUFULENBQWdCLHlEQUFlLFVBQVMsYUFBVCxFQUFmLENBQWhCLEVBSG1DO0FBSW5DLFFBQU0sU0FBUyxTQUFTLGVBQVQsRUFBVCxDQUo2Qjs7QUFNbkMsMEJBQU8sT0FBTyxJQUFQLENBQVAsQ0FBb0IsSUFBcEIsQ0FBeUIsS0FBekIsRUFObUM7QUFPbkMsMEJBQU8sT0FBTyxLQUFQLENBQWEsUUFBYixDQUFzQixDQUF0QixFQUF5QixJQUF6QixDQUFQLENBQXNDLElBQXRDLENBQTJDLElBQTNDLEVBUG1DO0FBUW5DLDBCQUFPLE9BQU8sS0FBUCxDQUFhLFFBQWIsQ0FBc0IsQ0FBdEIsRUFBeUIsS0FBekIsQ0FBK0IsUUFBL0IsQ0FBUCxDQUFnRCxJQUFoRCxDQUFxRCxVQUFyRCxFQVJtQztBQVNuQywwQkFBTyxPQUFPLEtBQVAsQ0FBYSxRQUFiLENBQXNCLENBQXRCLEVBQXlCLElBQXpCLENBQVAsQ0FBc0MsSUFBdEMsQ0FBMkMsS0FBM0MsRUFUbUM7QUFVbkMsMEJBQU8sT0FBTyxLQUFQLENBQWEsUUFBYixDQUFzQixDQUF0QixFQUF5QixLQUF6QixDQUErQixRQUEvQixDQUFQLENBQWdELElBQWhELENBQXFELGFBQXJELEVBVm1DO0dBQU4sQ0FBL0IsQ0FEK0I7QUFhL0IsS0FBRyw2QkFBSCxFQUFrQyxZQUFNO0FBQ3RDLFFBQU0sV0FBVywrQkFBVSxjQUFWLEVBQVgsQ0FEZ0M7O0FBR3RDLGFBQVMsTUFBVCxDQUFnQix5REFBZSxVQUFTLGFBQVQsRUFBZixDQUFoQixFQUhzQztBQUl0QyxRQUFNLFNBQVMsU0FBUyxlQUFULEVBQVQsQ0FKZ0M7O0FBTXRDLDBCQUFPLE1BQVAsRUFBZSxZQUFmLENBQTRCOzs7O0tBQTVCLEVBTnNDO0dBQU4sQ0FBbEMsQ0FiK0I7Q0FBTixDQUEzQiIsImZpbGUiOiJjb29sLWNvbXBvbmVudC5zcGVjLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBUZXN0VXRpbHMgZnJvbSAncmVhY3QtYWRkb25zLXRlc3QtdXRpbHMnO1xuaW1wb3J0IGV4cGVjdCBmcm9tICdleHBlY3QnO1xuaW1wb3J0IGV4cGVjdEpTWCBmcm9tICdleHBlY3QtanN4JztcblxuZXhwZWN0LmV4dGVuZChleHBlY3RKU1gpO1xuXG5pbXBvcnQgQ29vbENvbXBvbmVudCBmcm9tICcuL2Nvb2wtY29tcG9uZW50JztcblxuZGVzY3JpYmUoJ0Nvb2wgQ29tcG9uZW50JywgKCkgPT4ge1xuICBpdCgnc2hvdWxkIHRlc3QgdXNpbmcgZXhwZWN0JywgKCkgPT4ge1xuICAgIGNvbnN0IHJlbmRlcmVyID0gVGVzdFV0aWxzLmNyZWF0ZVJlbmRlcmVyKCk7XG5cbiAgICByZW5kZXJlci5yZW5kZXIoPENvb2xDb21wb25lbnQgZ3JlZXRpbmc9J2hlbGxvIHdvcmxkJyAvPik7XG4gICAgY29uc3Qgb3V0cHV0ID0gcmVuZGVyZXIuZ2V0UmVuZGVyT3V0cHV0KCk7XG5cbiAgICBleHBlY3Qob3V0cHV0LnR5cGUpLnRvQmUoJ2RpdicpO1xuICAgIGV4cGVjdChvdXRwdXQucHJvcHMuY2hpbGRyZW5bMF0udHlwZSkudG9CZSgnaDEnKTtcbiAgICBleHBlY3Qob3V0cHV0LnByb3BzLmNoaWxkcmVuWzBdLnByb3BzLmNoaWxkcmVuKS50b0JlKCdHcmVldGluZycpO1xuICAgIGV4cGVjdChvdXRwdXQucHJvcHMuY2hpbGRyZW5bMV0udHlwZSkudG9CZSgnZGl2Jyk7XG4gICAgZXhwZWN0KG91dHB1dC5wcm9wcy5jaGlsZHJlblsxXS5wcm9wcy5jaGlsZHJlbikudG9CZSgnaGVsbG8gd29ybGQnKTtcbiAgfSk7XG4gIGl0KCdzaG91bGQgdGVzdCB1c2luZyBleHBlY3RKU1gnLCAoKSA9PiB7XG4gICAgY29uc3QgcmVuZGVyZXIgPSBUZXN0VXRpbHMuY3JlYXRlUmVuZGVyZXIoKTtcblxuICAgIHJlbmRlcmVyLnJlbmRlcig8Q29vbENvbXBvbmVudCBncmVldGluZz0naGVsbG8gd29ybGQnIC8+KTtcbiAgICBjb25zdCBvdXRwdXQgPSByZW5kZXJlci5nZXRSZW5kZXJPdXRwdXQoKTtcblxuICAgIGV4cGVjdChvdXRwdXQpLnRvSW5jbHVkZUpTWCg8ZGl2PmhlbGxvIHdvcmxkPC9kaXY+KTtcbiAgfSk7XG59KTtcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "cool-component.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AAIA;;;;;;AAFA,iBAAO,MAAP;;AAIA,SAAS,gBAAT,EAA2B,YAAM;AAC/B,KAAG,0BAAH,EAA+B,YAAM;AACnC,QAAM,WAAW,+BAAU,cAAV,EAAX,CAD6B;;AAGnC,aAAS,MAAT,CAAgB,yDAAe,UAAS,aAAT,EAAf,CAAhB,EAHmC;AAInC,QAAM,SAAS,SAAS,eAAT,EAAT,CAJ6B;;AAMnC,0BAAO,OAAO,IAAP,CAAP,CAAoB,IAApB,CAAyB,KAAzB,EANmC;AAOnC,0BAAO,OAAO,KAAP,CAAa,QAAb,CAAsB,CAAtB,EAAyB,IAAzB,CAAP,CAAsC,IAAtC,CAA2C,IAA3C,EAPmC;AAQnC,0BAAO,OAAO,KAAP,CAAa,QAAb,CAAsB,CAAtB,EAAyB,KAAzB,CAA+B,QAA/B,CAAP,CAAgD,IAAhD,CAAqD,UAArD,EARmC;AASnC,0BAAO,OAAO,KAAP,CAAa,QAAb,CAAsB,CAAtB,EAAyB,IAAzB,CAAP,CAAsC,IAAtC,CAA2C,KAA3C,EATmC;AAUnC,0BAAO,OAAO,KAAP,CAAa,QAAb,CAAsB,CAAtB,EAAyB,KAAzB,CAA+B,QAA/B,CAAP,CAAgD,IAAhD,CAAqD,aAArD,EAVmC;GAAN,CAA/B,CAD+B;AAa/B,KAAG,6BAAH,EAAkC,YAAM;AACtC,QAAM,WAAW,+BAAU,cAAV,EAAX,CADgC;;AAGtC,aAAS,MAAT,CAAgB,yDAAe,UAAS,aAAT,EAAf,CAAhB,EAHsC;AAItC,QAAM,SAAS,SAAS,eAAT,EAAT,CAJgC;;AAMtC,0BAAO,MAAP,EAAe,YAAf,CAA4B;;;;KAA5B,EANsC;GAAN,CAAlC,CAb+B;CAAN,CAA3B",
+      "file": "cool-component.spec.js",
+      "sourcesContent": [
+        "import React from 'react';\nimport TestUtils from 'react-addons-test-utils';\nimport expect from 'expect';\nimport expectJSX from 'expect-jsx';\n\nexpect.extend(expectJSX);\n\nimport CoolComponent from './cool-component';\n\ndescribe('Cool Component', () => {\n  it('should test using expect', () => {\n    const renderer = TestUtils.createRenderer();\n\n    renderer.render(<CoolComponent greeting='hello world' />);\n    const output = renderer.getRenderOutput();\n\n    expect(output.type).toBe('div');\n    expect(output.props.children[0].type).toBe('h1');\n    expect(output.props.children[0].props.children).toBe('Greeting');\n    expect(output.props.children[1].type).toBe('div');\n    expect(output.props.children[1].props.children).toBe('hello world');\n  });\n  it('should test using expectJSX', () => {\n    const renderer = TestUtils.createRenderer();\n\n    renderer.render(<CoolComponent greeting='hello world' />);\n    const output = renderer.getRenderOutput();\n\n    expect(output).toIncludeJSX(<div>hello world</div>);\n  });\n});\n"
+      ]
+    },
+    "mtime": 1461259123845
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          },
+          {
+            "source": "./create-id",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "createId"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "create-id.spec.js",
+      "sourceFileName": "create-id.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "create-id.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nvar _createId = require('./create-id');\n\nvar _createId2 = _interopRequireDefault(_createId);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\ndescribe('createId', function () {\n  it('should convert a description into a unique id', function () {\n    var actual = (0, _createId2.default)(123, 'Cool example description');\n    var expected = '123-cool-example';\n    (0, _expect2.default)(actual).toEqual(expected);\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNyZWF0ZS1pZC5zcGVjLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsU0FBUyxVQUFULEVBQXFCLFlBQU07QUFDekIsS0FBRywrQ0FBSCxFQUFvRCxZQUFNO0FBQ3hELFFBQU0sU0FBUyx3QkFBUyxHQUFULEVBQWMsMEJBQWQsQ0FBVCxDQURrRDtBQUV4RCxRQUFNLFdBQVcsa0JBQVgsQ0FGa0Q7QUFHeEQsMEJBQU8sTUFBUCxFQUFlLE9BQWYsQ0FBdUIsUUFBdkIsRUFId0Q7R0FBTixDQUFwRCxDQUR5QjtDQUFOLENBQXJCIiwiZmlsZSI6ImNyZWF0ZS1pZC5zcGVjLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cGVjdCBmcm9tICdleHBlY3QnO1xuaW1wb3J0IGNyZWF0ZUlkIGZyb20gJy4vY3JlYXRlLWlkJztcblxuZGVzY3JpYmUoJ2NyZWF0ZUlkJywgKCkgPT4ge1xuICBpdCgnc2hvdWxkIGNvbnZlcnQgYSBkZXNjcmlwdGlvbiBpbnRvIGEgdW5pcXVlIGlkJywgKCkgPT4ge1xuICAgIGNvbnN0IGFjdHVhbCA9IGNyZWF0ZUlkKDEyMywgJ0Nvb2wgZXhhbXBsZSBkZXNjcmlwdGlvbicpO1xuICAgIGNvbnN0IGV4cGVjdGVkID0gJzEyMy1jb29sLWV4YW1wbGUnO1xuICAgIGV4cGVjdChhY3R1YWwpLnRvRXF1YWwoZXhwZWN0ZWQpO1xuICB9KVxufSlcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "create-id.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;AACA;;;;;;AAEA,SAAS,UAAT,EAAqB,YAAM;AACzB,KAAG,+CAAH,EAAoD,YAAM;AACxD,QAAM,SAAS,wBAAS,GAAT,EAAc,0BAAd,CAAT,CADkD;AAExD,QAAM,WAAW,kBAAX,CAFkD;AAGxD,0BAAO,MAAP,EAAe,OAAf,CAAuB,QAAvB,EAHwD;GAAN,CAApD,CADyB;CAAN,CAArB",
+      "file": "create-id.spec.js",
+      "sourcesContent": [
+        "import expect from 'expect';\nimport createId from './create-id';\n\ndescribe('createId', () => {\n  it('should convert a description into a unique id', () => {\n    const actual = createId(123, 'Cool example description');\n    const expected = '123-cool-example';\n    expect(actual).toEqual(expected);\n  })\n})\n"
+      ]
+    },
+    "mtime": 1461237703296
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [
+            "createId",
+            "uniqueNumber",
+            "description"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "createId",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "uniqueNumber",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "description",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/create-id.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "create-id.js",
+      "sourceFileName": "create-id.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "create-id"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = createId;\nfunction createId(uniqueNumber, description) {\n  var shortKebabDescription = description.toLowerCase().split(' ').slice(0, 2).join('-');\n  return uniqueNumber + '-' + shortKebabDescription;\n}\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNyZWF0ZS1pZC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7OztrQkFBd0I7QUFBVCxTQUFTLFFBQVQsQ0FBa0IsWUFBbEIsRUFBZ0MsV0FBaEMsRUFBNEM7QUFDekQsTUFBTSx3QkFBd0IsWUFDM0IsV0FEMkIsR0FFM0IsS0FGMkIsQ0FFckIsR0FGcUIsRUFHM0IsS0FIMkIsQ0FHckIsQ0FIcUIsRUFHbEIsQ0FIa0IsRUFJM0IsSUFKMkIsQ0FJdEIsR0FKc0IsQ0FBeEIsQ0FEbUQ7QUFNdkQsU0FBVSxxQkFBZ0IscUJBQTFCLENBTnVEO0NBQTVDIiwiZmlsZSI6ImNyZWF0ZS1pZC5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGNyZWF0ZUlkKHVuaXF1ZU51bWJlciwgZGVzY3JpcHRpb24pe1xuICBjb25zdCBzaG9ydEtlYmFiRGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvblxuICAgIC50b0xvd2VyQ2FzZSgpXG4gICAgLnNwbGl0KCcgJylcbiAgICAuc2xpY2UoMCwgMilcbiAgICAuam9pbignLScpO1xuICAgIHJldHVybiBgJHt1bmlxdWVOdW1iZXJ9LSR7c2hvcnRLZWJhYkRlc2NyaXB0aW9ufWA7XG59XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "create-id.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;kBAAwB;AAAT,SAAS,QAAT,CAAkB,YAAlB,EAAgC,WAAhC,EAA4C;AACzD,MAAM,wBAAwB,YAC3B,WAD2B,GAE3B,KAF2B,CAErB,GAFqB,EAG3B,KAH2B,CAGrB,CAHqB,EAGlB,CAHkB,EAI3B,IAJ2B,CAItB,GAJsB,CAAxB,CADmD;AAMvD,SAAU,qBAAgB,qBAA1B,CANuD;CAA5C",
+      "file": "create-id.js",
+      "sourcesContent": [
+        "export default function createId(uniqueNumber, description){\n  const shortKebabDescription = description\n    .toLowerCase()\n    .split(' ')\n    .slice(0, 2)\n    .join('-');\n    return `${uniqueNumber}-${shortKebabDescription}`;\n}\n"
+      ]
+    },
+    "mtime": 1461237408371
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/empty.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/empty.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/empty.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "empty.spec.js",
+      "sourceFileName": "empty.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "empty.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\ndescribe('empty', function () {\n  it('should work', function () {\n    (0, _expect2.default)(true).toEqual(true);\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVtcHR5LnNwZWMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7Ozs7O0FBRUEsU0FBUyxPQUFULEVBQWtCLFlBQU07QUFDdEIsS0FBRyxhQUFILEVBQWtCLFlBQUk7QUFDcEIsMEJBQU8sSUFBUCxFQUFhLE9BQWIsQ0FBcUIsSUFBckIsRUFEb0I7R0FBSixDQUFsQixDQURzQjtDQUFOLENBQWxCIiwiZmlsZSI6ImVtcHR5LnNwZWMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZXhwZWN0IGZyb20gJ2V4cGVjdCc7XG5cbmRlc2NyaWJlKCdlbXB0eScsICgpID0+IHtcbiAgaXQoJ3Nob3VsZCB3b3JrJywgKCk9PntcbiAgICBleHBlY3QodHJ1ZSkudG9FcXVhbCh0cnVlKTtcbiAgfSlcbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "empty.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;;;AAEA,SAAS,OAAT,EAAkB,YAAM;AACtB,KAAG,aAAH,EAAkB,YAAI;AACpB,0BAAO,IAAP,EAAa,OAAb,CAAqB,IAArB,EADoB;GAAJ,CAAlB,CADsB;CAAN,CAAlB",
+      "file": "empty.spec.js",
+      "sourcesContent": [
+        "import expect from 'expect';\n\ndescribe('empty', () => {\n  it('should work', ()=>{\n    expect(true).toEqual(true);\n  })\n});\n"
+      ]
+    },
+    "mtime": 1461161078158
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/cool-component.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/cool-component.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/cool-component.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "cool-component.js",
+      "sourceFileName": "cool-component.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "cool-component"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (_ref) {\n  var greeting = _ref.greeting;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h1',\n      null,\n      'Greeting'\n    ),\n    _react2.default.createElement(\n      'div',\n      null,\n      greeting\n    )\n  );\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvb2wtY29tcG9uZW50LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7Ozs7a0JBRWU7TUFBRTtTQUNmOzs7SUFDRTs7OztLQURGO0lBRUU7OztNQUFNLFFBQU47S0FGRjs7Q0FEYSIsImZpbGUiOiJjb29sLWNvbXBvbmVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmV4cG9ydCBkZWZhdWx0ICh7Z3JlZXRpbmd9KSA9PiAoXG4gIDxkaXY+XG4gICAgPGgxPkdyZWV0aW5nPC9oMT5cbiAgICA8ZGl2PntncmVldGluZ308L2Rpdj5cbiAgPC9kaXY+XG4pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "cool-component.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;;AAAA;;;;;;kBAEe;MAAE;SACf;;;IACE;;;;KADF;IAEE;;;MAAM,QAAN;KAFF;;CADa",
+      "file": "cool-component.js",
+      "sourcesContent": [
+        "import React from 'react';\n\nexport default ({greeting}) => (\n  <div>\n    <h1>Greeting</h1>\n    <div>{greeting}</div>\n  </div>\n);\n"
+      ]
+    },
+    "mtime": 1461257708423
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/like-counter.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          },
+          {
+            "source": "react-addons-test-utils",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "TestUtils"
+              }
+            ]
+          },
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          },
+          {
+            "source": "expect-jsx",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expectJSX"
+              }
+            ]
+          },
+          {
+            "source": "./like-counter",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "LikeCounter"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/like-counter.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/like-counter.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "like-counter.spec.js",
+      "sourceFileName": "like-counter.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "like-counter.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactAddonsTestUtils = require('react-addons-test-utils');\n\nvar _reactAddonsTestUtils2 = _interopRequireDefault(_reactAddonsTestUtils);\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nvar _expectJsx = require('expect-jsx');\n\nvar _expectJsx2 = _interopRequireDefault(_expectJsx);\n\nvar _likeCounter = require('./like-counter');\n\nvar _likeCounter2 = _interopRequireDefault(_likeCounter);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_expect2.default.extend(_expectJsx2.default);\n\ndescribe('LikeCounter', function () {\n  var renderer = void 0;\n  beforeEach(function () {\n    renderer = _reactAddonsTestUtils2.default.createRenderer();\n  });\n  it('should have active class', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 5, isActive: true }));\n    (0, _expect2.default)(renderer.getRenderOutput().props.className).toContain('LikeCounter--active');\n  });\n  it('should not have active class', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 5, isActive: false }));\n    (0, _expect2.default)(renderer.getRenderOutput().props.className).toNotContain('LikeCounter--active');\n  });\n  it('should render multiple like counts', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 19 }));\n    (0, _expect2.default)(renderer.getRenderOutput()).toIncludeJSX('19 likes');\n  });\n  it('should render single like count', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 1 }));\n    (0, _expect2.default)(renderer.getRenderOutput()).toIncludeJSX('1 like');\n  });\n  it('should not render 0 like counts', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 0 }));\n    (0, _expect2.default)(renderer.getRenderOutput()).toNotIncludeJSX('0 like');\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpa2UtY291bnRlci5zcGVjLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFJQTs7Ozs7O0FBRkEsaUJBQU8sTUFBUDs7QUFJQSxTQUFTLGFBQVQsRUFBd0IsWUFBTTtBQUM1QixNQUFLLGlCQUFMLENBRDRCO0FBRTVCLGFBQVcsWUFBSTtBQUNiLGVBQVcsK0JBQVUsY0FBVixFQUFYLENBRGE7R0FBSixDQUFYLENBRjRCO0FBSzVCLEtBQUcsMEJBQUgsRUFBK0IsWUFBTTtBQUNuQyxhQUFTLE1BQVQsQ0FBZ0IsdURBQWEsT0FBTyxDQUFQLEVBQVUsVUFBVSxJQUFWLEVBQXZCLENBQWhCLEVBRG1DO0FBRW5DLDBCQUFPLFNBQVMsZUFBVCxHQUEyQixLQUEzQixDQUFpQyxTQUFqQyxDQUFQLENBQW1ELFNBQW5ELENBQTZELHFCQUE3RCxFQUZtQztHQUFOLENBQS9CLENBTDRCO0FBUzVCLEtBQUcsOEJBQUgsRUFBbUMsWUFBTTtBQUN2QyxhQUFTLE1BQVQsQ0FBZ0IsdURBQWEsT0FBTyxDQUFQLEVBQVUsVUFBVSxLQUFWLEVBQXZCLENBQWhCLEVBRHVDO0FBRXZDLDBCQUFPLFNBQVMsZUFBVCxHQUEyQixLQUEzQixDQUFpQyxTQUFqQyxDQUFQLENBQW1ELFlBQW5ELENBQWdFLHFCQUFoRSxFQUZ1QztHQUFOLENBQW5DLENBVDRCO0FBYTVCLEtBQUcsb0NBQUgsRUFBeUMsWUFBTTtBQUM3QyxhQUFTLE1BQVQsQ0FBZ0IsdURBQWEsT0FBTyxFQUFQLEVBQWIsQ0FBaEIsRUFENkM7QUFFN0MsMEJBQU8sU0FBUyxlQUFULEVBQVAsRUFBbUMsWUFBbkMsQ0FBZ0QsVUFBaEQsRUFGNkM7R0FBTixDQUF6QyxDQWI0QjtBQWlCNUIsS0FBRyxpQ0FBSCxFQUFzQyxZQUFNO0FBQzFDLGFBQVMsTUFBVCxDQUFnQix1REFBYSxPQUFPLENBQVAsRUFBYixDQUFoQixFQUQwQztBQUUxQywwQkFBTyxTQUFTLGVBQVQsRUFBUCxFQUFtQyxZQUFuQyxDQUFnRCxRQUFoRCxFQUYwQztHQUFOLENBQXRDLENBakI0QjtBQXFCNUIsS0FBRyxpQ0FBSCxFQUFzQyxZQUFNO0FBQzFDLGFBQVMsTUFBVCxDQUFnQix1REFBYSxPQUFPLENBQVAsRUFBYixDQUFoQixFQUQwQztBQUUxQywwQkFBTyxTQUFTLGVBQVQsRUFBUCxFQUFtQyxlQUFuQyxDQUFtRCxRQUFuRCxFQUYwQztHQUFOLENBQXRDLENBckI0QjtDQUFOLENBQXhCIiwiZmlsZSI6Imxpa2UtY291bnRlci5zcGVjLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBUZXN0VXRpbHMgZnJvbSAncmVhY3QtYWRkb25zLXRlc3QtdXRpbHMnO1xuaW1wb3J0IGV4cGVjdCBmcm9tICdleHBlY3QnO1xuaW1wb3J0IGV4cGVjdEpTWCBmcm9tICdleHBlY3QtanN4JztcblxuZXhwZWN0LmV4dGVuZChleHBlY3RKU1gpO1xuXG5pbXBvcnQgTGlrZUNvdW50ZXIgZnJvbSAnLi9saWtlLWNvdW50ZXInO1xuXG5kZXNjcmliZSgnTGlrZUNvdW50ZXInLCAoKSA9PiB7XG4gIGxldCAgcmVuZGVyZXI7XG4gIGJlZm9yZUVhY2goKCk9PntcbiAgICByZW5kZXJlciA9IFRlc3RVdGlscy5jcmVhdGVSZW5kZXJlcigpO1xuICB9KTtcbiAgaXQoJ3Nob3VsZCBoYXZlIGFjdGl2ZSBjbGFzcycsICgpID0+IHtcbiAgICByZW5kZXJlci5yZW5kZXIoPExpa2VDb3VudGVyIGNvdW50PXs1fSBpc0FjdGl2ZT17dHJ1ZX0gLz4pO1xuICAgIGV4cGVjdChyZW5kZXJlci5nZXRSZW5kZXJPdXRwdXQoKS5wcm9wcy5jbGFzc05hbWUpLnRvQ29udGFpbignTGlrZUNvdW50ZXItLWFjdGl2ZScpO1xuICB9KTtcbiAgaXQoJ3Nob3VsZCBub3QgaGF2ZSBhY3RpdmUgY2xhc3MnLCAoKSA9PiB7XG4gICAgcmVuZGVyZXIucmVuZGVyKDxMaWtlQ291bnRlciBjb3VudD17NX0gaXNBY3RpdmU9e2ZhbHNlfSAvPik7XG4gICAgZXhwZWN0KHJlbmRlcmVyLmdldFJlbmRlck91dHB1dCgpLnByb3BzLmNsYXNzTmFtZSkudG9Ob3RDb250YWluKCdMaWtlQ291bnRlci0tYWN0aXZlJyk7XG4gIH0pO1xuICBpdCgnc2hvdWxkIHJlbmRlciBtdWx0aXBsZSBsaWtlIGNvdW50cycsICgpID0+IHtcbiAgICByZW5kZXJlci5yZW5kZXIoPExpa2VDb3VudGVyIGNvdW50PXsxOX0gLz4pXG4gICAgZXhwZWN0KHJlbmRlcmVyLmdldFJlbmRlck91dHB1dCgpKS50b0luY2x1ZGVKU1goJzE5IGxpa2VzJyk7XG4gIH0pO1xuICBpdCgnc2hvdWxkIHJlbmRlciBzaW5nbGUgbGlrZSBjb3VudCcsICgpID0+IHtcbiAgICByZW5kZXJlci5yZW5kZXIoPExpa2VDb3VudGVyIGNvdW50PXsxfSAvPilcbiAgICBleHBlY3QocmVuZGVyZXIuZ2V0UmVuZGVyT3V0cHV0KCkpLnRvSW5jbHVkZUpTWCgnMSBsaWtlJyk7XG4gIH0pO1xuICBpdCgnc2hvdWxkIG5vdCByZW5kZXIgMCBsaWtlIGNvdW50cycsICgpID0+IHtcbiAgICByZW5kZXJlci5yZW5kZXIoPExpa2VDb3VudGVyIGNvdW50PXswfSAvPilcbiAgICBleHBlY3QocmVuZGVyZXIuZ2V0UmVuZGVyT3V0cHV0KCkpLnRvTm90SW5jbHVkZUpTWCgnMCBsaWtlJyk7XG4gIH0pO1xufSk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "like-counter.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AAIA;;;;;;AAFA,iBAAO,MAAP;;AAIA,SAAS,aAAT,EAAwB,YAAM;AAC5B,MAAK,iBAAL,CAD4B;AAE5B,aAAW,YAAI;AACb,eAAW,+BAAU,cAAV,EAAX,CADa;GAAJ,CAAX,CAF4B;AAK5B,KAAG,0BAAH,EAA+B,YAAM;AACnC,aAAS,MAAT,CAAgB,uDAAa,OAAO,CAAP,EAAU,UAAU,IAAV,EAAvB,CAAhB,EADmC;AAEnC,0BAAO,SAAS,eAAT,GAA2B,KAA3B,CAAiC,SAAjC,CAAP,CAAmD,SAAnD,CAA6D,qBAA7D,EAFmC;GAAN,CAA/B,CAL4B;AAS5B,KAAG,8BAAH,EAAmC,YAAM;AACvC,aAAS,MAAT,CAAgB,uDAAa,OAAO,CAAP,EAAU,UAAU,KAAV,EAAvB,CAAhB,EADuC;AAEvC,0BAAO,SAAS,eAAT,GAA2B,KAA3B,CAAiC,SAAjC,CAAP,CAAmD,YAAnD,CAAgE,qBAAhE,EAFuC;GAAN,CAAnC,CAT4B;AAa5B,KAAG,oCAAH,EAAyC,YAAM;AAC7C,aAAS,MAAT,CAAgB,uDAAa,OAAO,EAAP,EAAb,CAAhB,EAD6C;AAE7C,0BAAO,SAAS,eAAT,EAAP,EAAmC,YAAnC,CAAgD,UAAhD,EAF6C;GAAN,CAAzC,CAb4B;AAiB5B,KAAG,iCAAH,EAAsC,YAAM;AAC1C,aAAS,MAAT,CAAgB,uDAAa,OAAO,CAAP,EAAb,CAAhB,EAD0C;AAE1C,0BAAO,SAAS,eAAT,EAAP,EAAmC,YAAnC,CAAgD,QAAhD,EAF0C;GAAN,CAAtC,CAjB4B;AAqB5B,KAAG,iCAAH,EAAsC,YAAM;AAC1C,aAAS,MAAT,CAAgB,uDAAa,OAAO,CAAP,EAAb,CAAhB,EAD0C;AAE1C,0BAAO,SAAS,eAAT,EAAP,EAAmC,eAAnC,CAAmD,QAAnD,EAF0C;GAAN,CAAtC,CArB4B;CAAN,CAAxB",
+      "file": "like-counter.spec.js",
+      "sourcesContent": [
+        "import React from 'react';\nimport TestUtils from 'react-addons-test-utils';\nimport expect from 'expect';\nimport expectJSX from 'expect-jsx';\n\nexpect.extend(expectJSX);\n\nimport LikeCounter from './like-counter';\n\ndescribe('LikeCounter', () => {\n  let  renderer;\n  beforeEach(()=>{\n    renderer = TestUtils.createRenderer();\n  });\n  it('should have active class', () => {\n    renderer.render(<LikeCounter count={5} isActive={true} />);\n    expect(renderer.getRenderOutput().props.className).toContain('LikeCounter--active');\n  });\n  it('should not have active class', () => {\n    renderer.render(<LikeCounter count={5} isActive={false} />);\n    expect(renderer.getRenderOutput().props.className).toNotContain('LikeCounter--active');\n  });\n  it('should render multiple like counts', () => {\n    renderer.render(<LikeCounter count={19} />)\n    expect(renderer.getRenderOutput()).toIncludeJSX('19 likes');\n  });\n  it('should render single like count', () => {\n    renderer.render(<LikeCounter count={1} />)\n    expect(renderer.getRenderOutput()).toIncludeJSX('1 like');\n  });\n  it('should not render 0 like counts', () => {\n    renderer.render(<LikeCounter count={0} />)\n    expect(renderer.getRenderOutput()).toNotIncludeJSX('0 like');\n  });\n});\n"
+      ]
+    },
+    "mtime": 1461262707902
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/like-counter.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/like-counter.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/like-counter.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "like-counter.js",
+      "sourceFileName": "like-counter.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "like-counter"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  var className = 'LikeCounter';\n  if (props.isActive) {\n    className += ' LikeCounter--active';\n  }\n  return _react2.default.createElement(\n    'div',\n    { className: className },\n    _react2.default.createElement(\n      'span',\n      null,\n      function () {\n        switch (props.count) {\n          case 0:\n            return '';\n          case 1:\n            return '1 like';\n          default:\n            return props.count + ' likes';\n        }\n      }()\n    )\n  );\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpa2UtY291bnRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7Ozs7O2tCQUVlLFVBQUMsS0FBRCxFQUFXO0FBQ3hCLE1BQUksWUFBWSxhQUFaLENBRG9CO0FBRXhCLE1BQUksTUFBTSxRQUFOLEVBQWU7QUFDakIsaUJBQWEsc0JBQWIsQ0FEaUI7R0FBbkI7QUFHQSxTQUNFOztNQUFLLFdBQVcsU0FBWCxFQUFMO0lBQ0U7OztNQUNHLFlBQU87QUFDTixnQkFBUSxNQUFNLEtBQU47QUFDTixlQUFLLENBQUw7QUFBUyxtQkFBTyxFQUFQLENBQVQ7QUFERixlQUVPLENBQUw7QUFBUyxtQkFBTyxRQUFQLENBQVQ7QUFGRjtBQUdXLG1CQUFPLE1BQU0sS0FBTixHQUFjLFFBQWQsQ0FBaEI7QUFIRixTQURNO09BQU4sRUFESjtLQURGO0dBREYsQ0FMd0I7Q0FBWCIsImZpbGUiOiJsaWtlLWNvdW50ZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5leHBvcnQgZGVmYXVsdCAocHJvcHMpID0+IHtcbiAgbGV0IGNsYXNzTmFtZSA9ICdMaWtlQ291bnRlcic7XG4gIGlmIChwcm9wcy5pc0FjdGl2ZSl7XG4gICAgY2xhc3NOYW1lICs9ICcgTGlrZUNvdW50ZXItLWFjdGl2ZSc7XG4gIH1cbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT17Y2xhc3NOYW1lfT5cbiAgICAgIDxzcGFuPlxuICAgICAgICB7KCgpID0+IHtcbiAgICAgICAgICBzd2l0Y2ggKHByb3BzLmNvdW50KXtcbiAgICAgICAgICAgIGNhc2UgMDogIHJldHVybiAnJztcbiAgICAgICAgICAgIGNhc2UgMTogIHJldHVybiAnMSBsaWtlJztcbiAgICAgICAgICAgIGRlZmF1bHQ6IHJldHVybiBwcm9wcy5jb3VudCArICcgbGlrZXMnO1xuICAgICAgICAgIH1cbiAgICAgICAgfSkoKX1cbiAgICAgIDwvc3Bhbj5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "like-counter.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;;AAAA;;;;;;kBAEe,UAAC,KAAD,EAAW;AACxB,MAAI,YAAY,aAAZ,CADoB;AAExB,MAAI,MAAM,QAAN,EAAe;AACjB,iBAAa,sBAAb,CADiB;GAAnB;AAGA,SACE;;MAAK,WAAW,SAAX,EAAL;IACE;;;MACG,YAAO;AACN,gBAAQ,MAAM,KAAN;AACN,eAAK,CAAL;AAAS,mBAAO,EAAP,CAAT;AADF,eAEO,CAAL;AAAS,mBAAO,QAAP,CAAT;AAFF;AAGW,mBAAO,MAAM,KAAN,GAAc,QAAd,CAAhB;AAHF,SADM;OAAN,EADJ;KADF;GADF,CALwB;CAAX",
+      "file": "like-counter.js",
+      "sourcesContent": [
+        "import React from 'react';\n\nexport default (props) => {\n  let className = 'LikeCounter';\n  if (props.isActive){\n    className += ' LikeCounter--active';\n  }\n  return (\n    <div className={className}>\n      <span>\n        {(() => {\n          switch (props.count){\n            case 0:  return '';\n            case 1:  return '1 like';\n            default: return props.count + ' likes';\n          }\n        })()}\n      </span>\n    </div>\n  );\n}\n"
+      ]
+    },
+    "mtime": 1461262296261
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/cool-component.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          },
+          {
+            "source": "react-addons-test-utils",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "TestUtils"
+              }
+            ]
+          },
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          },
+          {
+            "source": "expect-jsx",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expectJSX"
+              }
+            ]
+          },
+          {
+            "source": "./cool-component",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "CoolComponent"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/cool-component.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/cool-component.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "cool-component.spec.js",
+      "sourceFileName": "cool-component.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "cool-component.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactAddonsTestUtils = require('react-addons-test-utils');\n\nvar _reactAddonsTestUtils2 = _interopRequireDefault(_reactAddonsTestUtils);\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nvar _expectJsx = require('expect-jsx');\n\nvar _expectJsx2 = _interopRequireDefault(_expectJsx);\n\nvar _coolComponent = require('./cool-component');\n\nvar _coolComponent2 = _interopRequireDefault(_coolComponent);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_expect2.default.extend(_expectJsx2.default);\n\ndescribe('Cool Component', function () {\n  it('should test using expect', function () {\n    var renderer = _reactAddonsTestUtils2.default.createRenderer();\n\n    renderer.render(_react2.default.createElement(_coolComponent2.default, { greeting: 'hello world' }));\n    var output = renderer.getRenderOutput();\n\n    (0, _expect2.default)(output.props.children[1].type).toBe('div');\n    (0, _expect2.default)(output.props.children[1].props.children).toBe('hello world');\n  });\n  it('should test using expectJSX', function () {\n    var renderer = _reactAddonsTestUtils2.default.createRenderer();\n\n    renderer.render(_react2.default.createElement(_coolComponent2.default, { greeting: 'hello world' }));\n    var output = renderer.getRenderOutput();\n\n    (0, _expect2.default)(output).toIncludeJSX(_react2.default.createElement(\n      'div',\n      null,\n      'hello world'\n    ));\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvb2wtY29tcG9uZW50LnNwZWMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUlBOzs7Ozs7QUFGQSxpQkFBTyxNQUFQOztBQUlBLFNBQVMsZ0JBQVQsRUFBMkIsWUFBTTtBQUMvQixLQUFHLDBCQUFILEVBQStCLFlBQU07QUFDbkMsUUFBTSxXQUFXLCtCQUFVLGNBQVYsRUFBWCxDQUQ2Qjs7QUFHbkMsYUFBUyxNQUFULENBQWdCLHlEQUFlLFVBQVMsYUFBVCxFQUFmLENBQWhCLEVBSG1DO0FBSW5DLFFBQU0sU0FBUyxTQUFTLGVBQVQsRUFBVCxDQUo2Qjs7QUFNbkMsMEJBQU8sT0FBTyxLQUFQLENBQWEsUUFBYixDQUFzQixDQUF0QixFQUF5QixJQUF6QixDQUFQLENBQXNDLElBQXRDLENBQTJDLEtBQTNDLEVBTm1DO0FBT25DLDBCQUFPLE9BQU8sS0FBUCxDQUFhLFFBQWIsQ0FBc0IsQ0FBdEIsRUFBeUIsS0FBekIsQ0FBK0IsUUFBL0IsQ0FBUCxDQUFnRCxJQUFoRCxDQUFxRCxhQUFyRCxFQVBtQztHQUFOLENBQS9CLENBRCtCO0FBVS9CLEtBQUcsNkJBQUgsRUFBa0MsWUFBTTtBQUN0QyxRQUFNLFdBQVcsK0JBQVUsY0FBVixFQUFYLENBRGdDOztBQUd0QyxhQUFTLE1BQVQsQ0FBZ0IseURBQWUsVUFBUyxhQUFULEVBQWYsQ0FBaEIsRUFIc0M7QUFJdEMsUUFBTSxTQUFTLFNBQVMsZUFBVCxFQUFULENBSmdDOztBQU10QywwQkFBTyxNQUFQLEVBQWUsWUFBZixDQUE0Qjs7OztLQUE1QixFQU5zQztHQUFOLENBQWxDLENBVitCO0NBQU4sQ0FBM0IiLCJmaWxlIjoiY29vbC1jb21wb25lbnQuc3BlYy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgVGVzdFV0aWxzIGZyb20gJ3JlYWN0LWFkZG9ucy10ZXN0LXV0aWxzJztcbmltcG9ydCBleHBlY3QgZnJvbSAnZXhwZWN0JztcbmltcG9ydCBleHBlY3RKU1ggZnJvbSAnZXhwZWN0LWpzeCc7XG5cbmV4cGVjdC5leHRlbmQoZXhwZWN0SlNYKTtcblxuaW1wb3J0IENvb2xDb21wb25lbnQgZnJvbSAnLi9jb29sLWNvbXBvbmVudCc7XG5cbmRlc2NyaWJlKCdDb29sIENvbXBvbmVudCcsICgpID0+IHtcbiAgaXQoJ3Nob3VsZCB0ZXN0IHVzaW5nIGV4cGVjdCcsICgpID0+IHtcbiAgICBjb25zdCByZW5kZXJlciA9IFRlc3RVdGlscy5jcmVhdGVSZW5kZXJlcigpO1xuXG4gICAgcmVuZGVyZXIucmVuZGVyKDxDb29sQ29tcG9uZW50IGdyZWV0aW5nPSdoZWxsbyB3b3JsZCcgLz4pO1xuICAgIGNvbnN0IG91dHB1dCA9IHJlbmRlcmVyLmdldFJlbmRlck91dHB1dCgpO1xuXG4gICAgZXhwZWN0KG91dHB1dC5wcm9wcy5jaGlsZHJlblsxXS50eXBlKS50b0JlKCdkaXYnKTtcbiAgICBleHBlY3Qob3V0cHV0LnByb3BzLmNoaWxkcmVuWzFdLnByb3BzLmNoaWxkcmVuKS50b0JlKCdoZWxsbyB3b3JsZCcpO1xuICB9KTtcbiAgaXQoJ3Nob3VsZCB0ZXN0IHVzaW5nIGV4cGVjdEpTWCcsICgpID0+IHtcbiAgICBjb25zdCByZW5kZXJlciA9IFRlc3RVdGlscy5jcmVhdGVSZW5kZXJlcigpO1xuXG4gICAgcmVuZGVyZXIucmVuZGVyKDxDb29sQ29tcG9uZW50IGdyZWV0aW5nPSdoZWxsbyB3b3JsZCcgLz4pO1xuICAgIGNvbnN0IG91dHB1dCA9IHJlbmRlcmVyLmdldFJlbmRlck91dHB1dCgpO1xuXG4gICAgZXhwZWN0KG91dHB1dCkudG9JbmNsdWRlSlNYKDxkaXY+aGVsbG8gd29ybGQ8L2Rpdj4pO1xuICB9KTtcbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "cool-component.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AAIA;;;;;;AAFA,iBAAO,MAAP;;AAIA,SAAS,gBAAT,EAA2B,YAAM;AAC/B,KAAG,0BAAH,EAA+B,YAAM;AACnC,QAAM,WAAW,+BAAU,cAAV,EAAX,CAD6B;;AAGnC,aAAS,MAAT,CAAgB,yDAAe,UAAS,aAAT,EAAf,CAAhB,EAHmC;AAInC,QAAM,SAAS,SAAS,eAAT,EAAT,CAJ6B;;AAMnC,0BAAO,OAAO,KAAP,CAAa,QAAb,CAAsB,CAAtB,EAAyB,IAAzB,CAAP,CAAsC,IAAtC,CAA2C,KAA3C,EANmC;AAOnC,0BAAO,OAAO,KAAP,CAAa,QAAb,CAAsB,CAAtB,EAAyB,KAAzB,CAA+B,QAA/B,CAAP,CAAgD,IAAhD,CAAqD,aAArD,EAPmC;GAAN,CAA/B,CAD+B;AAU/B,KAAG,6BAAH,EAAkC,YAAM;AACtC,QAAM,WAAW,+BAAU,cAAV,EAAX,CADgC;;AAGtC,aAAS,MAAT,CAAgB,yDAAe,UAAS,aAAT,EAAf,CAAhB,EAHsC;AAItC,QAAM,SAAS,SAAS,eAAT,EAAT,CAJgC;;AAMtC,0BAAO,MAAP,EAAe,YAAf,CAA4B;;;;KAA5B,EANsC;GAAN,CAAlC,CAV+B;CAAN,CAA3B",
+      "file": "cool-component.spec.js",
+      "sourcesContent": [
+        "import React from 'react';\nimport TestUtils from 'react-addons-test-utils';\nimport expect from 'expect';\nimport expectJSX from 'expect-jsx';\n\nexpect.extend(expectJSX);\n\nimport CoolComponent from './cool-component';\n\ndescribe('Cool Component', () => {\n  it('should test using expect', () => {\n    const renderer = TestUtils.createRenderer();\n\n    renderer.render(<CoolComponent greeting='hello world' />);\n    const output = renderer.getRenderOutput();\n\n    expect(output.props.children[1].type).toBe('div');\n    expect(output.props.children[1].props.children).toBe('hello world');\n  });\n  it('should test using expectJSX', () => {\n    const renderer = TestUtils.createRenderer();\n\n    renderer.render(<CoolComponent greeting='hello world' />);\n    const output = renderer.getRenderOutput();\n\n    expect(output).toIncludeJSX(<div>hello world</div>);\n  });\n});\n"
+      ]
+    },
+    "mtime": 1461263137096
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/cool-component.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/cool-component.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/cool-component.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "cool-component.js",
+      "sourceFileName": "cool-component.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "cool-component"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (_ref) {\n  var greeting = _ref.greeting;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h1',\n      null,\n      'Greeting'\n    ),\n    _react2.default.createElement(\n      'div',\n      null,\n      greeting\n    )\n  );\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvb2wtY29tcG9uZW50LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7Ozs7a0JBRWU7TUFBRTtTQUNmOzs7SUFDRTs7OztLQURGO0lBRUU7OztNQUFNLFFBQU47S0FGRjs7Q0FEYSIsImZpbGUiOiJjb29sLWNvbXBvbmVudC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5cbmV4cG9ydCBkZWZhdWx0ICh7Z3JlZXRpbmd9KSA9PiAoXG4gIDxkaXY+XG4gICAgPGgxPkdyZWV0aW5nPC9oMT5cbiAgICA8ZGl2PntncmVldGluZ308L2Rpdj5cbiAgPC9kaXY+XG4pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "cool-component.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;;AAAA;;;;;;kBAEe;MAAE;SACf;;;IACE;;;;KADF;IAEE;;;MAAM,QAAN;KAFF;;CADa",
+      "file": "cool-component.js",
+      "sourcesContent": [
+        "import React from 'react';\n\nexport default ({greeting}) => (\n  <div>\n    <h1>Greeting</h1>\n    <div>{greeting}</div>\n  </div>\n);\n"
+      ]
+    },
+    "mtime": 1461257708423
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/like-counter.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          },
+          {
+            "source": "react-addons-test-utils",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "TestUtils"
+              }
+            ]
+          },
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          },
+          {
+            "source": "expect-jsx",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expectJSX"
+              }
+            ]
+          },
+          {
+            "source": "./like-counter",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "LikeCounter"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/like-counter.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/like-counter.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "like-counter.spec.js",
+      "sourceFileName": "like-counter.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "like-counter.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactAddonsTestUtils = require('react-addons-test-utils');\n\nvar _reactAddonsTestUtils2 = _interopRequireDefault(_reactAddonsTestUtils);\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nvar _expectJsx = require('expect-jsx');\n\nvar _expectJsx2 = _interopRequireDefault(_expectJsx);\n\nvar _likeCounter = require('./like-counter');\n\nvar _likeCounter2 = _interopRequireDefault(_likeCounter);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_expect2.default.extend(_expectJsx2.default);\n\ndescribe('LikeCounter', function () {\n  var renderer = void 0;\n  beforeEach(function () {\n    renderer = _reactAddonsTestUtils2.default.createRenderer();\n  });\n  it('should have active class', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 5, isActive: true }));\n    (0, _expect2.default)(renderer.getRenderOutput().props.className).toContain('LikeCounter--active');\n  });\n  it('should not have active class', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 5, isActive: false }));\n    (0, _expect2.default)(renderer.getRenderOutput().props.className).toNotContain('LikeCounter--active');\n  });\n  it('should render multiple like counts', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 19 }));\n    (0, _expect2.default)(renderer.getRenderOutput()).toIncludeJSX('19 likes');\n  });\n  it('should render single like count', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 1 }));\n    (0, _expect2.default)(renderer.getRenderOutput()).toIncludeJSX('1 like');\n  });\n  it('should not render 0 like counts', function () {\n    renderer.render(_react2.default.createElement(_likeCounter2.default, { count: 0 }));\n    (0, _expect2.default)(renderer.getRenderOutput()).toNotIncludeJSX('0 like');\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpa2UtY291bnRlci5zcGVjLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7QUFJQTs7Ozs7O0FBRkEsaUJBQU8sTUFBUDs7QUFJQSxTQUFTLGFBQVQsRUFBd0IsWUFBTTtBQUM1QixNQUFLLGlCQUFMLENBRDRCO0FBRTVCLGFBQVcsWUFBSTtBQUNiLGVBQVcsK0JBQVUsY0FBVixFQUFYLENBRGE7R0FBSixDQUFYLENBRjRCO0FBSzVCLEtBQUcsMEJBQUgsRUFBK0IsWUFBTTtBQUNuQyxhQUFTLE1BQVQsQ0FBZ0IsdURBQWEsT0FBTyxDQUFQLEVBQVUsVUFBVSxJQUFWLEVBQXZCLENBQWhCLEVBRG1DO0FBRW5DLDBCQUFPLFNBQVMsZUFBVCxHQUEyQixLQUEzQixDQUFpQyxTQUFqQyxDQUFQLENBQW1ELFNBQW5ELENBQTZELHFCQUE3RCxFQUZtQztHQUFOLENBQS9CLENBTDRCO0FBUzVCLEtBQUcsOEJBQUgsRUFBbUMsWUFBTTtBQUN2QyxhQUFTLE1BQVQsQ0FBZ0IsdURBQWEsT0FBTyxDQUFQLEVBQVUsVUFBVSxLQUFWLEVBQXZCLENBQWhCLEVBRHVDO0FBRXZDLDBCQUFPLFNBQVMsZUFBVCxHQUEyQixLQUEzQixDQUFpQyxTQUFqQyxDQUFQLENBQW1ELFlBQW5ELENBQWdFLHFCQUFoRSxFQUZ1QztHQUFOLENBQW5DLENBVDRCO0FBYTVCLEtBQUcsb0NBQUgsRUFBeUMsWUFBTTtBQUM3QyxhQUFTLE1BQVQsQ0FBZ0IsdURBQWEsT0FBTyxFQUFQLEVBQWIsQ0FBaEIsRUFENkM7QUFFN0MsMEJBQU8sU0FBUyxlQUFULEVBQVAsRUFBbUMsWUFBbkMsQ0FBZ0QsVUFBaEQsRUFGNkM7R0FBTixDQUF6QyxDQWI0QjtBQWlCNUIsS0FBRyxpQ0FBSCxFQUFzQyxZQUFNO0FBQzFDLGFBQVMsTUFBVCxDQUFnQix1REFBYSxPQUFPLENBQVAsRUFBYixDQUFoQixFQUQwQztBQUUxQywwQkFBTyxTQUFTLGVBQVQsRUFBUCxFQUFtQyxZQUFuQyxDQUFnRCxRQUFoRCxFQUYwQztHQUFOLENBQXRDLENBakI0QjtBQXFCNUIsS0FBRyxpQ0FBSCxFQUFzQyxZQUFNO0FBQzFDLGFBQVMsTUFBVCxDQUFnQix1REFBYSxPQUFPLENBQVAsRUFBYixDQUFoQixFQUQwQztBQUUxQywwQkFBTyxTQUFTLGVBQVQsRUFBUCxFQUFtQyxlQUFuQyxDQUFtRCxRQUFuRCxFQUYwQztHQUFOLENBQXRDLENBckI0QjtDQUFOLENBQXhCIiwiZmlsZSI6Imxpa2UtY291bnRlci5zcGVjLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBUZXN0VXRpbHMgZnJvbSAncmVhY3QtYWRkb25zLXRlc3QtdXRpbHMnO1xuaW1wb3J0IGV4cGVjdCBmcm9tICdleHBlY3QnO1xuaW1wb3J0IGV4cGVjdEpTWCBmcm9tICdleHBlY3QtanN4JztcblxuZXhwZWN0LmV4dGVuZChleHBlY3RKU1gpO1xuXG5pbXBvcnQgTGlrZUNvdW50ZXIgZnJvbSAnLi9saWtlLWNvdW50ZXInO1xuXG5kZXNjcmliZSgnTGlrZUNvdW50ZXInLCAoKSA9PiB7XG4gIGxldCAgcmVuZGVyZXI7XG4gIGJlZm9yZUVhY2goKCk9PntcbiAgICByZW5kZXJlciA9IFRlc3RVdGlscy5jcmVhdGVSZW5kZXJlcigpO1xuICB9KTtcbiAgaXQoJ3Nob3VsZCBoYXZlIGFjdGl2ZSBjbGFzcycsICgpID0+IHtcbiAgICByZW5kZXJlci5yZW5kZXIoPExpa2VDb3VudGVyIGNvdW50PXs1fSBpc0FjdGl2ZT17dHJ1ZX0gLz4pO1xuICAgIGV4cGVjdChyZW5kZXJlci5nZXRSZW5kZXJPdXRwdXQoKS5wcm9wcy5jbGFzc05hbWUpLnRvQ29udGFpbignTGlrZUNvdW50ZXItLWFjdGl2ZScpO1xuICB9KTtcbiAgaXQoJ3Nob3VsZCBub3QgaGF2ZSBhY3RpdmUgY2xhc3MnLCAoKSA9PiB7XG4gICAgcmVuZGVyZXIucmVuZGVyKDxMaWtlQ291bnRlciBjb3VudD17NX0gaXNBY3RpdmU9e2ZhbHNlfSAvPik7XG4gICAgZXhwZWN0KHJlbmRlcmVyLmdldFJlbmRlck91dHB1dCgpLnByb3BzLmNsYXNzTmFtZSkudG9Ob3RDb250YWluKCdMaWtlQ291bnRlci0tYWN0aXZlJyk7XG4gIH0pO1xuICBpdCgnc2hvdWxkIHJlbmRlciBtdWx0aXBsZSBsaWtlIGNvdW50cycsICgpID0+IHtcbiAgICByZW5kZXJlci5yZW5kZXIoPExpa2VDb3VudGVyIGNvdW50PXsxOX0gLz4pXG4gICAgZXhwZWN0KHJlbmRlcmVyLmdldFJlbmRlck91dHB1dCgpKS50b0luY2x1ZGVKU1goJzE5IGxpa2VzJyk7XG4gIH0pO1xuICBpdCgnc2hvdWxkIHJlbmRlciBzaW5nbGUgbGlrZSBjb3VudCcsICgpID0+IHtcbiAgICByZW5kZXJlci5yZW5kZXIoPExpa2VDb3VudGVyIGNvdW50PXsxfSAvPilcbiAgICBleHBlY3QocmVuZGVyZXIuZ2V0UmVuZGVyT3V0cHV0KCkpLnRvSW5jbHVkZUpTWCgnMSBsaWtlJyk7XG4gIH0pO1xuICBpdCgnc2hvdWxkIG5vdCByZW5kZXIgMCBsaWtlIGNvdW50cycsICgpID0+IHtcbiAgICByZW5kZXJlci5yZW5kZXIoPExpa2VDb3VudGVyIGNvdW50PXswfSAvPilcbiAgICBleHBlY3QocmVuZGVyZXIuZ2V0UmVuZGVyT3V0cHV0KCkpLnRvTm90SW5jbHVkZUpTWCgnMCBsaWtlJyk7XG4gIH0pO1xufSk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "like-counter.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;AAIA;;;;;;AAFA,iBAAO,MAAP;;AAIA,SAAS,aAAT,EAAwB,YAAM;AAC5B,MAAK,iBAAL,CAD4B;AAE5B,aAAW,YAAI;AACb,eAAW,+BAAU,cAAV,EAAX,CADa;GAAJ,CAAX,CAF4B;AAK5B,KAAG,0BAAH,EAA+B,YAAM;AACnC,aAAS,MAAT,CAAgB,uDAAa,OAAO,CAAP,EAAU,UAAU,IAAV,EAAvB,CAAhB,EADmC;AAEnC,0BAAO,SAAS,eAAT,GAA2B,KAA3B,CAAiC,SAAjC,CAAP,CAAmD,SAAnD,CAA6D,qBAA7D,EAFmC;GAAN,CAA/B,CAL4B;AAS5B,KAAG,8BAAH,EAAmC,YAAM;AACvC,aAAS,MAAT,CAAgB,uDAAa,OAAO,CAAP,EAAU,UAAU,KAAV,EAAvB,CAAhB,EADuC;AAEvC,0BAAO,SAAS,eAAT,GAA2B,KAA3B,CAAiC,SAAjC,CAAP,CAAmD,YAAnD,CAAgE,qBAAhE,EAFuC;GAAN,CAAnC,CAT4B;AAa5B,KAAG,oCAAH,EAAyC,YAAM;AAC7C,aAAS,MAAT,CAAgB,uDAAa,OAAO,EAAP,EAAb,CAAhB,EAD6C;AAE7C,0BAAO,SAAS,eAAT,EAAP,EAAmC,YAAnC,CAAgD,UAAhD,EAF6C;GAAN,CAAzC,CAb4B;AAiB5B,KAAG,iCAAH,EAAsC,YAAM;AAC1C,aAAS,MAAT,CAAgB,uDAAa,OAAO,CAAP,EAAb,CAAhB,EAD0C;AAE1C,0BAAO,SAAS,eAAT,EAAP,EAAmC,YAAnC,CAAgD,QAAhD,EAF0C;GAAN,CAAtC,CAjB4B;AAqB5B,KAAG,iCAAH,EAAsC,YAAM;AAC1C,aAAS,MAAT,CAAgB,uDAAa,OAAO,CAAP,EAAb,CAAhB,EAD0C;AAE1C,0BAAO,SAAS,eAAT,EAAP,EAAmC,eAAnC,CAAmD,QAAnD,EAF0C;GAAN,CAAtC,CArB4B;CAAN,CAAxB",
+      "file": "like-counter.spec.js",
+      "sourcesContent": [
+        "import React from 'react';\nimport TestUtils from 'react-addons-test-utils';\nimport expect from 'expect';\nimport expectJSX from 'expect-jsx';\n\nexpect.extend(expectJSX);\n\nimport LikeCounter from './like-counter';\n\ndescribe('LikeCounter', () => {\n  let  renderer;\n  beforeEach(()=>{\n    renderer = TestUtils.createRenderer();\n  });\n  it('should have active class', () => {\n    renderer.render(<LikeCounter count={5} isActive={true} />);\n    expect(renderer.getRenderOutput().props.className).toContain('LikeCounter--active');\n  });\n  it('should not have active class', () => {\n    renderer.render(<LikeCounter count={5} isActive={false} />);\n    expect(renderer.getRenderOutput().props.className).toNotContain('LikeCounter--active');\n  });\n  it('should render multiple like counts', () => {\n    renderer.render(<LikeCounter count={19} />)\n    expect(renderer.getRenderOutput()).toIncludeJSX('19 likes');\n  });\n  it('should render single like count', () => {\n    renderer.render(<LikeCounter count={1} />)\n    expect(renderer.getRenderOutput()).toIncludeJSX('1 like');\n  });\n  it('should not render 0 like counts', () => {\n    renderer.render(<LikeCounter count={0} />)\n    expect(renderer.getRenderOutput()).toNotIncludeJSX('0 like');\n  });\n});\n"
+      ]
+    },
+    "mtime": 1461262707902
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/like-counter.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "react",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "React"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/like-counter.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/components/like-counter.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "like-counter.js",
+      "sourceFileName": "like-counter.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "like-counter"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function (props) {\n  var className = 'LikeCounter';\n  if (props.isActive) {\n    className += ' LikeCounter--active';\n  }\n  return _react2.default.createElement(\n    'div',\n    { className: className },\n    _react2.default.createElement(\n      'span',\n      null,\n      function () {\n        switch (props.count) {\n          case 0:\n            return '';\n          case 1:\n            return '1 like';\n          default:\n            return props.count + ' likes';\n        }\n      }()\n    )\n  );\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxpa2UtY291bnRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7Ozs7O2tCQUVlLFVBQUMsS0FBRCxFQUFXO0FBQ3hCLE1BQUksWUFBWSxhQUFaLENBRG9CO0FBRXhCLE1BQUksTUFBTSxRQUFOLEVBQWU7QUFDakIsaUJBQWEsc0JBQWIsQ0FEaUI7R0FBbkI7QUFHQSxTQUNFOztNQUFLLFdBQVcsU0FBWCxFQUFMO0lBQ0U7OztNQUNHLFlBQU87QUFDTixnQkFBUSxNQUFNLEtBQU47QUFDTixlQUFLLENBQUw7QUFBUyxtQkFBTyxFQUFQLENBQVQ7QUFERixlQUVPLENBQUw7QUFBUyxtQkFBTyxRQUFQLENBQVQ7QUFGRjtBQUdXLG1CQUFPLE1BQU0sS0FBTixHQUFjLFFBQWQsQ0FBaEI7QUFIRixTQURNO09BQU4sRUFESjtLQURGO0dBREYsQ0FMd0I7Q0FBWCIsImZpbGUiOiJsaWtlLWNvdW50ZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5leHBvcnQgZGVmYXVsdCAocHJvcHMpID0+IHtcbiAgbGV0IGNsYXNzTmFtZSA9ICdMaWtlQ291bnRlcic7XG4gIGlmIChwcm9wcy5pc0FjdGl2ZSl7XG4gICAgY2xhc3NOYW1lICs9ICcgTGlrZUNvdW50ZXItLWFjdGl2ZSc7XG4gIH1cbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT17Y2xhc3NOYW1lfT5cbiAgICAgIDxzcGFuPlxuICAgICAgICB7KCgpID0+IHtcbiAgICAgICAgICBzd2l0Y2ggKHByb3BzLmNvdW50KXtcbiAgICAgICAgICAgIGNhc2UgMDogIHJldHVybiAnJztcbiAgICAgICAgICAgIGNhc2UgMTogIHJldHVybiAnMSBsaWtlJztcbiAgICAgICAgICAgIGRlZmF1bHQ6IHJldHVybiBwcm9wcy5jb3VudCArICcgbGlrZXMnO1xuICAgICAgICAgIH1cbiAgICAgICAgfSkoKX1cbiAgICAgIDwvc3Bhbj5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "like-counter.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;;AAAA;;;;;;kBAEe,UAAC,KAAD,EAAW;AACxB,MAAI,YAAY,aAAZ,CADoB;AAExB,MAAI,MAAM,QAAN,EAAe;AACjB,iBAAa,sBAAb,CADiB;GAAnB;AAGA,SACE;;MAAK,WAAW,SAAX,EAAL;IACE;;;MACG,YAAO;AACN,gBAAQ,MAAM,KAAN;AACN,eAAK,CAAL;AAAS,mBAAO,EAAP,CAAT;AADF,eAEO,CAAL;AAAS,mBAAO,QAAP,CAAT;AAFF;AAGW,mBAAO,MAAM,KAAN,GAAc,QAAd,CAAhB;AAHF,SADM;OAAN,EADJ;KADF;GADF,CALwB;CAAX",
+      "file": "like-counter.js",
+      "sourcesContent": [
+        "import React from 'react';\n\nexport default (props) => {\n  let className = 'LikeCounter';\n  if (props.isActive){\n    className += ' LikeCounter--active';\n  }\n  return (\n    <div className={className}>\n      <span>\n        {(() => {\n          switch (props.count){\n            case 0:  return '';\n            case 1:  return '1 like';\n            default: return props.count + ' likes';\n          }\n        })()}\n      </span>\n    </div>\n  );\n}\n"
+      ]
+    },
+    "mtime": 1461262296261
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/stores/app-store.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          },
+          {
+            "source": "../stores/app-store",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Store"
+              }
+            ]
+          },
+          {
+            "source": "../constants/app-constants",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "AppConstants"
+              }
+            ]
+          },
+          {
+            "source": "../actions/app-actions",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "AppActions"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/stores/app-store.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/stores/app-store.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "app-store.spec.js",
+      "sourceFileName": "app-store.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "app-store.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nvar _appStore = require('../stores/app-store');\n\nvar _appStore2 = _interopRequireDefault(_appStore);\n\nvar _appConstants = require('../constants/app-constants');\n\nvar _appConstants2 = _interopRequireDefault(_appConstants);\n\nvar _appActions = require('../actions/app-actions');\n\nvar _appActions2 = _interopRequireDefault(_appActions);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\ndescribe('AppStore', function () {\n\n  beforeEach(function () {\n    _appStore2.default.resetState();\n  });\n\n  it('should add a quote', function () {\n    _appActions2.default.addQuote({\n      text: 'The best way to cheer yourself up is to try and cheer somebody else up.',\n      author: 'Mark Twain'\n    });\n\n    (0, _expect2.default)(_appStore2.default.getState().quotes.length).toEqual(5);\n    (0, _expect2.default)(_appStore2.default.getState().quotes[4]).toEqual({\n      'id': 4,\n      'quote': { 'author': 'Mark Twain', 'text': 'The best way to cheer yourself up is to try and cheer somebody else up.' },\n      'likeCount': 0\n    });\n  });\n\n  it('should remove a quote', function () {\n    _appActions2.default.removeQuote({ id: 0 });\n\n    (0, _expect2.default)(_appStore2.default.getState().quotes.length).toEqual(3);\n    (0, _expect2.default)(_appStore2.default.getState().quotes[0]).toEqual({\n      'id': 1,\n      'quote': { 'author': 'David', 'text': 'I like the number 1' },\n      'likeCount': 0\n    });\n  });\n\n  it('should like a quote', function () {\n    _appActions2.default.likeQuote({ id: 2 });\n    (0, _expect2.default)(_appStore2.default.getState().quotes[2].likeCount).toEqual(1);\n  });\n\n  it('should unlike a quote', function () {\n    _appActions2.default.likeQuote({ id: 2 });\n    _appActions2.default.likeQuote({ id: 2 });\n    _appActions2.default.likeQuote({ id: 2 });\n    _appActions2.default.unlikeQuote({ id: 2 });\n\n    (0, _expect2.default)(_appStore2.default.getState().quotes[2].likeCount).toEqual(2);\n  });\n\n  it('should work with a series of actions', function () {\n    var actions = [{\n      action: _appActions2.default.addQuote,\n      payload: {\n        text: 'The best way to cheer yourself up is to try and cheer somebody else up.',\n        author: 'Mark Twain'\n      }\n    }, {\n      action: _appActions2.default.addQuote,\n      payload: {\n        text: 'The best way to cheer yourself up is to drink lots.',\n        author: 'Mark Twain'\n      }\n    }, {\n      action: _appActions2.default.removeQuote,\n      payload: {\n        id: 5\n      }\n    }, {\n      action: _appActions2.default.addQuote,\n      payload: {\n        text: 'Don\\'t worry about your problems with maths. I assure you mine are far greater.',\n        author: 'Albert Einstein'\n      }\n    }, {\n      action: _appActions2.default.likeQuote,\n      payload: { id: 2 }\n    }, {\n      action: _appActions2.default.likeQuote,\n      payload: { id: 2 }\n    }, {\n      action: _appActions2.default.likeQuote,\n      payload: { id: 2 }\n    }, {\n      action: _appActions2.default.likeQuote,\n      payload: { id: 6 }\n    }, {\n      action: _appActions2.default.unlikeQuote,\n      payload: { id: 2 }\n    }, {\n      action: _appActions2.default.addQuote,\n      payload: {\n        text: 'E=MC^2',\n        author: 'Albert Einstein'\n      }\n    }];\n    actions.forEach(function (_ref) {\n      var action = _ref.action;\n      var payload = _ref.payload;\n      return action(payload);\n    });\n\n    (0, _expect2.default)(_appStore2.default.getState().quotes.length).toEqual(7);\n    (0, _expect2.default)(_appStore2.default.getState().quotes[6]).toEqual({\n      'id': 7,\n      'quote': {\n        'author': 'Albert Einstein',\n        'text': 'E=MC^2'\n      },\n      'likeCount': 0\n    });\n    (0, _expect2.default)(_appStore2.default.getState().quotes[2].likeCount).toEqual(2);\n    (0, _expect2.default)(_appStore2.default.getState().quotes[5].likeCount).toEqual(1);\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC1zdG9yZS5zcGVjLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7OztBQUNBOzs7O0FBQ0E7Ozs7OztBQUVBLFNBQVMsVUFBVCxFQUFxQixZQUFNOztBQUV6QixhQUFXLFlBQU07QUFDZix1QkFBTSxVQUFOLEdBRGU7R0FBTixDQUFYLENBRnlCOztBQU16QixLQUFHLG9CQUFILEVBQXlCLFlBQU07QUFDN0IseUJBQVcsUUFBWCxDQUFvQjtBQUNsQixZQUFNLHlFQUFOO0FBQ0EsY0FBUSxZQUFSO0tBRkYsRUFENkI7O0FBTTdCLDBCQUFPLG1CQUFNLFFBQU4sR0FBaUIsTUFBakIsQ0FBd0IsTUFBeEIsQ0FBUCxDQUF1QyxPQUF2QyxDQUErQyxDQUEvQyxFQU42QjtBQU83QiwwQkFBTyxtQkFBTSxRQUFOLEdBQWlCLE1BQWpCLENBQXdCLENBQXhCLENBQVAsRUFBbUMsT0FBbkMsQ0FBMkM7QUFDekMsWUFBTSxDQUFOO0FBQ0EsZUFBUSxFQUFDLFVBQVMsWUFBVCxFQUF1QixRQUFPLHlFQUFQLEVBQWhDO0FBQ0EsbUJBQWEsQ0FBYjtLQUhGLEVBUDZCO0dBQU4sQ0FBekIsQ0FOeUI7O0FBb0J6QixLQUFHLHVCQUFILEVBQTRCLFlBQU07QUFDaEMseUJBQVcsV0FBWCxDQUF1QixFQUFFLElBQUksQ0FBSixFQUF6QixFQURnQzs7QUFHaEMsMEJBQU8sbUJBQU0sUUFBTixHQUFpQixNQUFqQixDQUF3QixNQUF4QixDQUFQLENBQXVDLE9BQXZDLENBQStDLENBQS9DLEVBSGdDO0FBSWhDLDBCQUFPLG1CQUFNLFFBQU4sR0FBaUIsTUFBakIsQ0FBd0IsQ0FBeEIsQ0FBUCxFQUFtQyxPQUFuQyxDQUEyQztBQUN6QyxZQUFNLENBQU47QUFDQSxlQUFRLEVBQUMsVUFBUyxPQUFULEVBQWtCLFFBQU8scUJBQVAsRUFBM0I7QUFDQSxtQkFBYSxDQUFiO0tBSEYsRUFKZ0M7R0FBTixDQUE1QixDQXBCeUI7O0FBK0J6QixLQUFHLHFCQUFILEVBQTBCLFlBQU07QUFDOUIseUJBQVcsU0FBWCxDQUFxQixFQUFFLElBQUksQ0FBSixFQUF2QixFQUQ4QjtBQUU5QiwwQkFBTyxtQkFBTSxRQUFOLEdBQWlCLE1BQWpCLENBQXdCLENBQXhCLEVBQTJCLFNBQTNCLENBQVAsQ0FBNkMsT0FBN0MsQ0FBcUQsQ0FBckQsRUFGOEI7R0FBTixDQUExQixDQS9CeUI7O0FBb0N6QixLQUFHLHVCQUFILEVBQTRCLFlBQU07QUFDaEMseUJBQVcsU0FBWCxDQUFxQixFQUFFLElBQUksQ0FBSixFQUF2QixFQURnQztBQUVoQyx5QkFBVyxTQUFYLENBQXFCLEVBQUUsSUFBSSxDQUFKLEVBQXZCLEVBRmdDO0FBR2hDLHlCQUFXLFNBQVgsQ0FBcUIsRUFBRSxJQUFJLENBQUosRUFBdkIsRUFIZ0M7QUFJaEMseUJBQVcsV0FBWCxDQUF1QixFQUFFLElBQUksQ0FBSixFQUF6QixFQUpnQzs7QUFNaEMsMEJBQU8sbUJBQU0sUUFBTixHQUFpQixNQUFqQixDQUF3QixDQUF4QixFQUEyQixTQUEzQixDQUFQLENBQTZDLE9BQTdDLENBQXFELENBQXJELEVBTmdDO0dBQU4sQ0FBNUIsQ0FwQ3lCOztBQTZDekIsS0FBRyxzQ0FBSCxFQUEyQyxZQUFNO0FBQy9DLFFBQUksVUFBVSxDQUFDO0FBQ2IsY0FBTyxxQkFBVyxRQUFYO0FBQ1AsZUFBUTtBQUNOLGNBQU0seUVBQU47QUFDQSxnQkFBUSxZQUFSO09BRkY7S0FGWSxFQU1aO0FBQ0EsY0FBTyxxQkFBVyxRQUFYO0FBQ1AsZUFBUTtBQUNOLGNBQU0scURBQU47QUFDQSxnQkFBUSxZQUFSO09BRkY7S0FSWSxFQVlaO0FBQ0EsY0FBTyxxQkFBVyxXQUFYO0FBQ1AsZUFBUTtBQUNOLFlBQUksQ0FBSjtPQURGO0tBZFksRUFpQlo7QUFDQSxjQUFPLHFCQUFXLFFBQVg7QUFDUCxlQUFRO0FBQ04sY0FBTSxpRkFBTjtBQUNBLGdCQUFRLGlCQUFSO09BRkY7S0FuQlksRUF1Qlo7QUFDQSxjQUFPLHFCQUFXLFNBQVg7QUFDUCxlQUFRLEVBQUUsSUFBSSxDQUFKLEVBQVY7S0F6QlksRUEwQlo7QUFDQSxjQUFPLHFCQUFXLFNBQVg7QUFDUCxlQUFRLEVBQUUsSUFBSSxDQUFKLEVBQVY7S0E1QlksRUE2Qlo7QUFDQSxjQUFPLHFCQUFXLFNBQVg7QUFDUCxlQUFRLEVBQUUsSUFBSSxDQUFKLEVBQVY7S0EvQlksRUFnQ1o7QUFDQSxjQUFPLHFCQUFXLFNBQVg7QUFDUCxlQUFRLEVBQUUsSUFBSSxDQUFKLEVBQVY7S0FsQ1ksRUFtQ1o7QUFDQSxjQUFPLHFCQUFXLFdBQVg7QUFDUCxlQUFRLEVBQUUsSUFBSSxDQUFKLEVBQVY7S0FyQ1ksRUFzQ1o7QUFDQSxjQUFPLHFCQUFXLFFBQVg7QUFDUCxlQUFRO0FBQ04sY0FBTSxRQUFOO0FBQ0EsZ0JBQVEsaUJBQVI7T0FGRjtLQXhDWSxDQUFWLENBRDJDO0FBOEMvQyxZQUFRLE9BQVIsQ0FBZ0I7VUFBRTtVQUFRO2FBQWEsT0FBTyxPQUFQO0tBQXZCLENBQWhCLENBOUMrQzs7QUFnRC9DLDBCQUFPLG1CQUFNLFFBQU4sR0FBaUIsTUFBakIsQ0FBd0IsTUFBeEIsQ0FBUCxDQUF1QyxPQUF2QyxDQUErQyxDQUEvQyxFQWhEK0M7QUFpRC9DLDBCQUFPLG1CQUFNLFFBQU4sR0FBaUIsTUFBakIsQ0FBd0IsQ0FBeEIsQ0FBUCxFQUFtQyxPQUFuQyxDQUEyQztBQUN6QyxZQUFNLENBQU47QUFDQSxlQUFTO0FBQ1Asa0JBQVUsaUJBQVY7QUFDQSxnQkFBUSxRQUFSO09BRkY7QUFJQSxtQkFBYSxDQUFiO0tBTkYsRUFqRCtDO0FBeUQvQywwQkFBTyxtQkFBTSxRQUFOLEdBQWlCLE1BQWpCLENBQXdCLENBQXhCLEVBQTJCLFNBQTNCLENBQVAsQ0FBNkMsT0FBN0MsQ0FBcUQsQ0FBckQsRUF6RCtDO0FBMEQvQywwQkFBTyxtQkFBTSxRQUFOLEdBQWlCLE1BQWpCLENBQXdCLENBQXhCLEVBQTJCLFNBQTNCLENBQVAsQ0FBNkMsT0FBN0MsQ0FBcUQsQ0FBckQsRUExRCtDO0dBQU4sQ0FBM0MsQ0E3Q3lCO0NBQU4sQ0FBckIiLCJmaWxlIjoiYXBwLXN0b3JlLnNwZWMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZXhwZWN0IGZyb20gJ2V4cGVjdCc7XG5pbXBvcnQgU3RvcmUgZnJvbSAnLi4vc3RvcmVzL2FwcC1zdG9yZSc7XG5pbXBvcnQgQXBwQ29uc3RhbnRzIGZyb20gJy4uL2NvbnN0YW50cy9hcHAtY29uc3RhbnRzJztcbmltcG9ydCBBcHBBY3Rpb25zIGZyb20gJy4uL2FjdGlvbnMvYXBwLWFjdGlvbnMnO1xuXG5kZXNjcmliZSgnQXBwU3RvcmUnLCAoKSA9PiB7XG5cbiAgYmVmb3JlRWFjaCgoKSA9PiB7XG4gICAgU3RvcmUucmVzZXRTdGF0ZSgpO1xuICB9KTtcblxuICBpdCgnc2hvdWxkIGFkZCBhIHF1b3RlJywgKCkgPT4ge1xuICAgIEFwcEFjdGlvbnMuYWRkUXVvdGUoe1xuICAgICAgdGV4dDogJ1RoZSBiZXN0IHdheSB0byBjaGVlciB5b3Vyc2VsZiB1cCBpcyB0byB0cnkgYW5kIGNoZWVyIHNvbWVib2R5IGVsc2UgdXAuJyxcbiAgICAgIGF1dGhvcjogJ01hcmsgVHdhaW4nXG4gICAgfSk7XG5cbiAgICBleHBlY3QoU3RvcmUuZ2V0U3RhdGUoKS5xdW90ZXMubGVuZ3RoKS50b0VxdWFsKDUpO1xuICAgIGV4cGVjdChTdG9yZS5nZXRTdGF0ZSgpLnF1b3Rlc1s0XSkudG9FcXVhbCh7XG4gICAgICAnaWQnOiA0LFxuICAgICAgJ3F1b3RlJzp7J2F1dGhvcic6J01hcmsgVHdhaW4nLCAndGV4dCc6J1RoZSBiZXN0IHdheSB0byBjaGVlciB5b3Vyc2VsZiB1cCBpcyB0byB0cnkgYW5kIGNoZWVyIHNvbWVib2R5IGVsc2UgdXAuJ30sXG4gICAgICAnbGlrZUNvdW50JzogMFxuICAgIH0pO1xuICB9KTtcblxuICBpdCgnc2hvdWxkIHJlbW92ZSBhIHF1b3RlJywgKCkgPT4ge1xuICAgIEFwcEFjdGlvbnMucmVtb3ZlUXVvdGUoeyBpZDogMCB9KTtcblxuICAgIGV4cGVjdChTdG9yZS5nZXRTdGF0ZSgpLnF1b3Rlcy5sZW5ndGgpLnRvRXF1YWwoMyk7XG4gICAgZXhwZWN0KFN0b3JlLmdldFN0YXRlKCkucXVvdGVzWzBdKS50b0VxdWFsKHtcbiAgICAgICdpZCc6IDEsXG4gICAgICAncXVvdGUnOnsnYXV0aG9yJzonRGF2aWQnLCAndGV4dCc6J0kgbGlrZSB0aGUgbnVtYmVyIDEnfSxcbiAgICAgICdsaWtlQ291bnQnOiAwXG4gICAgfSk7XG4gIH0pO1xuXG4gIGl0KCdzaG91bGQgbGlrZSBhIHF1b3RlJywgKCkgPT4ge1xuICAgIEFwcEFjdGlvbnMubGlrZVF1b3RlKHsgaWQ6IDIgfSk7XG4gICAgZXhwZWN0KFN0b3JlLmdldFN0YXRlKCkucXVvdGVzWzJdLmxpa2VDb3VudCkudG9FcXVhbCgxKTtcbiAgfSk7XG5cbiAgaXQoJ3Nob3VsZCB1bmxpa2UgYSBxdW90ZScsICgpID0+IHtcbiAgICBBcHBBY3Rpb25zLmxpa2VRdW90ZSh7IGlkOiAyIH0pO1xuICAgIEFwcEFjdGlvbnMubGlrZVF1b3RlKHsgaWQ6IDIgfSk7XG4gICAgQXBwQWN0aW9ucy5saWtlUXVvdGUoeyBpZDogMiB9KTtcbiAgICBBcHBBY3Rpb25zLnVubGlrZVF1b3RlKHsgaWQ6IDIgfSk7XG5cbiAgICBleHBlY3QoU3RvcmUuZ2V0U3RhdGUoKS5xdW90ZXNbMl0ubGlrZUNvdW50KS50b0VxdWFsKDIpO1xuICB9KTtcblxuICBpdCgnc2hvdWxkIHdvcmsgd2l0aCBhIHNlcmllcyBvZiBhY3Rpb25zJywgKCkgPT4ge1xuICAgIGxldCBhY3Rpb25zID0gW3tcbiAgICAgIGFjdGlvbjpBcHBBY3Rpb25zLmFkZFF1b3RlLFxuICAgICAgcGF5bG9hZDp7XG4gICAgICAgIHRleHQ6ICdUaGUgYmVzdCB3YXkgdG8gY2hlZXIgeW91cnNlbGYgdXAgaXMgdG8gdHJ5IGFuZCBjaGVlciBzb21lYm9keSBlbHNlIHVwLicsXG4gICAgICAgIGF1dGhvcjogJ01hcmsgVHdhaW4nXG4gICAgICB9XG4gICAgfSx7XG4gICAgICBhY3Rpb246QXBwQWN0aW9ucy5hZGRRdW90ZSxcbiAgICAgIHBheWxvYWQ6e1xuICAgICAgICB0ZXh0OiAnVGhlIGJlc3Qgd2F5IHRvIGNoZWVyIHlvdXJzZWxmIHVwIGlzIHRvIGRyaW5rIGxvdHMuJyxcbiAgICAgICAgYXV0aG9yOiAnTWFyayBUd2FpbidcbiAgICAgIH1cbiAgICB9LHtcbiAgICAgIGFjdGlvbjpBcHBBY3Rpb25zLnJlbW92ZVF1b3RlLFxuICAgICAgcGF5bG9hZDp7XG4gICAgICAgIGlkOiA1XG4gICAgICB9XG4gICAgfSx7XG4gICAgICBhY3Rpb246QXBwQWN0aW9ucy5hZGRRdW90ZSxcbiAgICAgIHBheWxvYWQ6e1xuICAgICAgICB0ZXh0OiAnRG9uXFwndCB3b3JyeSBhYm91dCB5b3VyIHByb2JsZW1zIHdpdGggbWF0aHMuIEkgYXNzdXJlIHlvdSBtaW5lIGFyZSBmYXIgZ3JlYXRlci4nLFxuICAgICAgICBhdXRob3I6ICdBbGJlcnQgRWluc3RlaW4nXG4gICAgICB9XG4gICAgfSx7XG4gICAgICBhY3Rpb246QXBwQWN0aW9ucy5saWtlUXVvdGUsXG4gICAgICBwYXlsb2FkOnsgaWQ6IDIgfVxuICAgIH0se1xuICAgICAgYWN0aW9uOkFwcEFjdGlvbnMubGlrZVF1b3RlLFxuICAgICAgcGF5bG9hZDp7IGlkOiAyIH1cbiAgICB9LHtcbiAgICAgIGFjdGlvbjpBcHBBY3Rpb25zLmxpa2VRdW90ZSxcbiAgICAgIHBheWxvYWQ6eyBpZDogMiB9XG4gICAgfSx7XG4gICAgICBhY3Rpb246QXBwQWN0aW9ucy5saWtlUXVvdGUsXG4gICAgICBwYXlsb2FkOnsgaWQ6IDYgfVxuICAgIH0se1xuICAgICAgYWN0aW9uOkFwcEFjdGlvbnMudW5saWtlUXVvdGUsXG4gICAgICBwYXlsb2FkOnsgaWQ6IDIgfVxuICAgIH0se1xuICAgICAgYWN0aW9uOkFwcEFjdGlvbnMuYWRkUXVvdGUsXG4gICAgICBwYXlsb2FkOntcbiAgICAgICAgdGV4dDogJ0U9TUNeMicsXG4gICAgICAgIGF1dGhvcjogJ0FsYmVydCBFaW5zdGVpbidcbiAgICAgIH1cbiAgICB9XTtcbiAgICBhY3Rpb25zLmZvckVhY2goKHthY3Rpb24sIHBheWxvYWR9KSA9PiBhY3Rpb24ocGF5bG9hZCkpO1xuXG4gICAgZXhwZWN0KFN0b3JlLmdldFN0YXRlKCkucXVvdGVzLmxlbmd0aCkudG9FcXVhbCg3KTtcbiAgICBleHBlY3QoU3RvcmUuZ2V0U3RhdGUoKS5xdW90ZXNbNl0pLnRvRXF1YWwoe1xuICAgICAgJ2lkJzogNyxcbiAgICAgICdxdW90ZSc6IHtcbiAgICAgICAgJ2F1dGhvcic6ICdBbGJlcnQgRWluc3RlaW4nLCBcbiAgICAgICAgJ3RleHQnOiAnRT1NQ14yJ1xuICAgICAgfSxcbiAgICAgICdsaWtlQ291bnQnOiAwXG4gICAgfSk7XG4gICAgZXhwZWN0KFN0b3JlLmdldFN0YXRlKCkucXVvdGVzWzJdLmxpa2VDb3VudCkudG9FcXVhbCgyKTtcbiAgICBleHBlY3QoU3RvcmUuZ2V0U3RhdGUoKS5xdW90ZXNbNV0ubGlrZUNvdW50KS50b0VxdWFsKDEpO1xuICB9KTtcbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app-store.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;AACA;;;;AACA;;;;AACA;;;;;;AAEA,SAAS,UAAT,EAAqB,YAAM;;AAEzB,aAAW,YAAM;AACf,uBAAM,UAAN,GADe;GAAN,CAAX,CAFyB;;AAMzB,KAAG,oBAAH,EAAyB,YAAM;AAC7B,yBAAW,QAAX,CAAoB;AAClB,YAAM,yEAAN;AACA,cAAQ,YAAR;KAFF,EAD6B;;AAM7B,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,MAAxB,CAAP,CAAuC,OAAvC,CAA+C,CAA/C,EAN6B;AAO7B,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,CAAxB,CAAP,EAAmC,OAAnC,CAA2C;AACzC,YAAM,CAAN;AACA,eAAQ,EAAC,UAAS,YAAT,EAAuB,QAAO,yEAAP,EAAhC;AACA,mBAAa,CAAb;KAHF,EAP6B;GAAN,CAAzB,CANyB;;AAoBzB,KAAG,uBAAH,EAA4B,YAAM;AAChC,yBAAW,WAAX,CAAuB,EAAE,IAAI,CAAJ,EAAzB,EADgC;;AAGhC,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,MAAxB,CAAP,CAAuC,OAAvC,CAA+C,CAA/C,EAHgC;AAIhC,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,CAAxB,CAAP,EAAmC,OAAnC,CAA2C;AACzC,YAAM,CAAN;AACA,eAAQ,EAAC,UAAS,OAAT,EAAkB,QAAO,qBAAP,EAA3B;AACA,mBAAa,CAAb;KAHF,EAJgC;GAAN,CAA5B,CApByB;;AA+BzB,KAAG,qBAAH,EAA0B,YAAM;AAC9B,yBAAW,SAAX,CAAqB,EAAE,IAAI,CAAJ,EAAvB,EAD8B;AAE9B,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,CAAxB,EAA2B,SAA3B,CAAP,CAA6C,OAA7C,CAAqD,CAArD,EAF8B;GAAN,CAA1B,CA/ByB;;AAoCzB,KAAG,uBAAH,EAA4B,YAAM;AAChC,yBAAW,SAAX,CAAqB,EAAE,IAAI,CAAJ,EAAvB,EADgC;AAEhC,yBAAW,SAAX,CAAqB,EAAE,IAAI,CAAJ,EAAvB,EAFgC;AAGhC,yBAAW,SAAX,CAAqB,EAAE,IAAI,CAAJ,EAAvB,EAHgC;AAIhC,yBAAW,WAAX,CAAuB,EAAE,IAAI,CAAJ,EAAzB,EAJgC;;AAMhC,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,CAAxB,EAA2B,SAA3B,CAAP,CAA6C,OAA7C,CAAqD,CAArD,EANgC;GAAN,CAA5B,CApCyB;;AA6CzB,KAAG,sCAAH,EAA2C,YAAM;AAC/C,QAAI,UAAU,CAAC;AACb,cAAO,qBAAW,QAAX;AACP,eAAQ;AACN,cAAM,yEAAN;AACA,gBAAQ,YAAR;OAFF;KAFY,EAMZ;AACA,cAAO,qBAAW,QAAX;AACP,eAAQ;AACN,cAAM,qDAAN;AACA,gBAAQ,YAAR;OAFF;KARY,EAYZ;AACA,cAAO,qBAAW,WAAX;AACP,eAAQ;AACN,YAAI,CAAJ;OADF;KAdY,EAiBZ;AACA,cAAO,qBAAW,QAAX;AACP,eAAQ;AACN,cAAM,iFAAN;AACA,gBAAQ,iBAAR;OAFF;KAnBY,EAuBZ;AACA,cAAO,qBAAW,SAAX;AACP,eAAQ,EAAE,IAAI,CAAJ,EAAV;KAzBY,EA0BZ;AACA,cAAO,qBAAW,SAAX;AACP,eAAQ,EAAE,IAAI,CAAJ,EAAV;KA5BY,EA6BZ;AACA,cAAO,qBAAW,SAAX;AACP,eAAQ,EAAE,IAAI,CAAJ,EAAV;KA/BY,EAgCZ;AACA,cAAO,qBAAW,SAAX;AACP,eAAQ,EAAE,IAAI,CAAJ,EAAV;KAlCY,EAmCZ;AACA,cAAO,qBAAW,WAAX;AACP,eAAQ,EAAE,IAAI,CAAJ,EAAV;KArCY,EAsCZ;AACA,cAAO,qBAAW,QAAX;AACP,eAAQ;AACN,cAAM,QAAN;AACA,gBAAQ,iBAAR;OAFF;KAxCY,CAAV,CAD2C;AA8C/C,YAAQ,OAAR,CAAgB;UAAE;UAAQ;aAAa,OAAO,OAAP;KAAvB,CAAhB,CA9C+C;;AAgD/C,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,MAAxB,CAAP,CAAuC,OAAvC,CAA+C,CAA/C,EAhD+C;AAiD/C,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,CAAxB,CAAP,EAAmC,OAAnC,CAA2C;AACzC,YAAM,CAAN;AACA,eAAS;AACP,kBAAU,iBAAV;AACA,gBAAQ,QAAR;OAFF;AAIA,mBAAa,CAAb;KANF,EAjD+C;AAyD/C,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,CAAxB,EAA2B,SAA3B,CAAP,CAA6C,OAA7C,CAAqD,CAArD,EAzD+C;AA0D/C,0BAAO,mBAAM,QAAN,GAAiB,MAAjB,CAAwB,CAAxB,EAA2B,SAA3B,CAAP,CAA6C,OAA7C,CAAqD,CAArD,EA1D+C;GAAN,CAA3C,CA7CyB;CAAN,CAArB",
+      "file": "app-store.spec.js",
+      "sourcesContent": [
+        "import expect from 'expect';\nimport Store from '../stores/app-store';\nimport AppConstants from '../constants/app-constants';\nimport AppActions from '../actions/app-actions';\n\ndescribe('AppStore', () => {\n\n  beforeEach(() => {\n    Store.resetState();\n  });\n\n  it('should add a quote', () => {\n    AppActions.addQuote({\n      text: 'The best way to cheer yourself up is to try and cheer somebody else up.',\n      author: 'Mark Twain'\n    });\n\n    expect(Store.getState().quotes.length).toEqual(5);\n    expect(Store.getState().quotes[4]).toEqual({\n      'id': 4,\n      'quote':{'author':'Mark Twain', 'text':'The best way to cheer yourself up is to try and cheer somebody else up.'},\n      'likeCount': 0\n    });\n  });\n\n  it('should remove a quote', () => {\n    AppActions.removeQuote({ id: 0 });\n\n    expect(Store.getState().quotes.length).toEqual(3);\n    expect(Store.getState().quotes[0]).toEqual({\n      'id': 1,\n      'quote':{'author':'David', 'text':'I like the number 1'},\n      'likeCount': 0\n    });\n  });\n\n  it('should like a quote', () => {\n    AppActions.likeQuote({ id: 2 });\n    expect(Store.getState().quotes[2].likeCount).toEqual(1);\n  });\n\n  it('should unlike a quote', () => {\n    AppActions.likeQuote({ id: 2 });\n    AppActions.likeQuote({ id: 2 });\n    AppActions.likeQuote({ id: 2 });\n    AppActions.unlikeQuote({ id: 2 });\n\n    expect(Store.getState().quotes[2].likeCount).toEqual(2);\n  });\n\n  it('should work with a series of actions', () => {\n    let actions = [{\n      action:AppActions.addQuote,\n      payload:{\n        text: 'The best way to cheer yourself up is to try and cheer somebody else up.',\n        author: 'Mark Twain'\n      }\n    },{\n      action:AppActions.addQuote,\n      payload:{\n        text: 'The best way to cheer yourself up is to drink lots.',\n        author: 'Mark Twain'\n      }\n    },{\n      action:AppActions.removeQuote,\n      payload:{\n        id: 5\n      }\n    },{\n      action:AppActions.addQuote,\n      payload:{\n        text: 'Don\\'t worry about your problems with maths. I assure you mine are far greater.',\n        author: 'Albert Einstein'\n      }\n    },{\n      action:AppActions.likeQuote,\n      payload:{ id: 2 }\n    },{\n      action:AppActions.likeQuote,\n      payload:{ id: 2 }\n    },{\n      action:AppActions.likeQuote,\n      payload:{ id: 2 }\n    },{\n      action:AppActions.likeQuote,\n      payload:{ id: 6 }\n    },{\n      action:AppActions.unlikeQuote,\n      payload:{ id: 2 }\n    },{\n      action:AppActions.addQuote,\n      payload:{\n        text: 'E=MC^2',\n        author: 'Albert Einstein'\n      }\n    }];\n    actions.forEach(({action, payload}) => action(payload));\n\n    expect(Store.getState().quotes.length).toEqual(7);\n    expect(Store.getState().quotes[6]).toEqual({\n      'id': 7,\n      'quote': {\n        'author': 'Albert Einstein', \n        'text': 'E=MC^2'\n      },\n      'likeCount': 0\n    });\n    expect(Store.getState().quotes[2].likeCount).toEqual(2);\n    expect(Store.getState().quotes[5].likeCount).toEqual(1);\n  });\n});\n"
+      ]
+    },
+    "mtime": 1461271356497
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/stores/app-store.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "../dispatchers/app-dispatcher",
+            "imported": [
+              "dispatch",
+              "register"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "dispatch",
+                "local": "dispatch"
+              },
+              {
+                "kind": "named",
+                "imported": "register",
+                "local": "register"
+              }
+            ]
+          },
+          {
+            "source": "../constants/app-constants",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "AppConstants"
+              }
+            ]
+          },
+          {
+            "source": "events",
+            "imported": [
+              "EventEmitter"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "EventEmitter",
+                "local": "EventEmitter"
+              }
+            ]
+          },
+          {
+            "source": "../api/quote-api",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "QuoteAPI"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/stores/app-store.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/stores/app-store.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "app-store.js",
+      "sourceFileName": "app-store.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "app-store"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _appDispatcher = require('../dispatchers/app-dispatcher');\n\nvar _appConstants = require('../constants/app-constants');\n\nvar _appConstants2 = _interopRequireDefault(_appConstants);\n\nvar _events = require('events');\n\nvar _quoteApi = require('../api/quote-api');\n\nvar _quoteApi2 = _interopRequireDefault(_quoteApi);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar CHANGE_EVENT = 'change';\n\nvar AppStore = Object.assign(_events.EventEmitter.prototype, {\n  emitChange: function emitChange() {\n    this.emit(CHANGE_EVENT);\n  },\n  addChangeListener: function addChangeListener(callback) {\n    this.on(CHANGE_EVENT, callback);\n  },\n  removeChangeListener: function removeChangeListener(callback) {\n    this.removeListener(CHANGE_EVENT, callback);\n  },\n  getState: function getState() {\n    return _quoteApi2.default.getState();\n  },\n  resetState: function resetState() {\n    _quoteApi2.default.resetState();\n  },\n\n  dispatcherIndex: (0, _appDispatcher.register)(function (action) {\n    switch (action.actionType) {\n      case _appConstants2.default.ADD_QUOTE:\n        _quoteApi2.default.addQuote(action.item);\n        break;\n      case _appConstants2.default.REMOVE_QUOTE:\n        _quoteApi2.default.removeQuote(action.item);\n        break;\n      case _appConstants2.default.LIKE_QUOTE:\n        _quoteApi2.default.likeQuote(action.item);\n        break;\n      case _appConstants2.default.UNLIKE_QUOTE:\n        _quoteApi2.default.unlikeQuote(action.item);\n        break;\n    };\n    AppStore.emitChange();\n  })\n});\n\nexports.default = AppStore;\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC1zdG9yZS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7QUFDQTs7OztBQUNBOztBQUNBOzs7Ozs7QUFFQSxJQUFNLGVBQWUsUUFBZjs7QUFFTixJQUFNLFdBQVcsT0FBTyxNQUFQLENBQWMscUJBQWEsU0FBYixFQUF3QjtBQUNyRCxvQ0FBWTtBQUNWLFNBQUssSUFBTCxDQUFXLFlBQVgsRUFEVTtHQUR5QztBQUlyRCxnREFBa0IsVUFBUztBQUN6QixTQUFLLEVBQUwsQ0FBUSxZQUFSLEVBQXNCLFFBQXRCLEVBRHlCO0dBSjBCO0FBT3JELHNEQUFxQixVQUFTO0FBQzVCLFNBQUssY0FBTCxDQUFvQixZQUFwQixFQUFrQyxRQUFsQyxFQUQ0QjtHQVB1QjtBQVVyRCxnQ0FBVTtBQUNSLFdBQU8sbUJBQVMsUUFBVCxFQUFQLENBRFE7R0FWMkM7QUFhckQsb0NBQVk7QUFDVix1QkFBUyxVQUFULEdBRFU7R0FieUM7O0FBZ0JyRCxtQkFBaUIsNkJBQVUsVUFBUyxNQUFULEVBQWdCO0FBQ3pDLFlBQU8sT0FBTyxVQUFQO0FBQ0wsV0FBSyx1QkFBYSxTQUFiO0FBQ0gsMkJBQVMsUUFBVCxDQUFrQixPQUFPLElBQVAsQ0FBbEIsQ0FERjtBQUVFLGNBRkY7QUFERixXQUlPLHVCQUFhLFlBQWI7QUFDSCwyQkFBUyxXQUFULENBQXFCLE9BQU8sSUFBUCxDQUFyQixDQURGO0FBRUUsY0FGRjtBQUpGLFdBT08sdUJBQWEsVUFBYjtBQUNILDJCQUFTLFNBQVQsQ0FBbUIsT0FBTyxJQUFQLENBQW5CLENBREY7QUFFRSxjQUZGO0FBUEYsV0FVTyx1QkFBYSxZQUFiO0FBQ0gsMkJBQVMsV0FBVCxDQUFxQixPQUFPLElBQVAsQ0FBckIsQ0FERjtBQUVFLGNBRkY7QUFWRixLQUR5QztBQWV6QyxhQUFTLFVBQVQsR0FmeUM7R0FBaEIsQ0FBM0I7Q0FoQmUsQ0FBWDs7a0JBbUNTIiwiZmlsZSI6ImFwcC1zdG9yZS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7ZGlzcGF0Y2gsIHJlZ2lzdGVyfSBmcm9tICcuLi9kaXNwYXRjaGVycy9hcHAtZGlzcGF0Y2hlcic7XG5pbXBvcnQgQXBwQ29uc3RhbnRzIGZyb20gJy4uL2NvbnN0YW50cy9hcHAtY29uc3RhbnRzJztcbmltcG9ydCB7IEV2ZW50RW1pdHRlciB9IGZyb20gJ2V2ZW50cyc7XG5pbXBvcnQgUXVvdGVBUEkgZnJvbSAnLi4vYXBpL3F1b3RlLWFwaSc7XG5cbmNvbnN0IENIQU5HRV9FVkVOVCA9ICdjaGFuZ2UnO1xuXG5jb25zdCBBcHBTdG9yZSA9IE9iamVjdC5hc3NpZ24oRXZlbnRFbWl0dGVyLnByb3RvdHlwZSwge1xuICBlbWl0Q2hhbmdlKCl7XG4gICAgdGhpcy5lbWl0KCBDSEFOR0VfRVZFTlQgKVxuICB9LFxuICBhZGRDaGFuZ2VMaXN0ZW5lcihjYWxsYmFjayl7XG4gICAgdGhpcy5vbihDSEFOR0VfRVZFTlQsIGNhbGxiYWNrKTtcbiAgfSxcbiAgcmVtb3ZlQ2hhbmdlTGlzdGVuZXIoY2FsbGJhY2spe1xuICAgIHRoaXMucmVtb3ZlTGlzdGVuZXIoQ0hBTkdFX0VWRU5ULCBjYWxsYmFjayk7XG4gIH0sXG4gIGdldFN0YXRlKCl7XG4gICAgcmV0dXJuIFF1b3RlQVBJLmdldFN0YXRlKCk7XG4gIH0sXG4gIHJlc2V0U3RhdGUoKXtcbiAgICBRdW90ZUFQSS5yZXNldFN0YXRlKCk7XG4gIH0sXG4gIGRpc3BhdGNoZXJJbmRleDogcmVnaXN0ZXIoIGZ1bmN0aW9uKGFjdGlvbil7XG4gICAgc3dpdGNoKGFjdGlvbi5hY3Rpb25UeXBlKXtcbiAgICAgIGNhc2UgQXBwQ29uc3RhbnRzLkFERF9RVU9URTpcbiAgICAgICAgUXVvdGVBUEkuYWRkUXVvdGUoYWN0aW9uLml0ZW0pO1xuICAgICAgICBicmVhaztcbiAgICAgIGNhc2UgQXBwQ29uc3RhbnRzLlJFTU9WRV9RVU9URTpcbiAgICAgICAgUXVvdGVBUEkucmVtb3ZlUXVvdGUoYWN0aW9uLml0ZW0pO1xuICAgICAgICBicmVhaztcbiAgICAgIGNhc2UgQXBwQ29uc3RhbnRzLkxJS0VfUVVPVEU6XG4gICAgICAgIFF1b3RlQVBJLmxpa2VRdW90ZShhY3Rpb24uaXRlbSk7XG4gICAgICAgIGJyZWFrO1xuICAgICAgY2FzZSBBcHBDb25zdGFudHMuVU5MSUtFX1FVT1RFOlxuICAgICAgICBRdW90ZUFQSS51bmxpa2VRdW90ZShhY3Rpb24uaXRlbSk7XG4gICAgICAgIGJyZWFrO1xuICAgIH07XG4gICAgQXBwU3RvcmUuZW1pdENoYW5nZSgpO1xuICB9KVxufSlcblxuZXhwb3J0IGRlZmF1bHQgQXBwU3RvcmU7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app-store.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;;AAAA;;AACA;;;;AACA;;AACA;;;;;;AAEA,IAAM,eAAe,QAAf;;AAEN,IAAM,WAAW,OAAO,MAAP,CAAc,qBAAa,SAAb,EAAwB;AACrD,oCAAY;AACV,SAAK,IAAL,CAAW,YAAX,EADU;GADyC;AAIrD,gDAAkB,UAAS;AACzB,SAAK,EAAL,CAAQ,YAAR,EAAsB,QAAtB,EADyB;GAJ0B;AAOrD,sDAAqB,UAAS;AAC5B,SAAK,cAAL,CAAoB,YAApB,EAAkC,QAAlC,EAD4B;GAPuB;AAUrD,gCAAU;AACR,WAAO,mBAAS,QAAT,EAAP,CADQ;GAV2C;AAarD,oCAAY;AACV,uBAAS,UAAT,GADU;GAbyC;;AAgBrD,mBAAiB,6BAAU,UAAS,MAAT,EAAgB;AACzC,YAAO,OAAO,UAAP;AACL,WAAK,uBAAa,SAAb;AACH,2BAAS,QAAT,CAAkB,OAAO,IAAP,CAAlB,CADF;AAEE,cAFF;AADF,WAIO,uBAAa,YAAb;AACH,2BAAS,WAAT,CAAqB,OAAO,IAAP,CAArB,CADF;AAEE,cAFF;AAJF,WAOO,uBAAa,UAAb;AACH,2BAAS,SAAT,CAAmB,OAAO,IAAP,CAAnB,CADF;AAEE,cAFF;AAPF,WAUO,uBAAa,YAAb;AACH,2BAAS,WAAT,CAAqB,OAAO,IAAP,CAArB,CADF;AAEE,cAFF;AAVF,KADyC;AAezC,aAAS,UAAT,GAfyC;GAAhB,CAA3B;CAhBe,CAAX;;kBAmCS",
+      "file": "app-store.js",
+      "sourcesContent": [
+        "import {dispatch, register} from '../dispatchers/app-dispatcher';\nimport AppConstants from '../constants/app-constants';\nimport { EventEmitter } from 'events';\nimport QuoteAPI from '../api/quote-api';\n\nconst CHANGE_EVENT = 'change';\n\nconst AppStore = Object.assign(EventEmitter.prototype, {\n  emitChange(){\n    this.emit( CHANGE_EVENT )\n  },\n  addChangeListener(callback){\n    this.on(CHANGE_EVENT, callback);\n  },\n  removeChangeListener(callback){\n    this.removeListener(CHANGE_EVENT, callback);\n  },\n  getState(){\n    return QuoteAPI.getState();\n  },\n  resetState(){\n    QuoteAPI.resetState();\n  },\n  dispatcherIndex: register( function(action){\n    switch(action.actionType){\n      case AppConstants.ADD_QUOTE:\n        QuoteAPI.addQuote(action.item);\n        break;\n      case AppConstants.REMOVE_QUOTE:\n        QuoteAPI.removeQuote(action.item);\n        break;\n      case AppConstants.LIKE_QUOTE:\n        QuoteAPI.likeQuote(action.item);\n        break;\n      case AppConstants.UNLIKE_QUOTE:\n        QuoteAPI.unlikeQuote(action.item);\n        break;\n    };\n    AppStore.emitChange();\n  })\n})\n\nexport default AppStore;\n"
+      ]
+    },
+    "mtime": 1461269333312
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/dispatchers/app-dispatcher.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "flux",
+            "imported": [
+              "Dispatcher"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "Dispatcher",
+                "local": "Dispatcher"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [
+            "register",
+            "callback",
+            "dispatch",
+            "actionType",
+            "action"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "register",
+              "exported": "register"
+            },
+            {
+              "kind": "local",
+              "local": "callback",
+              "exported": "callback"
+            },
+            {
+              "kind": "local",
+              "local": "dispatch",
+              "exported": "dispatch"
+            },
+            {
+              "kind": "local",
+              "local": "actionType",
+              "exported": "actionType"
+            },
+            {
+              "kind": "local",
+              "local": "action",
+              "exported": "action"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/dispatchers/app-dispatcher.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/dispatchers/app-dispatcher.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "app-dispatcher.js",
+      "sourceFileName": "app-dispatcher.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "app-dispatcher"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.register = register;\nexports.dispatch = dispatch;\n\nvar _flux = require('flux');\n\nvar flux = new _flux.Dispatcher();\n\nfunction register(callback) {\n  return flux.register(callback);\n}\n\nfunction dispatch(actionType, action) {\n  flux.dispatch(actionType, action);\n}\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC1kaXNwYXRjaGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O1FBSWdCO1FBSUE7O0FBUmhCOztBQUVBLElBQU0sT0FBTyxzQkFBUDs7QUFFQyxTQUFTLFFBQVQsQ0FBbUIsUUFBbkIsRUFBOEI7QUFDbkMsU0FBTyxLQUFLLFFBQUwsQ0FBZSxRQUFmLENBQVAsQ0FEbUM7Q0FBOUI7O0FBSUEsU0FBUyxRQUFULENBQW1CLFVBQW5CLEVBQStCLE1BQS9CLEVBQXNDO0FBQzNDLE9BQUssUUFBTCxDQUFlLFVBQWYsRUFBMkIsTUFBM0IsRUFEMkM7Q0FBdEMiLCJmaWxlIjoiYXBwLWRpc3BhdGNoZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBEaXNwYXRjaGVyIH0gZnJvbSAnZmx1eCc7XG5cbmNvbnN0IGZsdXggPSBuZXcgRGlzcGF0Y2hlcigpO1xuXG5leHBvcnQgZnVuY3Rpb24gcmVnaXN0ZXIoIGNhbGxiYWNrICkge1xuICByZXR1cm4gZmx1eC5yZWdpc3RlciggY2FsbGJhY2sgKTtcbn1cblxuZXhwb3J0IGZ1bmN0aW9uIGRpc3BhdGNoKCBhY3Rpb25UeXBlLCBhY3Rpb24pe1xuICBmbHV4LmRpc3BhdGNoKCBhY3Rpb25UeXBlLCBhY3Rpb24pO1xufVxuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app-dispatcher.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;QAIgB;QAIA;;AARhB;;AAEA,IAAM,OAAO,sBAAP;;AAEC,SAAS,QAAT,CAAmB,QAAnB,EAA8B;AACnC,SAAO,KAAK,QAAL,CAAe,QAAf,CAAP,CADmC;CAA9B;;AAIA,SAAS,QAAT,CAAmB,UAAnB,EAA+B,MAA/B,EAAsC;AAC3C,OAAK,QAAL,CAAe,UAAf,EAA2B,MAA3B,EAD2C;CAAtC",
+      "file": "app-dispatcher.js",
+      "sourcesContent": [
+        "import { Dispatcher } from 'flux';\n\nconst flux = new Dispatcher();\n\nexport function register( callback ) {\n  return flux.register( callback );\n}\n\nexport function dispatch( actionType, action){\n  flux.dispatch( actionType, action);\n}\n"
+      ]
+    },
+    "mtime": 1461266447434
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/constants/app-constants.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/constants/app-constants.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/constants/app-constants.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "app-constants.js",
+      "sourceFileName": "app-constants.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "app-constants"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = {\n  ADD_QUOTE: 'ADD_QUOTE',\n  REMOVE_QUOTE: 'REMOVE_QUOTE',\n  LIKE_QUOTE: 'LIKE_QUOTE',\n  UNLIKE_QUOTE: 'UNLIKE_QUOTE'\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC1jb25zdGFudHMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7a0JBQWU7QUFDYixhQUFXLFdBQVg7QUFDQSxnQkFBYyxjQUFkO0FBQ0EsY0FBWSxZQUFaO0FBQ0EsZ0JBQWMsY0FBZCIsImZpbGUiOiJhcHAtY29uc3RhbnRzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuICBBRERfUVVPVEU6ICdBRERfUVVPVEUnLFxuICBSRU1PVkVfUVVPVEU6ICdSRU1PVkVfUVVPVEUnLFxuICBMSUtFX1FVT1RFOiAnTElLRV9RVU9URScsXG4gIFVOTElLRV9RVU9URTogJ1VOTElLRV9RVU9URSdcbn1cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app-constants.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;kBAAe;AACb,aAAW,WAAX;AACA,gBAAc,cAAd;AACA,cAAY,YAAZ;AACA,gBAAc,cAAd",
+      "file": "app-constants.js",
+      "sourcesContent": [
+        "export default {\n  ADD_QUOTE: 'ADD_QUOTE',\n  REMOVE_QUOTE: 'REMOVE_QUOTE',\n  LIKE_QUOTE: 'LIKE_QUOTE',\n  UNLIKE_QUOTE: 'UNLIKE_QUOTE'\n}\n"
+      ]
+    },
+    "mtime": 1461267713162
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/api/quote-api.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/api/quote-api.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/api/quote-api.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "quote-api.js",
+      "sourceFileName": "quote-api.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "quote-api"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar QuoteAPI = {\n  addQuote: function addQuote(quote) {\n    this.quotes.push({\n      'id': this.maxId++,\n      'quote': { 'author': quote.author, 'text': quote.text },\n      'likeCount': 0\n    });\n  },\n  removeQuote: function removeQuote(item) {\n    this.quotes.splice(this.quotes.findIndex(function (i) {\n      return i.id === item.id;\n    }), 1);\n  },\n  likeQuote: function likeQuote(item) {\n    this.quotes.find(function (i) {\n      return i.id === item.id;\n    }).likeCount++;\n  },\n  unlikeQuote: function unlikeQuote(item) {\n    this.quotes.find(function (i) {\n      return i.id === item.id;\n    }).likeCount--;\n  },\n  getState: function getState() {\n    return {\n      'quotes': this.quotes\n    };\n  },\n  resetState: function resetState() {\n    this.initialise();\n  },\n  initialise: function initialise() {\n    this.quotes = [];\n    this.maxId = 0;\n    for (var i = 0; i < 4; i++) {\n      this.addQuote({ 'author': 'David', 'text': 'I like the number ' + i });\n    }\n  }\n};\n\nQuoteAPI.initialise();\nexports.default = QuoteAPI;\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInF1b3RlLWFwaS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7OztBQUFBLElBQU0sV0FBVztBQUNmLDhCQUFTLE9BQU87QUFDZCxTQUFLLE1BQUwsQ0FBWSxJQUFaLENBQWlCO0FBQ2YsWUFBTSxLQUFLLEtBQUwsRUFBTjtBQUNBLGVBQVEsRUFBRSxVQUFTLE1BQU0sTUFBTixFQUFjLFFBQU8sTUFBTSxJQUFOLEVBQXhDO0FBQ0EsbUJBQVksQ0FBWjtLQUhGLEVBRGM7R0FERDtBQVFmLG9DQUFZLE1BQU07QUFDaEIsU0FBSyxNQUFMLENBQVksTUFBWixDQUFvQixLQUFLLE1BQUwsQ0FBWSxTQUFaLENBQXNCO2FBQUksRUFBRSxFQUFGLEtBQVMsS0FBSyxFQUFMO0tBQWIsQ0FBMUMsRUFBaUUsQ0FBakUsRUFEZ0I7R0FSSDtBQVdmLGdDQUFVLE1BQU07QUFDZCxTQUFLLE1BQUwsQ0FBWSxJQUFaLENBQWlCO2FBQUssRUFBRSxFQUFGLEtBQVMsS0FBSyxFQUFMO0tBQWQsQ0FBakIsQ0FBd0MsU0FBeEMsR0FEYztHQVhEO0FBY2Ysb0NBQVksTUFBTTtBQUNoQixTQUFLLE1BQUwsQ0FBWSxJQUFaLENBQWlCO2FBQUssRUFBRSxFQUFGLEtBQVMsS0FBSyxFQUFMO0tBQWQsQ0FBakIsQ0FBd0MsU0FBeEMsR0FEZ0I7R0FkSDtBQWlCZixnQ0FBVTtBQUNSLFdBQU87QUFDTCxnQkFBUyxLQUFLLE1BQUw7S0FEWCxDQURRO0dBakJLO0FBc0JmLG9DQUFZO0FBQ1YsU0FBSyxVQUFMLEdBRFU7R0F0Qkc7QUF5QmYsb0NBQVk7QUFDVixTQUFLLE1BQUwsR0FBYyxFQUFkLENBRFU7QUFFVixTQUFLLEtBQUwsR0FBYSxDQUFiLENBRlU7QUFHVixTQUFNLElBQUksSUFBRSxDQUFGLEVBQUssSUFBRSxDQUFGLEVBQUssR0FBcEIsRUFBeUI7QUFDdkIsV0FBSyxRQUFMLENBQWMsRUFBQyxVQUFTLE9BQVQsRUFBa0IsUUFBTyx1QkFBcUIsQ0FBckIsRUFBeEMsRUFEdUI7S0FBekI7R0E1QmE7Q0FBWDs7QUFrQ04sU0FBUyxVQUFUO2tCQUNlIiwiZmlsZSI6InF1b3RlLWFwaS5qcyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFF1b3RlQVBJID0ge1xuICBhZGRRdW90ZShxdW90ZSkge1xuICAgIHRoaXMucXVvdGVzLnB1c2goe1xuICAgICAgJ2lkJzogdGhpcy5tYXhJZCsrLFxuICAgICAgJ3F1b3RlJzp7ICdhdXRob3InOnF1b3RlLmF1dGhvciwgJ3RleHQnOnF1b3RlLnRleHR9LFxuICAgICAgJ2xpa2VDb3VudCc6MFxuICAgIH0pO1xuICB9LFxuICByZW1vdmVRdW90ZShpdGVtKSB7XG4gICAgdGhpcy5xdW90ZXMuc3BsaWNlKCB0aGlzLnF1b3Rlcy5maW5kSW5kZXgoaT0+IGkuaWQgPT09IGl0ZW0uaWQpLCAxKTtcbiAgfSxcbiAgbGlrZVF1b3RlKGl0ZW0pIHtcbiAgICB0aGlzLnF1b3Rlcy5maW5kKGkgPT4gaS5pZCA9PT0gaXRlbS5pZCkubGlrZUNvdW50Kys7XG4gIH0sXG4gIHVubGlrZVF1b3RlKGl0ZW0pIHtcbiAgICB0aGlzLnF1b3Rlcy5maW5kKGkgPT4gaS5pZCA9PT0gaXRlbS5pZCkubGlrZUNvdW50LS07XG4gIH0sXG4gIGdldFN0YXRlKCl7XG4gICAgcmV0dXJuIHtcbiAgICAgICdxdW90ZXMnOnRoaXMucXVvdGVzXG4gICAgfTtcbiAgfSxcbiAgcmVzZXRTdGF0ZSgpe1xuICAgIHRoaXMuaW5pdGlhbGlzZSgpO1xuICB9LFxuICBpbml0aWFsaXNlKCl7XG4gICAgdGhpcy5xdW90ZXMgPSBbXTtcbiAgICB0aGlzLm1heElkID0gMDtcbiAgICBmb3IgKCBsZXQgaT0wOyBpPDQ7IGkrKykge1xuICAgICAgdGhpcy5hZGRRdW90ZSh7J2F1dGhvcic6J0RhdmlkJywgJ3RleHQnOidJIGxpa2UgdGhlIG51bWJlciAnK2l9KTtcbiAgICB9XG4gIH1cbn1cblxuUXVvdGVBUEkuaW5pdGlhbGlzZSgpO1xuZXhwb3J0IGRlZmF1bHQgUXVvdGVBUEk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "quote-api.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;AAAA,IAAM,WAAW;AACf,8BAAS,OAAO;AACd,SAAK,MAAL,CAAY,IAAZ,CAAiB;AACf,YAAM,KAAK,KAAL,EAAN;AACA,eAAQ,EAAE,UAAS,MAAM,MAAN,EAAc,QAAO,MAAM,IAAN,EAAxC;AACA,mBAAY,CAAZ;KAHF,EADc;GADD;AAQf,oCAAY,MAAM;AAChB,SAAK,MAAL,CAAY,MAAZ,CAAoB,KAAK,MAAL,CAAY,SAAZ,CAAsB;aAAI,EAAE,EAAF,KAAS,KAAK,EAAL;KAAb,CAA1C,EAAiE,CAAjE,EADgB;GARH;AAWf,gCAAU,MAAM;AACd,SAAK,MAAL,CAAY,IAAZ,CAAiB;aAAK,EAAE,EAAF,KAAS,KAAK,EAAL;KAAd,CAAjB,CAAwC,SAAxC,GADc;GAXD;AAcf,oCAAY,MAAM;AAChB,SAAK,MAAL,CAAY,IAAZ,CAAiB;aAAK,EAAE,EAAF,KAAS,KAAK,EAAL;KAAd,CAAjB,CAAwC,SAAxC,GADgB;GAdH;AAiBf,gCAAU;AACR,WAAO;AACL,gBAAS,KAAK,MAAL;KADX,CADQ;GAjBK;AAsBf,oCAAY;AACV,SAAK,UAAL,GADU;GAtBG;AAyBf,oCAAY;AACV,SAAK,MAAL,GAAc,EAAd,CADU;AAEV,SAAK,KAAL,GAAa,CAAb,CAFU;AAGV,SAAM,IAAI,IAAE,CAAF,EAAK,IAAE,CAAF,EAAK,GAApB,EAAyB;AACvB,WAAK,QAAL,CAAc,EAAC,UAAS,OAAT,EAAkB,QAAO,uBAAqB,CAArB,EAAxC,EADuB;KAAzB;GA5Ba;CAAX;;AAkCN,SAAS,UAAT;kBACe",
+      "file": "quote-api.js",
+      "sourcesContent": [
+        "const QuoteAPI = {\n  addQuote(quote) {\n    this.quotes.push({\n      'id': this.maxId++,\n      'quote':{ 'author':quote.author, 'text':quote.text},\n      'likeCount':0\n    });\n  },\n  removeQuote(item) {\n    this.quotes.splice( this.quotes.findIndex(i=> i.id === item.id), 1);\n  },\n  likeQuote(item) {\n    this.quotes.find(i => i.id === item.id).likeCount++;\n  },\n  unlikeQuote(item) {\n    this.quotes.find(i => i.id === item.id).likeCount--;\n  },\n  getState(){\n    return {\n      'quotes':this.quotes\n    };\n  },\n  resetState(){\n    this.initialise();\n  },\n  initialise(){\n    this.quotes = [];\n    this.maxId = 0;\n    for ( let i=0; i<4; i++) {\n      this.addQuote({'author':'David', 'text':'I like the number '+i});\n    }\n  }\n}\n\nQuoteAPI.initialise();\nexport default QuoteAPI;\n"
+      ]
+    },
+    "mtime": 1461270775706
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/utility/create-id.spec.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "expect",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "expect"
+              }
+            ]
+          },
+          {
+            "source": "./create-id",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "createId"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/utility/create-id.spec.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/utility/create-id.spec.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "create-id.spec.js",
+      "sourceFileName": "create-id.spec.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "create-id.spec"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _expect = require('expect');\n\nvar _expect2 = _interopRequireDefault(_expect);\n\nvar _createId = require('./create-id');\n\nvar _createId2 = _interopRequireDefault(_createId);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\ndescribe('createId', function () {\n  it('should convert a description into a unique id', function () {\n    var actual = (0, _createId2.default)(123, 'Cool example description');\n    var expected = '123-cool-example';\n    (0, _expect2.default)(actual).toEqual(expected);\n  });\n});\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNyZWF0ZS1pZC5zcGVjLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUE7Ozs7QUFDQTs7Ozs7O0FBRUEsU0FBUyxVQUFULEVBQXFCLFlBQU07QUFDekIsS0FBRywrQ0FBSCxFQUFvRCxZQUFNO0FBQ3hELFFBQU0sU0FBUyx3QkFBUyxHQUFULEVBQWMsMEJBQWQsQ0FBVCxDQURrRDtBQUV4RCxRQUFNLFdBQVcsa0JBQVgsQ0FGa0Q7QUFHeEQsMEJBQU8sTUFBUCxFQUFlLE9BQWYsQ0FBdUIsUUFBdkIsRUFId0Q7R0FBTixDQUFwRCxDQUR5QjtDQUFOLENBQXJCIiwiZmlsZSI6ImNyZWF0ZS1pZC5zcGVjLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGV4cGVjdCBmcm9tICdleHBlY3QnO1xuaW1wb3J0IGNyZWF0ZUlkIGZyb20gJy4vY3JlYXRlLWlkJztcblxuZGVzY3JpYmUoJ2NyZWF0ZUlkJywgKCkgPT4ge1xuICBpdCgnc2hvdWxkIGNvbnZlcnQgYSBkZXNjcmlwdGlvbiBpbnRvIGEgdW5pcXVlIGlkJywgKCkgPT4ge1xuICAgIGNvbnN0IGFjdHVhbCA9IGNyZWF0ZUlkKDEyMywgJ0Nvb2wgZXhhbXBsZSBkZXNjcmlwdGlvbicpO1xuICAgIGNvbnN0IGV4cGVjdGVkID0gJzEyMy1jb29sLWV4YW1wbGUnO1xuICAgIGV4cGVjdChhY3R1YWwpLnRvRXF1YWwoZXhwZWN0ZWQpO1xuICB9KVxufSlcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "create-id.spec.js"
+      ],
+      "names": [],
+      "mappings": ";;AAAA;;;;AACA;;;;;;AAEA,SAAS,UAAT,EAAqB,YAAM;AACzB,KAAG,+CAAH,EAAoD,YAAM;AACxD,QAAM,SAAS,wBAAS,GAAT,EAAc,0BAAd,CAAT,CADkD;AAExD,QAAM,WAAW,kBAAX,CAFkD;AAGxD,0BAAO,MAAP,EAAe,OAAf,CAAuB,QAAvB,EAHwD;GAAN,CAApD,CADyB;CAAN,CAArB",
+      "file": "create-id.spec.js",
+      "sourcesContent": [
+        "import expect from 'expect';\nimport createId from './create-id';\n\ndescribe('createId', () => {\n  it('should convert a description into a unique id', () => {\n    const actual = createId(123, 'Cool example description');\n    const expected = '123-cool-example';\n    expect(actual).toEqual(expected);\n  })\n})\n"
+      ]
+    },
+    "mtime": 1461237703296
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/utility/create-id.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [
+            "createId",
+            "uniqueNumber",
+            "description"
+          ],
+          "specifiers": [
+            {
+              "kind": "local",
+              "local": "createId",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "uniqueNumber",
+              "exported": "default"
+            },
+            {
+              "kind": "local",
+              "local": "description",
+              "exported": "default"
+            }
+          ]
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/utility/create-id.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/utility/create-id.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "create-id.js",
+      "sourceFileName": "create-id.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "create-id"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = createId;\nfunction createId(uniqueNumber, description) {\n  var shortKebabDescription = description.toLowerCase().split(' ').slice(0, 2).join('-');\n  return uniqueNumber + '-' + shortKebabDescription;\n}\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNyZWF0ZS1pZC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7OztrQkFBd0I7QUFBVCxTQUFTLFFBQVQsQ0FBa0IsWUFBbEIsRUFBZ0MsV0FBaEMsRUFBNEM7QUFDekQsTUFBTSx3QkFBd0IsWUFDM0IsV0FEMkIsR0FFM0IsS0FGMkIsQ0FFckIsR0FGcUIsRUFHM0IsS0FIMkIsQ0FHckIsQ0FIcUIsRUFHbEIsQ0FIa0IsRUFJM0IsSUFKMkIsQ0FJdEIsR0FKc0IsQ0FBeEIsQ0FEbUQ7QUFNdkQsU0FBVSxxQkFBZ0IscUJBQTFCLENBTnVEO0NBQTVDIiwiZmlsZSI6ImNyZWF0ZS1pZC5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIGNyZWF0ZUlkKHVuaXF1ZU51bWJlciwgZGVzY3JpcHRpb24pe1xuICBjb25zdCBzaG9ydEtlYmFiRGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvblxuICAgIC50b0xvd2VyQ2FzZSgpXG4gICAgLnNwbGl0KCcgJylcbiAgICAuc2xpY2UoMCwgMilcbiAgICAuam9pbignLScpO1xuICAgIHJldHVybiBgJHt1bmlxdWVOdW1iZXJ9LSR7c2hvcnRLZWJhYkRlc2NyaXB0aW9ufWA7XG59XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "create-id.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;kBAAwB;AAAT,SAAS,QAAT,CAAkB,YAAlB,EAAgC,WAAhC,EAA4C;AACzD,MAAM,wBAAwB,YAC3B,WAD2B,GAE3B,KAF2B,CAErB,GAFqB,EAG3B,KAH2B,CAGrB,CAHqB,EAGlB,CAHkB,EAI3B,IAJ2B,CAItB,GAJsB,CAAxB,CADmD;AAMvD,SAAU,qBAAgB,qBAA1B,CANuD;CAA5C",
+      "file": "create-id.js",
+      "sourcesContent": [
+        "export default function createId(uniqueNumber, description){\n  const shortKebabDescription = description\n    .toLowerCase()\n    .split(' ')\n    .slice(0, 2)\n    .join('-');\n    return `${uniqueNumber}-${shortKebabDescription}`;\n}\n"
+      ]
+    },
+    "mtime": 1461237408371
+  },
+  "{\"filename\":\"c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/actions/app-actions.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"async\":false,\"asyncGenerators\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false}:6.7.6": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "../constants/app-constants",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "AppConstants"
+              }
+            ]
+          },
+          {
+            "source": "../dispatchers/app-dispatcher",
+            "imported": [
+              "dispatch",
+              "register"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "dispatch",
+                "local": "dispatch"
+              },
+              {
+                "kind": "named",
+                "imported": "register",
+                "local": "register"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/actions/app-actions.js",
+      "filenameRelative": "c:/local/source/Sandpit/egghead.io/react-testing-cookbook/src/actions/app-actions.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMap": "both",
+      "sourceMaps": "both",
+      "sourceMapTarget": "app-actions.js",
+      "sourceFileName": "app-actions.js",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "basename": "app-actions"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _appConstants = require('../constants/app-constants');\n\nvar _appConstants2 = _interopRequireDefault(_appConstants);\n\nvar _appDispatcher = require('../dispatchers/app-dispatcher');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = {\n  addQuote: function addQuote(item) {\n    (0, _appDispatcher.dispatch)({\n      actionType: _appConstants2.default.ADD_QUOTE, item: item\n    });\n  },\n  removeQuote: function removeQuote(item) {\n    (0, _appDispatcher.dispatch)({\n      actionType: _appConstants2.default.REMOVE_QUOTE, item: item\n    });\n  },\n  likeQuote: function likeQuote(item) {\n    (0, _appDispatcher.dispatch)({\n      actionType: _appConstants2.default.LIKE_QUOTE, item: item\n    });\n  },\n  unlikeQuote: function unlikeQuote(item) {\n    (0, _appDispatcher.dispatch)({\n      actionType: _appConstants2.default.UNLIKE_QUOTE, item: item\n    });\n  }\n};\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC1hY3Rpb25zLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOzs7O0FBQ0E7Ozs7a0JBRWU7QUFDYiw4QkFBVSxNQUFNO0FBQ2QsaUNBQVM7QUFDUCxrQkFBWSx1QkFBYSxTQUFiLEVBQXdCLFVBRDdCO0tBQVQsRUFEYztHQURIO0FBTWIsb0NBQWEsTUFBTTtBQUNqQixpQ0FBUztBQUNQLGtCQUFZLHVCQUFhLFlBQWIsRUFBMkIsVUFEaEM7S0FBVCxFQURpQjtHQU5OO0FBV2IsZ0NBQVcsTUFBTTtBQUNmLGlDQUFTO0FBQ1Asa0JBQVksdUJBQWEsVUFBYixFQUF5QixVQUQ5QjtLQUFULEVBRGU7R0FYSjtBQWdCYixvQ0FBYSxNQUFNO0FBQ2pCLGlDQUFTO0FBQ1Asa0JBQVksdUJBQWEsWUFBYixFQUEyQixVQURoQztLQUFULEVBRGlCO0dBaEJOIiwiZmlsZSI6ImFwcC1hY3Rpb25zLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEFwcENvbnN0YW50cyBmcm9tICcuLi9jb25zdGFudHMvYXBwLWNvbnN0YW50cyc7XG5pbXBvcnQgeyBkaXNwYXRjaCwgcmVnaXN0ZXIgfSBmcm9tICcuLi9kaXNwYXRjaGVycy9hcHAtZGlzcGF0Y2hlcic7XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgYWRkUXVvdGUoIGl0ZW0gKXtcbiAgICBkaXNwYXRjaCh7XG4gICAgICBhY3Rpb25UeXBlOiBBcHBDb25zdGFudHMuQUREX1FVT1RFLCBpdGVtXG4gICAgfSlcbiAgfSxcbiAgcmVtb3ZlUXVvdGUoIGl0ZW0gKXtcbiAgICBkaXNwYXRjaCh7XG4gICAgICBhY3Rpb25UeXBlOiBBcHBDb25zdGFudHMuUkVNT1ZFX1FVT1RFLCBpdGVtXG4gICAgfSlcbiAgfSxcbiAgbGlrZVF1b3RlKCBpdGVtICl7XG4gICAgZGlzcGF0Y2goe1xuICAgICAgYWN0aW9uVHlwZTogQXBwQ29uc3RhbnRzLkxJS0VfUVVPVEUsIGl0ZW1cbiAgICB9KVxuICB9LFxuICB1bmxpa2VRdW90ZSggaXRlbSApe1xuICAgIGRpc3BhdGNoKHtcbiAgICAgIGFjdGlvblR5cGU6IEFwcENvbnN0YW50cy5VTkxJS0VfUVVPVEUsIGl0ZW1cbiAgICB9KVxuICB9XG59XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "app-actions.js"
+      ],
+      "names": [],
+      "mappings": ";;;;;;AAAA;;;;AACA;;;;kBAEe;AACb,8BAAU,MAAM;AACd,iCAAS;AACP,kBAAY,uBAAa,SAAb,EAAwB,UAD7B;KAAT,EADc;GADH;AAMb,oCAAa,MAAM;AACjB,iCAAS;AACP,kBAAY,uBAAa,YAAb,EAA2B,UADhC;KAAT,EADiB;GANN;AAWb,gCAAW,MAAM;AACf,iCAAS;AACP,kBAAY,uBAAa,UAAb,EAAyB,UAD9B;KAAT,EADe;GAXJ;AAgBb,oCAAa,MAAM;AACjB,iCAAS;AACP,kBAAY,uBAAa,YAAb,EAA2B,UADhC;KAAT,EADiB;GAhBN",
+      "file": "app-actions.js",
+      "sourcesContent": [
+        "import AppConstants from '../constants/app-constants';\nimport { dispatch, register } from '../dispatchers/app-dispatcher';\n\nexport default {\n  addQuote( item ){\n    dispatch({\n      actionType: AppConstants.ADD_QUOTE, item\n    })\n  },\n  removeQuote( item ){\n    dispatch({\n      actionType: AppConstants.REMOVE_QUOTE, item\n    })\n  },\n  likeQuote( item ){\n    dispatch({\n      actionType: AppConstants.LIKE_QUOTE, item\n    })\n  },\n  unlikeQuote( item ){\n    dispatch({\n      actionType: AppConstants.UNLIKE_QUOTE, item\n    })\n  }\n}\n"
+      ]
+    },
+    "mtime": 1461267917435
+  }
+}

@@ -5,7 +5,7 @@ if shopt -q login_shell; then
 fi
 
 if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
-  # "MINGW32_NT-6.2" - windows 8
+  # "MINGW32_NT-6.2" - windows 8 + 10
   # "MINGW32_NT-6.1" - windows 7
   export PREFIX="/c/local"
 
@@ -73,6 +73,14 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   #export PATH="$MONGODB_HOME/bin:$PATH"
   #alias mongod="mongod -dbpath $PREFIX/tools/MongoDB/data/db --rest"
 
+  # RabbitMQ
+  export RABBITMQ_HOME="$PREFIX/tools/RabbitMQ/rabbitmq_server-3.6.1"
+  export PATH="$RABBITMQ_HOME/sbin:$PATH"
+
+  # Vagrant
+  export PATH="$PREFIX/tools/Vagrant/bin:$PATH"
+  export PATH="$PREFIX/tools/cwRsync_5.5.0_x86_Free/bin:$PATH"
+
   # sublime text
   function subl() {
     if [ "$1" != "" ]
@@ -86,7 +94,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   }
 
 elif [[ `uname` == "Darwin" ]] ; then
-
   # local bin
   export PATH="/users/david/bin/:$PATH"
 
