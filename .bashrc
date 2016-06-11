@@ -66,7 +66,7 @@
 #  Conversely, if the default group name is *different* from the username
 #  AND the user id is greater than 99, we're on the server, and set umask
 #  022 for easy collaborative editing.
-if [ "`id -gn`" == "`id -un`" -a `id -u` -gt 99 ]; then
+if [ "`id -g`" == "`id -u`" -a `id -u` -gt 99 ]; then
 	umask 002
 else
 	umask 022
@@ -85,7 +85,7 @@ shopt -s histappend
 ## -----------------------
 
 # 2.2) Listing, directories, and motion
-if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
+if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" || `uname` == "MINGW32_NT-10.0" ]];  then
   alias ls="ls -aF --color"
   alias ll="ls -alrtF --color"
   alias cds="cd /c/local/source"

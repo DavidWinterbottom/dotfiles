@@ -4,9 +4,10 @@ if shopt -q login_shell; then
   echo ".bashrc_custom for `uname`"
 fi
 
-if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
-  # "MINGW32_NT-6.2" - windows 8 + 10
+if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" || `uname` == "MINGW32_NT-10.0" ]];  then
+  # "MINGW32_NT-6.2" - windows 8 
   # "MINGW32_NT-6.1" - windows 7
+  # "MINGW32_NT-10.0" - windows 10
   export PREFIX="/c/local"
 
   # local bin
@@ -16,7 +17,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   export PATH="$PREFIX/tools/Git/bin:$PATH"
 
   # vim
-  #export VIM_HOME="$PREFIX/tools/Vim/vim-7.4.193-python-2.7-python-3.3-ruby-2.0.0-lua-5.2-windows-x86/"
   #export VIM_HOME="$PREFIX/tools/Vim/vim73-kaoriya-win32/"
   export VIM_HOME="$PREFIX/tools/Vim/vim74-kaoriya-win32/"
   export PATH="$VIM_HOME:$PATH"
@@ -51,6 +51,7 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
 
   # ctags
   export PATH="$PREFIX/tools/ctags58:$PATH"
+
   # ruby
   #export RUBY_HOME="$PREFIX/languages/Ruby193"
   #export PATH="$RUBY_HOME/bin:$PATH"
@@ -92,6 +93,9 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
       "/c/Program Files/Sublime Text 3/subl.exe" .
     fi
   }
+
+  # ag
+  export PATH="$PREFIX/tools/ag:$PATH"
 
 elif [[ `uname` == "Darwin" ]] ; then
   # local bin
