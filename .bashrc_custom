@@ -4,10 +4,10 @@ if shopt -q login_shell; then
   echo ".bashrc_custom for `uname`"
 fi
 
-if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
-  # "MINGW32_NT-6.2" - windows 8
+if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" || `uname` == "MINGW32_NT-10.0" ]];  then
+  # "MINGW32_NT-6.2" - windows 8 
   # "MINGW32_NT-6.1" - windows 7
-
+  # "MINGW32_NT-10.0" - windows 10
   export PREFIX="/c/local"
 
   # local bin
@@ -17,7 +17,6 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   export PATH="$PREFIX/tools/Git/bin:$PATH"
 
   # vim
-  #export VIM_HOME="$PREFIX/tools/Vim/vim-7.4.193-python-2.7-python-3.3-ruby-2.0.0-lua-5.2-windows-x86/"
   #export VIM_HOME="$PREFIX/tools/Vim/vim73-kaoriya-win32/"
   export VIM_HOME="$PREFIX/tools/Vim/vim74-kaoriya-win32/"
   export PATH="$VIM_HOME:$PATH"
@@ -52,6 +51,7 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
 
   # ctags
   export PATH="$PREFIX/tools/ctags58:$PATH"
+
   # ruby
   #export RUBY_HOME="$PREFIX/languages/Ruby193"
   #export PATH="$RUBY_HOME/bin:$PATH"
@@ -74,6 +74,14 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
   #export PATH="$MONGODB_HOME/bin:$PATH"
   #alias mongod="mongod -dbpath $PREFIX/tools/MongoDB/data/db --rest"
 
+  # RabbitMQ
+  export RABBITMQ_HOME="$PREFIX/tools/RabbitMQ/rabbitmq_server-3.6.1"
+  export PATH="$RABBITMQ_HOME/sbin:$PATH"
+
+  # Vagrant
+  export PATH="$PREFIX/tools/Vagrant/bin:$PATH"
+  export PATH="$PREFIX/tools/cwRsync_5.5.0_x86_Free/bin:$PATH"
+
   # sublime text
   function subl() {
     if [ "$1" != "" ]
@@ -86,11 +94,10 @@ if [[ `uname` == "MINGW32_NT-6.2" || `uname` == "MINGW32_NT-6.1" ]];  then
     fi
   }
 
-elif [[ `uname` == "Darwin" ]] ; then
-  if shopt -q login_shell; then
-    echo "setting environment for MacBook"
-  fi
+  # ag
+  export PATH="$PREFIX/tools/ag:$PATH"
 
+elif [[ `uname` == "Darwin" ]] ; then
   # local bin
   export PATH="/users/david/bin/:$PATH"
 
@@ -101,7 +108,6 @@ elif [[ `uname` == "Darwin" ]] ; then
 
   # mvn
   #  using system defaults on mac...
-
 
   # Sublime
   function sub() {
@@ -137,7 +143,7 @@ elif [[ `uname` == "Linux" ]] ; then
   # mvn
   # MAVEN_HOME for v1 - M2_HOME for v2 + v3
   #export MAVEN_HOME=/local/pkgs/apache-maven-3.0.4;
-  export M2_HOME="/local/pkgs/apache-maven-3.2.2"
+  export M2_HOME="/local/pkgs/apache-maven/apache-maven-3.2.2"
   export MVN_OPTS=" "
   export PATH="$M2_HOME/bin:$PATH"
 
@@ -148,6 +154,7 @@ elif [[ `uname` == "Linux" ]] ; then
   export PATH="./node_modules/.bin/:$NODE_HOME:$NODE_PATH:$PATH"
   export TMPDIR="/tmp" 
 
+else 
   if shopt -q login_shell; then
     echo ".bashrc_custom skipped as unknown environment " `uname`
   fi

@@ -33,7 +33,7 @@ silencewait           15              # default: 30
 activity              "activity in %n (%t) [%w:%s]~"
 bell                  "bell     in %n (%t) [%w:%s]~"
 
-shell "/bin/bash"
+shell -$SHELL
 
 # # fix scrollback in putty
 termcapinfo xterm* ti@:te@
@@ -46,8 +46,8 @@ bind ^k
 bind .
 bind ^\
 bind \\
-bind ^h
-bind h
+#bind ^h
+#bind h
 bind ''
 bind 'L'
 #bind 'I' login on
@@ -62,21 +62,21 @@ bindkey "Od" prev
 # Emacs compatibility
 # Easy switching of windows without p/n confusion, as ctrl-p and ctrl-n
 # are frequently used in emacs but u/j are not...
-bind 'u' prev
-bind ^U prev
-bind 'j' next
-bind ^J next
+#bind 'u' prev
+#bind ^U prev
+#bind 'j' next
+#bind ^J next
 
 # Emacs compatibility for screen movement (if you use subscreen regions)
 # Using tab to move around regions gets annoying.  These help.
-bind ^P focus up
-bind 'p' focus up
-bind ^N focus down
-bind 'n' focus down
-bind ^F focus top
-bind 'f' focus top
-bind ^B focus bottom
-bind 'b' focus bottom
+#bind ^P focus up
+#bind 'p' focus up
+#bind ^N focus down
+#bind 'n' focus down
+#bind ^F focus top
+#bind 'f' focus top
+#bind ^B focus bottom
+#bind 'b' focus bottom
 
 ## -------------------------------------------------------------------------------------------------
 ## -- 2) Hardstatus line (aka navigation bar at bottom) 
@@ -94,8 +94,9 @@ hardstatus alwayslastline "%{=b}%{G} Screen(s): %{b}%w %=%{kG}%C%A  %D, %d/%m/%Y
 #hardstatus alwayslastline "%H %-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"  
 
 # 2.3) Autoload two screen tabs for emacs/bash.
-#screen -t emacs 0
-#screen -t bash 1
+screen -t bash 0 bash
+screen -t root 0 su -
+select 0
 
 # 2.4) Description of the keywords used in hardstatus
 # caption always "%?%F%{-b bc}%:%{-b bb}%?%C|%D|%M %d|%H%?%F%{+u wb}%? %L=%-Lw%45>%{+b by}%n%f* %t%{-}%+Lw%-0<"
