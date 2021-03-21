@@ -1,0 +1,8 @@
+#Media locations
+readynas.winterbottom.ch:/data/Movies /mnt/movies nfs nfsvers=3,comment=systemd.automount 0 0
+readynas.winterbottom.ch:/data/TV /mnt/tv nfs nfsvers=3,comment=systemd.automount 0 0
+readynas.winterbottom.ch:/data/Music /mnt/music nfs nfsvers=3,comment=systemd.automount 0 0
+readynas.winterbottom.ch:/data/Photos /mnt/photos nfs nfsvers=3,comment=systemd.automount 0 0
+readynas.winterbottom.ch:/data/Transmission /mnt/transmission nfs nfsvers=3,comment=systemd.automount 0 0
+//readynas.winterbottom.ch/David /mnt/home/david cifs rw,username=david,password=David,dir_mode=0777,file_mode=0777,comment=systemd.automount 0 0
+

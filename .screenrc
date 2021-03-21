@@ -53,7 +53,7 @@ bind 'L'
 #bind 'I' login on
 #bind 'O' login off
 bind '}' history
-bind ^a
+bind '^a'
 
 # aterm bindings                                                          
 bindkey "Oc" next
@@ -95,7 +95,6 @@ hardstatus alwayslastline "%{=b}%{G} Screen(s): %{b}%w %=%{kG}%C%A  %D, %d/%m/%Y
 
 # 2.3) Autoload two screen tabs for emacs/bash.
 screen -t bash 0 bash
-screen -t root 0 su -
 select 0
 
 # 2.4) Description of the keywords used in hardstatus

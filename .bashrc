@@ -143,4 +143,4 @@ source ~/.bashrc_custom
 set -o vi
 
 # Make prompt git + svn aware 
-. ps1-git-svn.sh
+#. ps1-git-svn.sh
